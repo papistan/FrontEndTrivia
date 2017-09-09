@@ -12,7 +12,15 @@ class DeckList extends Component {
 					key={deck.title} 
 					onClick={() => this.props.selectDeck(deck)}
 					className="list-group-item">
-					{deck.title}
+						<div className="video-list media">
+							<div className="media-left">
+								<img className="decks" src={deck.image} />
+							</div>
+
+							<div className="media-body">
+								<div className="media-heading">{deck.title}</div>
+							</div>
+						</div>
 				</li>
 		 	);
 		});
@@ -20,7 +28,7 @@ class DeckList extends Component {
 
 	render() {
 		return (
-			<ul className="list-group col-sm-4">
+			<ul className="col-md-4 list-group list-length">
 				{this.renderList()}
 			</ul>
 		)

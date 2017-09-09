@@ -1,11 +1,11 @@
 export default function() {
 	return [
-		{title: 'Javascript: Basic', pages: 101},
-		{title: 'Javascript: Mid', pages: 300},
-		{title: 'Javascript: Advanced', pages: 304},
-		{title: 'CSS', pages: 3000},
-		{title: 'HTML', pages: 3000},
-		{title: 'JQuery', pages: 3000},
-		{title: 'React', pages: 3000}
+		{title: 'Javascript: Basic', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
+		{title: 'Javascript: Mid', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
+		{title: 'Javascript: Advanced', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
+		{title: 'CSS', image: 'http://www.mixed-up.com/markb/about/visual/CSS3_Logo.svg'},
+		{title: 'HTML', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png'},
+		{title: 'JQuery', image: 'http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif'},
+		{title: 'React', image: 'https://cdn.worldvectorlogo.com/logos/react.svg'}
 	]
 }
