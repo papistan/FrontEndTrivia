@@ -35,16 +35,15 @@ class Card extends Component {
 
 	render(){
 		return (
-			<div>
+			<div >
         {/* Default behavior is horizontal flip on hover, or focus */}
         <FlipCard>
           {/* The first child is used as the front of the card */}
-          <div>
-            <div>{this.props.card.q}</div>
-            <div><small>(horizontal flip)</small></div>
+          <div >
+            <div className="card">{this.props.card.q}</div>
           </div>
           {/* The second child is used as the back of the card */}
-          <div>Back</div>
+          <div className="card">Back</div>
         </FlipCard>
        </div>
 		)

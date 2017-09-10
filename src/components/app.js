@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
     	<div>
-      <h1>Front End Trivia</h1>
+      <h1 id="title">Front End Trivia</h1>
       <CardView />
       <DeckList />
       </div>

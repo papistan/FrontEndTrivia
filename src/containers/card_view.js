@@ -35,7 +35,7 @@ class CardView extends Component {
 
 			const cards = chosenDeck.cards.map((card) => {
 				return ( 
-					<Card
+					<Card 
 						key={card.q}
 						card={card}
 					/>
@@ -43,7 +43,7 @@ class CardView extends Component {
 			})
 			
 			return (
-						<div className="col-md-4 list-group">
+						<div className="col-md-4 list-group card-view">
 							<button 
 							type="button"
 							onClick={this.changeCard}

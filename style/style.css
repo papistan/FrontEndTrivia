@@ -1,8 +1,37 @@
+#title {
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	margin: 2%;
+	color: blue;
+	text-shadow: 3px 2px darkgrey;
+}
+
 .decks {
 	width: 110px;
 	height: 100px;
+}
+
+.deck-list {
+	/*margin-right: 10%*/
 }
 /*
 .list-length {
 	height: 100px !important;
 }*/
+.card-view {
+	margin-right: 10%;
+}
+
+
+.card {
+	margin: 25px;
+  text-align: center;
+  background-color: lightblue !important;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 25px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+}
