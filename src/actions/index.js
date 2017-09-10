@@ -5,3 +5,11 @@ export function selectDeck(deck) {
 		payload: deck
 	}
 }
+
+export function selectCard(card) {
+
+	return {
+		type: 'CARD_SELECTED',
+		payload: card
+	}
+}

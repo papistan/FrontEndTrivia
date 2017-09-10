@@ -1,6 +1,17 @@
 export default function() {
 	return [
-		{title: 'Javascript: Basic', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
+		{title: 'Javascript: Basic', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', 
+
+			cards: [ 
+				{q: 'What is closure', a: 'a thing'
+				},
+				{q: 'What is function', a: 'a thing'
+				},
+				{q: 'What is variable', a: 'a thing'
+				}
+			]
+		},
+		
 		{title: 'Javascript: Mid', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
 		{title: 'Javascript: Advanced', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'},
 		{title: 'CSS', image: 'http://www.mixed-up.com/markb/about/visual/CSS3_Logo.svg'},
