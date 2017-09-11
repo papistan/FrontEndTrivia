@@ -28,7 +28,7 @@ class DeckList extends Component {
 
 	render() {
 		return (
-			<ul className="col-md-4 list-group list-length">
+			<ul className="col-md-4 list-group list-length deck-list">
 				{this.renderList()}
 			</ul>
 		)

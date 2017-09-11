@@ -1,8 +1,59 @@
+#title {
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	margin: 2%;
+	color: blue;
+	text-shadow: 3px 2px darkgrey;
+}
+
 .decks {
 	width: 110px;
 	height: 100px;
+}
+
+.deck-list {
+	/*margin-right: 10%*/
 }
 /*
 .list-length {
 	height: 100px !important;
 }*/
+.card-view {
+	margin-right: 10%;
+}
+
+
+.card {
+	margin: 25px;
+  text-align: center;
+  background-color: lightblue !important;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 25px;
+  box-sizing: border-box;
+  width: 280px;
+  height: 360px;
+  text-align: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+	border-radius: 8px;
+}
+
+.button2 {
+	border-radius: 8px;
+	background-color: #f44336 !important;
+}
