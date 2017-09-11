@@ -4,22 +4,23 @@ import Card from '../components/card_detail';
 
 class CardView extends Component {
 	constructor(props) {
-		super(props);
+  super(props);
+  this.state = {
+    firstCard: true,
+    currentDeck: [],
+    currentCard: false
+  };
+}
 
-		this.state = { currentCard: "", cardsArray: [] };
-	}
-
-	changeCard() {
-		this.state.cardsArray.push(cardsArray.shift());
-		this.setState({
-			currentCard: this.state.cardsArray[0]
-		});
-	};
-
-	setCard() {
-		this.setState({
-			currentCard: this.state.cardsArray[0]
-		});
+	changeCard(cardsArray) {
+		if (this.state.firstCard) {
+			cardsArray.push(cardsArray.shift());
+			this.setState({currentCard: cardsArray[0], firstCard: false, currentDeck: cardsArray });
+		} else {
+			var nextCardsArray = this.state.currentDeck;
+			nextCardsArray.push(nextCardsArray.shift());
+			this.setState({currentCard: nextCardsArray[0], currentDeck: nextCardsArray });
+		}
 	};
 
 	render(){
@@ -47,8 +48,9 @@ class CardView extends Component {
 					/>
 				)
 			});
-			// console.log(this.state.currentCard)
-			// console.log("************")
+
+		 // this.props.selectCard(cardsArray[0]);
+		
 
 			return (
 					<div>
@@ -56,15 +58,15 @@ class CardView extends Component {
 							<div>
 								<button 
 								className="button button1"
-								onClick={this.changeCard}
+								onClick={() => this.changeCard(cardsArray)}
 								>NEXT</button>
 								<button 
 								className="button button2"
-								onClick={this.changeCard}
+								onClick={() => this.changeCard(cardsArray)}
 								>NEXT</button>
 							</div>
 
-							<div>{this.state.currentCard}</div>
+							<div>{this.state.currentCard || cardsArray[0]}</div>
 						</div>
 
 						</div>
