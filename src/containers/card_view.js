@@ -38,8 +38,7 @@ class CardView extends Component {
 			)
 
 		} else { 
-		
-			
+				
 		const cardsArray = chosenDeck.cards.map((card) => {
 				return ( 
 					<Card 
@@ -49,13 +48,11 @@ class CardView extends Component {
 				)
 			});
 
-		 // this.props.selectCard(cardsArray[0]);
-		
-
 			return (
 					<div>
 						<div className="col-md-4 list-group card-view">
 							<div>
+								{this.props.deck.title}
 								<button 
 								className="button button1"
 								onClick={() => this.changeCard(cardsArray)}
