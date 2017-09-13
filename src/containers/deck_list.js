@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { selectDeck } from '../actions/index';
+import { selectDeck, selectNewDeck } from '../actions/index';
 import { bindActionCreators } from 'redux';
 
 class DeckList extends Component {
+	
+	onClick(props, deck) {
+		props.selectDeck(deck);
+		props.selectNewDeck(true)
+	}
+
+
 	renderList(){
 
 	return this.props.decks.map((deck) => {
 			return (
 				<li 
 					key={deck.title} 
-					onClick={() => this.props.selectDeck(deck)}
+					onClick={() => this.onClick(this.props, deck)}
 					className="list-group-item">
 						<div className="video-list media">
 							<div className="media-left">
@@ -46,7 +53,8 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
 	
 	// whenever selectDeck is called, the result should be passed to all our reducers
-	return bindActionCreators({ selectDeck: selectDeck }, dispatch )
+	return bindActionCreators({ selectDeck: selectDeck, selectNewDeck: selectNewDeck }, dispatch )
 }
+
 
 export default connect(mapStateToProps, mapDispatchToProps)(DeckList);

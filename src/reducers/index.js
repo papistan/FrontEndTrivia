@@ -1,12 +1,12 @@
 import { combineReducers } from 'redux';
 import DecksReducer from './reducer_decks';
 import ActiveDeck from './reducer_active_deck';
-import ActiveCard from './reducer_active_card';
+import NewDeck from './reducer_newdeck';
 
 const rootReducer = combineReducers({
   decks: DecksReducer,
   activeDeck: ActiveDeck,
-  activeCard: ActiveCard
+  newDeck: NewDeck
 });
 
 export default rootReducer;

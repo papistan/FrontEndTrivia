@@ -1,6 +1,9 @@
 export default function() {
 	return [
-		{title: 'Javascript: Basic', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', 
+		{firstCard: true,
+    currentDeck: [],
+    currentCard: false,
+    title: 'Javascript: Basic', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', 
 
 			cards: [ 
 				{q: 'What is closure', a: 'a thing'

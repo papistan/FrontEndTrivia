@@ -6,10 +6,10 @@ export function selectDeck(deck) {
 	}
 }
 
-export function selectCard(card) {
+export function selectNewDeck(newdeck) {
 
 	return {
-		type: 'CARD_SELECTED',
-		payload: card
+		type: 'NEWDECK_SELECTED',
+		payload: newdeck
 	}
 }
