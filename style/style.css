@@ -64,6 +64,12 @@ body {
 	/*text-shadow: 3px 2px black;*/
 }
 
+.hover {
+  color: white;
+  text-align: center;
+
+}
+
 .content {
   flex: 8;
   display: flex;
@@ -75,13 +81,14 @@ body {
 
 .card-view {
   margin-right: 5%; 
-  margin-left: 5%;
+  margin-left: 8%;
   display: flex;
   flex-direction: column;
 }
 
 .card-show {
   flex: 6;
+  margin-left: 7%;
 }
 
 .button-row {
@@ -147,18 +154,20 @@ body {
 .card {
 	margin: 25px;
   text-align: center;
+  vertical-align: middle !important;
   background-color: white !important;
   border-radius: 10px;
   border: 1px solid #ccc;
-  padding: 25px;
+  padding: 10px;
   box-sizing: border-box;
   width: 280px;
   height: 360px;
   text-align: center;
   color: black ;
-  font-size: 50px;
+  font-size: 21px;
   font-weight: bold !important;
   opacity: .5;
+  white-space: pre-wrap;
 }
 
 .button {

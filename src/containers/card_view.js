@@ -56,6 +56,7 @@ class CardView extends Component {
 
 						<div className="card-show">
 							{cardsArray[0]}
+							<h6 className="hover"> - hover for answer -</h6>
 						</div>
 							
 							
@@ -68,7 +69,10 @@ class CardView extends Component {
 								onClick={() => this.changeCard(this.props, cardsArray, 0)}>&#10006;</button>
 						</div>
 						
-						<h3 className="deck-title">{this.props.deck.title}</h3>
+						<div className="deck-title">
+							<h3>{this.props.deck.title}</h3>
+							<h6>Total Score: {this.state.correct} out of {this.state.total}</h6>
+						</div> 
 
 					</div>
 			
