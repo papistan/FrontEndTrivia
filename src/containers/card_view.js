@@ -8,18 +8,20 @@ class CardView extends Component {
 	constructor(props) {
   super(props);
   this.state = {
-    shuffledDeck: []
+    shuffledDeck: [],
+    correct: 0,
+    total: 0
   };
 }
 
-	changeCard(props, cardsArray) {
+	changeCard(props, cardsArray, point) {
 		if (props.newDeck) {
 			props.selectNewDeck(false);
 			cardsArray.push(cardsArray.shift());
-			this.setState({ shuffledDeck: cardsArray });
+			this.setState({ shuffledDeck: cardsArray, correct: (this.state.correct + point), total: (this.state.total + 1) });
 		} else {
 			cardsArray.push(cardsArray.shift());
-			this.setState({ shuffledDeck: cardsArray });
+			this.setState({ shuffledDeck: cardsArray, correct: (this.state.correct + point), total: (this.state.total + 1) });
 		}
 	};
 
@@ -60,10 +62,10 @@ class CardView extends Component {
 						<div className="button-row">
 								<button 
 								className="button button1"
-								onClick={() => this.changeCard(this.props, cardsArray)}>&#10003;</button>
+								onClick={() => this.changeCard(this.props, cardsArray, 1)}>&#10003;</button>
 								<button 
 								className="button button2"
-								onClick={() => this.changeCard(this.props, cardsArray)}>&#10006;</button>
+								onClick={() => this.changeCard(this.props, cardsArray, 0)}>&#10006;</button>
 						</div>
 						
 						<h3 className="deck-title">{this.props.deck.title}</h3>
@@ -84,13 +86,16 @@ class CardView extends Component {
 					<div className="button-row">
 						<button 
 							className="button button1"
-							onClick={() => this.changeCard(this.props, this.state.shuffledDeck)}>&#10003;</button>
+							onClick={() => this.changeCard(this.props, this.state.shuffledDeck, 1)}>&#10003;</button>
 						<button 
 							className="button button2"
-							onClick={() => this.changeCard(this.props, this.state.shuffledDeck)}>&#10006;</button>
+							onClick={() => this.changeCard(this.props, this.state.shuffledDeck, 0)}>&#10006;</button>
 					</div>
 
-					<h3 className="deck-title">{this.props.deck.title}</h3>
+					<div className="deck-title">
+						<h3>{this.props.deck.title}</h3>
+						<h6>Total Score: {this.state.correct} out of {this.state.total}</h6>
+					</div> 
 
 				</div>
 			)
