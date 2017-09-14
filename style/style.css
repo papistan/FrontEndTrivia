@@ -119,6 +119,7 @@ body {
   background: transparent;
   border-radius: 10px;
   border: 1px solid #ccc;
+
 }
 
 
@@ -127,14 +128,13 @@ body {
   background: transparent !important;
 }
 
-
-
 .media-body {
   background: transparent;
 }
 .media-heading {
   color: white;
   font-family: helvetica;
+  font-size: 18px;
   font-weight: bold
   background: transparent !important;
 }

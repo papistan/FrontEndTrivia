@@ -52,21 +52,18 @@ class CardView extends Component {
 					
 					<div className="col-md-4 list-group card-view">
 
-
 						<div className="card-show">
-						{cardsArray[0]}
+							{cardsArray[0]}
 						</div>
 							
 							
 						<div className="button-row">
 								<button 
 								className="button button1"
-								onClick={() => this.changeCard(this.props, cardsArray)}
-								>&#10003;</button>
+								onClick={() => this.changeCard(this.props, cardsArray)}>&#10003;</button>
 								<button 
 								className="button button2"
-								onClick={() => this.changeCard(this.props, cardsArray)}
-								>&#10006;</button>
+								onClick={() => this.changeCard(this.props, cardsArray)}>&#10006;</button>
 						</div>
 						
 						<h3 className="deck-title">{this.props.deck.title}</h3>
@@ -78,21 +75,23 @@ class CardView extends Component {
 		} else {
 		
 			return (
-				<div>
-					<div className="col-md-4 list-group card-view">
-						<div>
-							{this.props.deck.title}
-							<button 
-								className="button button1"
-								onClick={() => this.changeCard(this.props, this.state.shuffledDeck)}>NEXT
-							</button>
-							<button 
-								className="button button2"
-								onClick={() => this.changeCard(this.props, this.state.shuffledDeck)}>NEXT
-							</button>
-						</div>
-						<div>{this.state.shuffledDeck[0]}</div>
+				<div className="col-md-4 list-group card-view">
+					
+					<div className="card-show">
+						{this.state.shuffledDeck[0]}
 					</div>
+
+					<div className="button-row">
+						<button 
+							className="button button1"
+							onClick={() => this.changeCard(this.props, this.state.shuffledDeck)}>&#10003;</button>
+						<button 
+							className="button button2"
+							onClick={() => this.changeCard(this.props, this.state.shuffledDeck)}>&#10006;</button>
+					</div>
+
+					<h3 className="deck-title">{this.props.deck.title}</h3>
+
 				</div>
 			)
 		}
