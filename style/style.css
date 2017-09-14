@@ -1,9 +1,47 @@
+html {
+  background-color: black;
+}
+
+.vsc-initialized {
+  background-color: black;
+}
+body {
+  background-color: black;
+}
+.container {
+  background-color: black;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.title-app {
+  flex: 1;
+}
+
 #title {
-	text-align: center;
+	
+  text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	margin: 2%;
 	color: blue;
 	text-shadow: 3px 2px darkgrey;
+}
+
+.content {
+  flex: 8;
+  display: flex;
+  justify-content: center;
+}
+
+.card-view-app{
+  flex: 3;
+}
+
+.deck-list-app {
+  flex: 1;
 }
 
 .decks {
@@ -12,16 +50,38 @@
 }
 
 .deck-list {
-	/*margin-right: 10%*/
+	height: 540px !important;
+  overflow: scroll !important;
+  width: 250px !important;
+  background-color: black;
 }
 /*
 .list-length {
 	height: 100px !important;
 }*/
+
+.list-group-item {
+  width: 250px !important;
+  background-color: black !important;
+}
+
 .card-view {
 	margin-right: 10%;
 }
 
+.media-body {
+  background-color: black;
+}
+.media-heading {
+  color: white;
+  font-family: helvetica;
+  font-weight: bold
+  background-color: black !important;
+}
+
+#topic {
+  margin-left: 25%
+}
 
 .card {
 	margin: 25px;

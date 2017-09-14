@@ -32,7 +32,7 @@ class CardView extends Component {
 				<div className="video-detail col-md-8">
 					<div className="embed-responsive embed-responsive-16by9">
 						<img src="http://blog.aurionlearning.com/wp-content/uploads/2016/11/html-css-js-1.png" />
-						<h3>Select a topic => </h3>
+						<h3 id="topic">Select a topic => </h3>
 					</div>
 				</div>
 			)
