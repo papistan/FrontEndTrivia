@@ -29,11 +29,11 @@ class CardView extends Component {
 		if (chosenDeck == null) {
 					
 			return (
-				<div className="video-detail col-md-8">
-					<div className="embed-responsive embed-responsive-16by9">
-						<img src="http://blog.aurionlearning.com/wp-content/uploads/2016/11/html-css-js-1.png" />
-						<h3 id="topic">Select a topic => </h3>
+				<div className="video-detail col-md-8 card-view">
+					<div className="embed-responsive embed-responsive-16by9 landing-image">
+						<img className="actual-image" src="http://blog.aurionlearning.com/wp-content/uploads/2016/11/html-css-js-1.png" />
 					</div>
+					<h3 id="topic">Select a topic > </h3>
 				</div>
 			)
 

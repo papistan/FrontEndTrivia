@@ -5,6 +5,38 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
 
 }
 
+@media only screen and (max-device-width: 480px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-view-app {
+    flex: 4;
+  }
+  .deck-list-app {
+    flex: 1;
+  }
+  .card-view {
+    flex: 4;
+  }
+  .deck-list {
+    flex: 1;
+    margin-left: 16%;
+  }
+  .landing-image {
+  max-height: 700px;
+  max-width: 400px;
+  }
+  .actual-image {
+    max-height: 200px;
+  max-width: 280px;
+  }
+  #topic {
+  margin-left: 10px; 
+  }
+  
+}
+
 .vsc-initialized {
   background: transparent;
 }
@@ -42,7 +74,8 @@ body {
 /*Card show section */
 
 .card-view {
-  margin-right: 15%; 
+  margin-right: 5%; 
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
 }
@@ -55,6 +88,7 @@ body {
   flex: 1;
   text-align: center;
   font-size: 40px !important;
+  margin-top: 400px !important;
 }
 
 .deck-title {
@@ -79,10 +113,12 @@ body {
 }
 
 .deck-list {
-	height: 630px !important;
+	height: 550px !important;
   overflow: scroll !important;
   width: 250px !important;
   background: transparent;
+  border-radius: 10px;
+  border: 1px solid #ccc;
 }
 
 
@@ -104,13 +140,14 @@ body {
 }
 
 #topic {
-  margin-left: 25%
+  margin-left: 25%;
+  color: white;
 }
 
 .card {
 	margin: 25px;
   text-align: center;
-  background-color: lightblue !important;
+  background-color: white !important;
   border-radius: 10px;
   border: 1px solid #ccc;
   padding: 25px;
@@ -118,10 +155,15 @@ body {
   width: 280px;
   height: 360px;
   text-align: center;
+  color: black ;
+  font-size: 50px;
+  font-weight: bold !important;
+  opacity: .5;
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    opacity: .9; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
