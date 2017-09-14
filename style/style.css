@@ -1,20 +1,23 @@
 html {
-  background-color: black;
+background: #1FA2FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .vsc-initialized {
-  background-color: black;
+  background: transparent;
 }
 body {
-  background-color: black;
+  background: transparent;
 }
 .container {
-  background-color: black;
+  background: transparent;
 }
 .app {
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background: transparent;
 }
 
 .title-app {
@@ -22,12 +25,11 @@ body {
 }
 
 #title {
-	
   text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	margin: 2%;
-	color: blue;
-	text-shadow: 3px 2px darkgrey;
+	color: white;
+	/*text-shadow: 3px 2px black;*/
 }
 
 .content {
@@ -36,6 +38,33 @@ body {
   justify-content: center;
 }
 
+
+/*Card show section */
+
+.card-view {
+  margin-right: 15%; 
+  display: flex;
+  flex-direction: column;
+}
+
+.card-show {
+  flex: 6;
+}
+
+.button-row {
+  flex: 1;
+  text-align: center;
+  font-size: 40px !important;
+}
+
+.deck-title {
+  flex: 1;
+  text-align: center;
+  color: white;
+  font-size: 30px !important;
+}
+
+/**/
 .card-view-app{
   flex: 3;
 }
@@ -50,33 +79,28 @@ body {
 }
 
 .deck-list {
-	height: 540px !important;
+	height: 630px !important;
   overflow: scroll !important;
   width: 250px !important;
-  background-color: black;
+  background: transparent;
 }
-/*
-.list-length {
-	height: 100px !important;
-}*/
+
 
 .list-group-item {
   width: 250px !important;
-  background-color: black !important;
+  background: transparent !important;
 }
 
-.card-view {
-	margin-right: 10%;
-}
+
 
 .media-body {
-  background-color: black;
+  background: transparent;
 }
 .media-heading {
   color: white;
   font-family: helvetica;
   font-weight: bold
-  background-color: black !important;
+  background: transparent !important;
 }
 
 #topic {

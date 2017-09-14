@@ -49,24 +49,30 @@ class CardView extends Component {
 			});
 
 			return (
-					<div>
-						<div className="col-md-4 list-group card-view">
-							<div>
-								{this.props.deck.title}
+					
+					<div className="col-md-4 list-group card-view">
+
+
+						<div className="card-show">
+						{cardsArray[0]}
+						</div>
+							
+							
+						<div className="button-row">
 								<button 
 								className="button button1"
 								onClick={() => this.changeCard(this.props, cardsArray)}
-								>NEXT</button>
+								>&#10003;</button>
 								<button 
 								className="button button2"
 								onClick={() => this.changeCard(this.props, cardsArray)}
-								>NEXT</button>
-							</div>
-
-							<div>{cardsArray[0]}</div>
+								>&#10006;</button>
 						</div>
+						
+						<h3 className="deck-title">{this.props.deck.title}</h3>
 
 					</div>
+			
 
 					)
 		} else {
