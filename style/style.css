@@ -1,9 +1,117 @@
+html {
+background: #1FA2FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+@media only screen and (max-device-width: 480px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-view-app {
+    flex: 4;
+  }
+  .deck-list-app {
+    flex: 1;
+  }
+  .card-view {
+    flex: 4;
+  }
+  .deck-list {
+    flex: 1;
+    margin-left: 16%;
+  }
+  .landing-image {
+  max-height: 700px;
+  max-width: 400px;
+  }
+  .actual-image {
+    max-height: 200px;
+  max-width: 280px;
+  }
+  #topic {
+  margin-left: 10px; 
+  }
+  
+}
+
+.vsc-initialized {
+  background: transparent;
+}
+body {
+  background: transparent;
+}
+.container {
+  background: transparent;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.title-app {
+  flex: 1;
+}
+
 #title {
-	text-align: center;
+  text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	margin: 2%;
-	color: blue;
-	text-shadow: 3px 2px darkgrey;
+	color: white;
+	/*text-shadow: 3px 2px black;*/
+}
+
+.hover {
+  color: white;
+  text-align: center;
+
+}
+
+.content {
+  flex: 8;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*Card show section */
+
+.card-view {
+  margin-right: 5%; 
+  margin-left: 8%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-show {
+  flex: 6;
+  margin-left: 7%;
+}
+
+.button-row {
+  flex: 1;
+  text-align: center;
+  font-size: 40px !important;
+  margin-top: 400px !important;
+}
+
+.deck-title {
+  flex: 1;
+  text-align: center;
+  color: white;
+  font-size: 30px !important;
+}
+
+/**/
+.card-view-app{
+  flex: 3;
+}
+
+.deck-list-app {
+  flex: 1;
 }
 
 .decks {
@@ -12,32 +120,59 @@
 }
 
 .deck-list {
-	/*margin-right: 10%*/
-}
-/*
-.list-length {
-	height: 100px !important;
-}*/
-.card-view {
-	margin-right: 10%;
+	height: 550px !important;
+  overflow: scroll !important;
+  width: 250px !important;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+
 }
 
+
+.list-group-item {
+  width: 250px !important;
+  background: transparent !important;
+}
+
+.media-body {
+  background: transparent;
+}
+.media-heading {
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+  font-weight: bold
+  background: transparent !important;
+}
+
+#topic {
+  margin-left: 25%;
+  color: white;
+}
 
 .card {
 	margin: 25px;
   text-align: center;
-  background-color: lightblue !important;
+  vertical-align: middle !important;
+  background-color: white !important;
   border-radius: 10px;
   border: 1px solid #ccc;
-  padding: 25px;
+  padding: 10px;
   box-sizing: border-box;
   width: 280px;
   height: 360px;
   text-align: center;
+  color: black ;
+  font-size: 21px;
+  font-weight: bold !important;
+  opacity: .5;
+  white-space: pre-wrap;
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    opacity: .9; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
