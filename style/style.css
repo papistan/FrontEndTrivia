@@ -7,28 +7,28 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
 
 @media only screen and (max-device-width: 450px) {
   .title-app {
-  flex: 1;
+  /*flex: 1;*/
   margin-left: 10%
   }
 
   .content {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+   /* flex-direction: column;*/
   }
-  .card-view-app {
+  /*.card-view-app {
     flex: 4;
-  }
+  }*/
   .deck-list-app {
-    flex: 1;
+   /* flex: 1;*/
     padding-left: -12px !important;
   }
   .card-view {
-    flex: 4;
+    /*flex: 4;*/
     margin-left: 0% !important;
   }
  
   .deck-list {
-    flex: 1;
+    /*flex: 1;*/
     margin-left: 18% !important;
   }
   .landing-image {
@@ -37,20 +37,22 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
   margin-left: 10% !important;
   }
   .actual-image {
-    max-height: 100px;
-    max-width: 180px;
+    max-height: 100px !important;
+    max-width: 270px !important;
   }
 
   #topic {
-    margin-left: 10% !important; 
+    /*margin-left: 10% !important; */
   }
 
   .copyright {
-    color: rgba(0, 0, 0, 0.1) !important;
+    
+    display: none;
   }
   
 }
 
+/* ipad */
 @media only screen and (max-device-width: 800px) {
   .content {
     display: flex;
@@ -87,14 +89,16 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
   }
   
   .copyright {
-    color: rgba(0, 0, 0, 0.5) !important;
+    display: none;
   }
 }
 
+/*end mobile */
 
 .vsc-initialized {
   background: transparent;
 }
+
 body {
   background: transparent !important;
 }
@@ -109,15 +113,16 @@ body {
 .container {
   background: transparent;
 }
-.app {
+
+/*.app {
   display: flex;
   flex-direction: column;
   background: transparent;
-}
+}*/
 
-.title-app {
+/*.title-app {
   flex: 1;
-}
+}*/
 
 /*end mobile*/
 
@@ -134,11 +139,10 @@ body {
 .hover {
   color: white;
   text-align: center;
-
 }
 
 .content {
-  flex: 8;
+  /*flex: 8;*/
   display: flex;
   justify-content: center;
 }
@@ -173,13 +177,13 @@ body {
 }
 
 /**/
-.card-view-app{
+/*.card-view-app{
   flex: 3;
-}
+}*/
 
-.deck-list-app {
+/*.deck-list-app {
   flex: 1;
-}
+}*/
 
 .decks {
 	width: 110px;
