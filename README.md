@@ -10,6 +10,9 @@ $ npm install react-flipcard
 [Matt Zabriskie](https://github.com/mzabriskie)
 - a React wrapper for CSS created by [David Walsh](http://davidwalsh.name/css-flip)
 
+# Add-ins 
+[git-hub corners] (https://github.com/tholman/github-corners)
+
 # Question sources
 Trivia content sources to date: 
 - tutorialspoint.com/javascript/javascript_interview_questions.htm
