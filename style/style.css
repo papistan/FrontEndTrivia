@@ -5,7 +5,53 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
 
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 450px) {
+  .title-app {
+  flex: 1;
+  margin-left: 10%
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-view-app {
+    flex: 4;
+  }
+  .deck-list-app {
+    flex: 1;
+    padding-left: -12px !important;
+  }
+  .card-view {
+    flex: 4;
+    margin-left: 0% !important;
+  }
+ 
+  .deck-list {
+    flex: 1;
+    margin-left: 18% !important;
+  }
+  .landing-image {
+  max-height: 700px;
+  max-width: 400px;
+  margin-left: 10% !important;
+  }
+  .actual-image {
+    max-height: 100px;
+    max-width: 180px;
+  }
+
+  #topic {
+    margin-left: 10% !important; 
+  }
+
+  .copyright {
+    color: rgba(0, 0, 0, 0.1) !important;
+  }
+  
+}
+
+@media only screen and (max-device-width: 800px) {
   .content {
     display: flex;
     flex-direction: column;
@@ -18,31 +64,48 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
   }
   .card-view {
     flex: 4;
+    min-height: 40% !important;
+
   }
+
   .deck-list {
     flex: 1;
-    margin-left: 16%;
+    margin-left: 30%;
   }
   .landing-image {
   max-height: 700px;
   max-width: 400px;
+  margin-left: 25%;
+  flex: 4;
   }
   .actual-image {
-    max-height: 200px;
-  max-width: 280px;
+    max-height: 400px !important;
+  max-width: 300px;
   }
   #topic {
-  margin-left: 10px; 
+  margin-left: 34% !important; 
   }
   
+  .copyright {
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
 }
+
 
 .vsc-initialized {
   background: transparent;
 }
 body {
-  background: transparent;
+  background: transparent !important;
 }
+
+.copyright {
+  position: fixed; 
+  bottom: 0px; 
+  color: white; 
+  margin-left: 40%;
+}
+
 .container {
   background: transparent;
 }
@@ -57,6 +120,9 @@ body {
 }
 
 /*end mobile*/
+
+
+
 #title {
   text-align: center;
 	font-family: 'Press Start 2P', cursive;
