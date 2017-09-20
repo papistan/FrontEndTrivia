@@ -3,20 +3,18 @@ export default function() {
 		{firstCard: true,
     currentDeck: [],
     currentCard: false,
-    title: 'Javascript', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png', 
+    title: 'Javascript: 1', image: '../style/images/js.png', 
 
 			cards: [ 
 				{q: 'What is JavaScript?', a: 'lightweight, interpreted programming language with object-oriented capabilities that allows you to build interactivity into otherwise static HTML'
-				},
-				{q: 'Name some of the JavaScript features', a: 'a) lightweight, interpreted programming language thing, b)designed for creating network-centric applications, c) open and cross-platform, d) complementary to and integrated with HTML'
 				},
 				{q: 'How can you create an Object in JavaScript?', a: 'using the object literal as follows − \n var emp = {\nname: "Zara",\nage: 10\n};'
 				},
 				{q: 'How can you read properties of an Object in JavaScript?', a: 'Using the dot notation as follows − Getting:\nemp.name  // ==> Zara\nSetting:\nemp.name = "Daisy"  // <== Daisy'
 				},
-				{q: 'How can you create an Array in JavaScript?', a: 'You can define arrays using the array literal as follows −\nvar x = [];\nvar y = [1, 2, 3, 4, 5];'
+				{q: 'How to read elements of an array in JavaScript?', a: 'x[i]'
 				},
-				{q: 'How to read elements of an array in JavaScript?', a: 'An array has a length property that is useful for iteration. We can read elements of an array as follows −\nvar x = [1, 2, 3, 4, 5];\nfor (var i = 0; i < x.length; i++) {\n// Do something with x[i]\n}'
+				{q: 'Difference between call() and apply()?', a: 'CALL() takes a regular listing of parameters and APPLY() requires the parameters to be in an array.'
 				},
 				{q: 'What is a named function in JavaScript? How to define a named function?', a: 'A named function has a name when it is defined. A named function can be defined using function keyword as follows −\nfunction named(){\n// do some stuff here\n}'
 				},
@@ -70,20 +68,28 @@ export default function() {
 				},
 				{q: 'Which built-in method returns the string representation of the numbers value?', a: 'toString() '
 				},
-				{q: 'What are the variable naming conventions in JavaScript?', a: 'No JavaScript reserved keywords \n not start with a numeral (0-9). They must begin with a letter or the underscore character. For example, 123test is an invalid variable name but _123test is a valid one. JavaScript variable names are case sensitive. For example, Name and name are two different variables.'
+				{q: 'Adding a number and a string, result is...?', a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
 				}
 			]
 		},
 		
-		{title: 'Javascript: Advanced', image: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+		{title: 'Javascript: 2', image: 'js.png',
 			cards: [ 
 				{q: 'What is Date object in JavaScript?', a: 'The Date object is a datatype built into the JavaScript language. Date objects are created with the new Date( ).\nOnce a Date object is created, a number of methods allow you to operate on it. Most methods simply allow you to get and set the year, month, day, hour, minute, second, and millisecond fields of the object, using either local time or UTC (universal, or GMT) time.'
 				},
-				{q: 'More questions on the way or submit on github', a: ''
+				{q: 'How do cookies translate/move to the browser?', a: ''
+				}
+			]},
+
+		{title: 'Javascript: 3', image: 'js.png',
+			cards: [ 
+				{q: 'What is Date object in JavaScript?', a: 'The Date object is a datatype built into the JavaScript language. Date objects are created with the new Date( ).\nOnce a Date object is created, a number of methods allow you to operate on it. Most methods simply allow you to get and set the year, month, day, hour, minute, second, and millisecond fields of the object, using either local time or UTC (universal, or GMT) time.'
+				},
+				{q: 'How do cookies translate/move to the browser?', a: ''
 				}
 			]},
 		
-		{title: 'CSS', image: 'http://www.mixed-up.com/markb/about/visual/CSS3_Logo.svg',
+		{title: 'CSS', image: '../style/images/css3.png',
 			cards: [ 
 				{q: 'What is CSS?', a: 'Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.'
 				},
@@ -95,7 +101,7 @@ export default function() {
 				},
 				{q: 'What is Descendant Selector?', a: 'apply a style rule to a particular element only when it lies inside a particular element. As given in the following example, style rule will apply to <em> element only when it lies inside <ul> tag. \nul em {\ncolor: #000000; \n}'
 				},
-				{q: '', a: ''
+				{q: 'What is "Z-index"', a: ''
 				},
 				{q: '', a: ''
 				},
@@ -133,9 +139,9 @@ export default function() {
 				}
 			]},
 		
-		{title: 'HTML', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/600px-HTML5_Badge.svg.png',
+		{title: 'HTML', image: '../style/images/html5.png',
 			cards: [ 
-				{q: '', a: ''
+				{q: 'What is "placeholder" attribute?', a: ''
 				},
 				{q: '', a: ''
 				},
@@ -159,7 +165,7 @@ export default function() {
 				}
 			]},
 
-		{title: 'JQuery', image: 'http://precision-software.com/wp-content/uploads/2014/04/jQurery.gif',
+		{title: 'JQuery', image: '../style/images/jQurery.gif',
 			cards: [ 
 				{q: 'What is closure', a: 'a thing'
 				},
@@ -225,7 +231,37 @@ export default function() {
 				}
 			]},
 
-		{title: 'React', image: 'https://cdn.worldvectorlogo.com/logos/react.svg',
+		{title: 'React', image: '../style/images/react.svg',
+			cards: [ 
+				{q: 'What is closure', a: 'a thing'
+				},
+				{q: 'What is function', a: 'a thing'
+				},
+				{q: 'What is variable', a: 'a thing'
+				}
+			]},
+
+		{title: 'Angular', image: '../style/images/react.svg',
+			cards: [ 
+				{q: 'What is closure', a: 'a thing'
+				},
+				{q: 'What is function', a: 'a thing'
+				},
+				{q: 'What is variable', a: 'a thing'
+				}
+			]},
+
+		{title: 'Vue', image: '../style/images/react.svg',
+			cards: [ 
+				{q: 'What is closure', a: 'a thing'
+				},
+				{q: 'What is function', a: 'a thing'
+				},
+				{q: 'What is variable', a: 'a thing'
+				}
+			]},
+
+		{title: 'DOM', image: '../style/images/react.svg',
 			cards: [ 
 				{q: 'What is closure', a: 'a thing'
 				},
