@@ -73,15 +73,7 @@ export default function() {
 			]
 		},
 		
-		{title: 'Javascript: 2', image: 'js.png',
-			cards: [ 
-				{q: 'What is Date object in JavaScript?', a: 'The Date object is a datatype built into the JavaScript language. Date objects are created with the new Date( ).\nOnce a Date object is created, a number of methods allow you to operate on it. Most methods simply allow you to get and set the year, month, day, hour, minute, second, and millisecond fields of the object, using either local time or UTC (universal, or GMT) time.'
-				},
-				{q: 'How do cookies translate/move to the browser?', a: ''
-				}
-			]},
-
-		{title: 'Javascript: 3', image: 'js.png',
+		{title: 'Javascript: 2', image: '../style/images/js.png',
 			cards: [ 
 				{q: 'What is Date object in JavaScript?', a: 'The Date object is a datatype built into the JavaScript language. Date objects are created with the new Date( ).\nOnce a Date object is created, a number of methods allow you to operate on it. Most methods simply allow you to get and set the year, month, day, hour, minute, second, and millisecond fields of the object, using either local time or UTC (universal, or GMT) time.'
 				},
@@ -89,7 +81,7 @@ export default function() {
 				}
 			]},
 		
-		{title: 'CSS', image: '../style/images/css3.png',
+		{title: 'CSS', image: '../style/images/css3.svg',
 			cards: [ 
 				{q: 'What is CSS?', a: 'Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.'
 				},
@@ -241,7 +233,7 @@ export default function() {
 				}
 			]},
 
-		{title: 'Angular', image: '../style/images/react.svg',
+		{title: 'Angular', image: '../style/images/ang.png',
 			cards: [ 
 				{q: 'What is closure', a: 'a thing'
 				},
@@ -251,7 +243,15 @@ export default function() {
 				}
 			]},
 
-		{title: 'Vue', image: '../style/images/react.svg',
+		{title: 'Javascript: 3', image: '../style/images/js.png',
+			cards: [ 
+				{q: 'What is Date object in JavaScript?', a: 'The Date object is a datatype built into the JavaScript language. Date objects are created with the new Date( ).\nOnce a Date object is created, a number of methods allow you to operate on it. Most methods simply allow you to get and set the year, month, day, hour, minute, second, and millisecond fields of the object, using either local time or UTC (universal, or GMT) time.'
+				},
+				{q: 'How do cookies translate/move to the browser?', a: ''
+				}
+		]},
+
+		{title: 'Vue', image: '../style/images/vue.png',
 			cards: [ 
 				{q: 'What is closure', a: 'a thing'
 				},
@@ -261,7 +261,7 @@ export default function() {
 				}
 			]},
 
-		{title: 'DOM', image: '../style/images/react.svg',
+		{title: 'DOM', image: '../style/images/dom.png',
 			cards: [ 
 				{q: 'What is closure', a: 'a thing'
 				},
