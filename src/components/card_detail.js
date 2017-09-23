@@ -43,7 +43,7 @@ class Card extends Component {
             <div className="card">{this.props.card.q}</div>
           </div>
           {/* The second child is used as the back of the card */}
-          <div className="card">{this.props.card.a}</div>
+          <div className="card back">{this.props.card.a}</div>
         </FlipCard>
        </div>
 		)

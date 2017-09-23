@@ -7,17 +7,9 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
 
 @media only screen and (max-device-width: 450px) {
   .title-app {
-  /*flex: 1;*/
   margin-left: 10%
   }
 
-  .content {
-    /*display: flex;*/
-   /* flex-direction: column;*/
-  }
-  /*.card-view-app {
-    flex: 4;
-  }*/
   .deck-list-app {
    /* flex: 1;*/
     padding-left: -12px !important;
@@ -32,24 +24,20 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
     margin-left: 18% !important;
   }
   .landing-image {
-  max-height: 700px;
-  max-width: 400px;
-  margin-left: 10% !important;
+    max-height: 700px;
+    max-width: 400px;
+    margin-left: 10% !important;
   }
   .actual-image {
     max-height: 100px !important;
     max-width: 270px !important;
   }
-
-  #topic {
-    /*margin-left: 10% !important; */
+  .button-row {
+    flex: 2 !important;
   }
-
   .copyright {
-    
     display: none;
   }
-  
 }
 
 /* ipad */
@@ -67,27 +55,24 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
   .card-view {
     flex: 4;
     min-height: 40% !important;
-
   }
-
   .deck-list {
     flex: 1;
     margin-left: 30%;
   }
   .landing-image {
-  max-height: 700px;
-  max-width: 400px;
-  margin-left: 25%;
-  flex: 4;
+    max-height: 700px;
+    max-width: 400px;
+    margin-left: 25%;
+    flex: 4;
   }
   .actual-image {
     max-height: 400px !important;
-  max-width: 300px;
+    max-width: 300px;
   }
   #topic {
-  margin-left: 34% !important; 
+    margin-left: 34% !important; 
   }
-  
   .copyright {
     display: none;
   }
@@ -114,26 +99,11 @@ body {
   background: transparent;
 }
 
-/*.app {
-  display: flex;
-  flex-direction: column;
-  background: transparent;
-}*/
-
-/*.title-app {
-  flex: 1;
-}*/
-
-/*end mobile*/
-
-
-
 #title {
   text-align: center;
 	font-family: 'Press Start 2P', cursive;
 	margin: 2%;
 	color: white;
-	/*text-shadow: 3px 2px black;*/
 }
 
 .hover {
@@ -142,7 +112,6 @@ body {
 }
 
 .content {
-  /*flex: 8;*/
   display: flex;
   justify-content: center;
 }
@@ -159,7 +128,6 @@ body {
 
 .card-show {
   flex: 6;
-  margin-left: 7%;
 }
 
 .button-row {
@@ -176,30 +144,21 @@ body {
   font-size: 30px !important;
 }
 
-/**/
-/*.card-view-app{
-  flex: 3;
-}*/
-
-/*.deck-list-app {
-  flex: 1;
-}*/
-
 .decks {
 	width: 110px;
 	height: 100px;
+  opacity: 1 !important;
 }
 
 .deck-list {
 	height: 550px !important;
+  margin-top: 40px;
   overflow: scroll !important;
   width: 250px !important;
   background: transparent;
   border-radius: 10px;
   border: 1px solid #ccc;
-
 }
-
 
 .list-group-item {
   width: 250px !important;
@@ -225,15 +184,13 @@ body {
 .card {
 	margin: 25px;
   text-align: center;
-  vertical-align: middle !important;
   background-color: white !important;
   border-radius: 10px;
   border: 1px solid #ccc;
   padding: 10px;
   box-sizing: border-box;
-  width: 280px;
+  width: 320px;
   height: 360px;
-  text-align: center;
   color: black ;
   font-size: 21px;
   font-weight: bold !important;
@@ -241,9 +198,13 @@ body {
   white-space: pre-wrap;
 }
 
+.back {
+  text-align: left !important;
+}
+
 .button {
     background-color: #4CAF50;
-    opacity: .9; /* Green */
+    opacity: .9;
     border: none;
     color: white;
     padding: 15px 32px;

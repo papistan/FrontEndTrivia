@@ -19,7 +19,7 @@ class DeckList extends Component {
 					key={deck.title} 
 					onClick={() => this.onClick(this.props, deck)}
 					className="list-group-item">
-						<div className="video-list media">
+						<div className="video-list media tile">
 							<div className="media-left">
 								<img className="decks" src={deck.image} />
 							</div>
