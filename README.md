@@ -1,7 +1,7 @@
 # FrontEndTrivia
 A responsive front end-focused trivia app built on ReactJS, Redux, Node, Express, Babel and Webpack. 
 
-- Welcoming submissions of questions on a host of front end-related topics. Submit pull request for added questions on [Actions - index](https://github.com/papistan/FrontEndTrivia/blob/master/src/reducers/reducer_decks.js)
+- Welcoming submissions of questions on a host of front end-related topics. Submit pull request for added questions on [Reducers - Decks](https://github.com/papistan/FrontEndTrivia/blob/master/src/reducers/reducer_decks.js)
 
 # Dependencies 
 ```bash
@@ -12,7 +12,7 @@ $ npm install react-flipcard
 - a React wrapper for CSS created by [David Walsh](http://davidwalsh.name/css-flip)
 
 # Add-ins 
-[git-hub corners] (https://github.com/tholman/github-corners)
+[git-hub corners](https://github.com/tholman/github-corners)
 
 # Question sources
 Trivia content sources to date: 
