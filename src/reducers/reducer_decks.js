@@ -6,11 +6,15 @@ export default function() {
     title: 'Javascript: 1', image: '../style/images/js.png', 
 
 			cards: [ 
-				{q: 'What is JavaScript?', a: 'lightweight, interpreted programming language with object-oriented capabilities that allows you to build interactivity into otherwise static HTML'
+				{q: 'What do we call data types copied by VALUE?', a: 'Primitives (or primitive types)'
 				},
-				{q: 'How can you create an Object in JavaScript?', a: 'using the object literal as follows − \n var emp = {\nname: "Zara",\nage: 10\n};'
+				{q: 'What do we call data types copied by REFERENCE?', a: 'Objects'
 				},
-				{q: 'How can you read properties of an Object in JavaScript?', a: 'Using the dot notation as follows − Getting:\nemp.name  // ==> Zara\nSetting:\nemp.name = "Daisy"  // <== Daisy'
+				{q: 'What are the five primitives?', a: 'Boolean, null, undefined, string, and number'
+				},
+				{q: 'What are the three object data types?', a: 'Array, Function, and Object'
+				},
+				{q: 'How can you read properties of an Object in JavaScript?', a: 'Using the dot notation − Getting:\nemp.name  // ==> Zara\nSetting:\nemp.name = "Daisy"  // <== Daisy'
 				},
 				{q: 'How to read elements of an array in JavaScript?', a: 'x[i]'
 				},
