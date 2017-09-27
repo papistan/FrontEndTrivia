@@ -3,7 +3,10 @@ export default function() {
 		{firstCard: true,
     currentDeck: [],
     currentCard: false,
-    title: 'Javascript: 1', image: '../style/images/js.png', 
+    
+// Javascript: Foundations 
+
+    title: 'Javascript: Foundations', image: '../style/images/js.png', 
 
 			cards: [ 
 				{q: 'What do we call data types copied by VALUE?', a: 'Primitives (or primitive types)'
@@ -48,50 +51,51 @@ export default function() {
 				},
 				{q: 'Give an example of closure?', a: 'Following example shows how the variable counter is visible within the create, increment, and print functions, but not outside of them −\nfunction create() {\nvar counter = 0;\nreturn {\nincrement: function() {\ncounter++;\n},\n\nprint: function() {\nconsole.log(counter);\n}\n}\n}\nvar c = create();\nc.increment();\nc.print();     // ==> 1\n'
 				},
-				{q: 'Which built-in method returns the character at the specified index?', a: 'charAt()'
-				},
-				{q: 'Which built-in method combines the text of two strings and returns a new string?', a: 'concat()'
-				},
-				{q: 'Which built-in method calls a function for each element in the array?', a: 'forEach()'
-				},
-				{q: 'Which built-in method returns the index within the calling String object of the first occurrence of the specified value?', a: 'indexOf()'
-				},
-				{q: 'Which built-in method returns the length of the string?', a: 'length()'
-				},
-				{q: 'Which built-in method removes the last element from an array and returns that element?', a: 'pop()'
-				},
-				{q: 'Which built-in method adds one or more elements to the end of an array and returns the new length of the array?', a: 'push()'
-				},
-				{q: 'Which built-in method reverses the order of the elements of an array?', a: 'reverse()'
-				},
-				{q: 'Which built-in method sorts the elements of an array?', a: 'sort()'
-				},
-				{q: 'Which built-in method returns the characters in a string beginning at the specified location?', a: 'substr()'
-				},
-				{q: 'Which built-in method returns the calling string value converted to lower case?', a: 'toLowerCase()'
-				},
-				{q: 'Which built-in method returns the calling string value converted to upper case?', a: 'toUpperCase()'
-				},
-				{q: 'Which built-in method returns the string representation of the numbers value?', a: 'toString() '
-				},
 				{q: 'Adding a number and a string, result is...?', a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
 				}
 			]
 		},
-		
-		{title: 'Javascript: 2', image: '../style/images/js.png',
+
+
+// Javascript: Common built-in methods
+
+		{title: 'Javascript: Common built-in methods', image: '../style/images/js.png',
 			cards: [ 
-				{q: 'What is Date object in JavaScript?', a: 'The Date object is a datatype built into the JavaScript language. Date objects are created with the new Date( ).\nOnce a Date object is created, a number of methods allow you to operate on it. Most methods simply allow you to get and set the year, month, day, hour, minute, second, and millisecond fields of the object, using either local time or UTC (universal, or GMT) time.'
+				{q: 'Returns the character at the specified index?', a: 'charAt()'
 				},
-				{q: 'How do cookies translate/move to the browser?', a: ''
+				{q: 'Combines the text of two strings and returns a new string?', a: 'concat()'
+				},
+				{q: 'Calls a function for each element in the array?', a: 'forEach()'
+				},
+				{q: 'Returns the index within the calling String object of the first occurrence of the specified value?', a: 'indexOf()'
+				},
+				{q: 'Returns the length of the string?', a: 'length()'
+				},
+				{q: 'Removes the last element from an array and returns that element?', a: 'pop()'
+				},
+				{q: 'Adds one or more elements to the end of an array and returns the new length of the array?', a: 'push()'
+				},
+				{q: 'Reverses the order of the elements of an array?', a: 'reverse()'
+				},
+				{q: 'Sorts the elements of an array?', a: 'sort()'
+				},
+				{q: 'Returns the characters in a string beginning at the specified location?', a: 'substr()'
+				},
+				{q: 'Returns the calling string value converted to lower case?', a: 'toLowerCase()'
+				},
+				{q: 'Returns the calling string value converted to upper case?', a: 'toUpperCase()'
+				},
+				{q: 'Returns the string representation of the numbers value?', a: 'toString() '
 				}
 			]},
-		
+
+
+// CSS
 		{title: 'CSS', image: '../style/images/css3.svg',
 			cards: [ 
 				{q: 'What is CSS?', a: 'Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.'
 				},
-				{q: 'What are the components of a CSS Style?', a: 'A style rule is made of three parts −\nSelector − A selector is an HTML tag at which a style will be applied. This could be any tag like <h1> or <table> etc.\nProperty − A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border etc.\nValue − Values are assigned to properties. For example, color property can have value either red or #F1F1F1 etc.'
+				{q: 'What are the components of a CSS Style?', a: 'Selector − an HTML tag like <h1> or <table> \nProperty − attribute of HTML tag, ex. color, border \nValue − assigned to properties, ex. color property can have red or #F1F1F1'
 				},
 				{q: 'What is type selector?', a: 'matches the name of an element type. To give a color to all level 1 headings −\nh1 {\ncolor:\n#36CFFF;\n}'
 				},
@@ -136,7 +140,9 @@ export default function() {
 				{q: '', a: ''
 				}
 			]},
-		
+
+// HTML
+
 		{title: 'HTML', image: '../style/images/html5.png',
 			cards: [ 
 				{q: 'What is "placeholder" attribute?', a: ''
@@ -160,9 +166,26 @@ export default function() {
 				{q: '', a: ''
 				},
 				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
 				}
 			]},
 
+// ReactJS
 
 		{title: 'React', image: '../style/images/react.svg',
 			cards: [ 
@@ -171,8 +194,27 @@ export default function() {
 				{q: 'What is function', a: 'a thing'
 				},
 				{q: 'What is variable', a: 'a thing'
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
 				}
 			]},
+
+
+// Angular
 
 		{title: 'Angular', image: '../style/images/ang.png',
 			cards: [ 
@@ -181,8 +223,27 @@ export default function() {
 				{q: 'What is function', a: 'a thing'
 				},
 				{q: 'What is variable', a: 'a thing'
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
 				}
 			]},
+
+
+// Javascript: 3
 
 		{title: 'Javascript: 3', image: '../style/images/js.png',
 			cards: [ 
@@ -191,6 +252,8 @@ export default function() {
 				{q: 'How do cookies translate/move to the browser?', a: ''
 				}
 		]},
+
+// Vue
 
 		{title: 'Vue', image: '../style/images/vue.png',
 			cards: [ 
@@ -202,7 +265,9 @@ export default function() {
 				}
 			]},
 
-		{title: 'DOM', image: '../style/images/dom.png',
+// DOM
+
+		{title: 'DOM Fundamentals', image: '../style/images/dom.png',
 			cards: [ 
 				{q: 'What is closure', a: 'a thing'
 				},
