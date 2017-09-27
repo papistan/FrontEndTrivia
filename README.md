@@ -35,3 +35,10 @@ Trivia content sources to date:
 - [Tutorial Point JS Interview Questions](tutorialspoint.com/javascript/javascript_interview_questions.htm)
 - [Tutorial Point CSS Interview Questions](tutorialspoint.com/css/css_interview_questions.htm)
 - [MDN JS Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+# Task Lists
+- [X] session 'correct' count
+- [ ] Create 'missed' deck
+- [ ] Users / login
+- [ ] User custom decks build function
+- [ ] Site visitors / total decks reviewed count
