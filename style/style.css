@@ -35,9 +35,6 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
   .button-row {
     flex: 2 !important;
   }
-  .copyright {
-    display: none;
-  }
 }
 
 /* ipad */
@@ -73,9 +70,6 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
   #topic {
     margin-left: 34% !important; 
   }
-  .copyright {
-    display: none;
-  }
 }
 
 /*end mobile */
@@ -86,13 +80,6 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
 
 body {
   background: transparent !important;
-}
-
-.copyright {
-  position: fixed; 
-  bottom: 0px; 
-  color: white; 
-  margin-left: 40%;
 }
 
 .container {
