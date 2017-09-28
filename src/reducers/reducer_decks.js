@@ -52,6 +52,8 @@ export default function() {
 				{q: 'Give an example of closure?', a: 'Following example shows how the variable counter is visible within the create, increment, and print functions, but not outside of them −\nfunction create() {\nvar counter = 0;\nreturn {\nincrement: function() {\ncounter++;\n},\n\nprint: function() {\nconsole.log(counter);\n}\n}\n}\nvar c = create();\nc.increment();\nc.print();     // ==> 1\n'
 				},
 				{q: 'Adding a number and a string, result is...?', a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
+				},
+				{q: 'What is the difference between "undefined" and "null" in javascript?', a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
 				}
 			]
 		},
