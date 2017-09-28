@@ -165,23 +165,23 @@ export default function() {
 				},
 				{q: 'What are HTML5 Semantic Elements?', a: 'HTML5 introduced a new set of Semantic Elements. It help developers to define the structure of a page in an easy way. Semantic means 'meaning' and Semantic Element means elements with a meaning. A Semantic Element helps the developer and the browser to understand its meaning. There are two types of Semantic Elements: 1.Semantic: These elements clearly define their content like <form>, <img>, <table> and so on. 2. Non-semantic: These elements have no definition, they don't define anything about their content like <span> and <div>.'
 				},
-				{q: '', a: ''
+				{q: 'What is the advantage of collapsing white space?', a: 'White spaces are blank sequence of space characters, which is actually treated as a single space character in html. Because the browser collapses multiple space into a single space, you can indent lines of text without worrying about multiple spaces. This enables you to organize the html code into a much more readable format.'
 				},
-				{q: '', a: ''
+				{q: 'Can attribute values be set to anything or are there specific values that they accept?', a: 'Some attribute values can be set to only predefined values. Other attributes can accept any numerical value that represents the number of pixels for a size.'
 				},
-				{q: '', a: ''
+				{q: 'How do you insert a copyright symbol on a browser page?', a: 'To insert the copyright symbol, you need to type &copy; or & #169; in an HTML file.'
 				},
-				{q: '', a: ''
+				{q: 'How are active links different from normal links?', a: 'The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link; others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link.'
 				},
-				{q: '', a: ''
+				{q: 'Can I specify fractional weight values such as 670 or 973 for font weight?', a: 'Implementation largely depends on the browser, but the standard does not support fractional weight values. Acceptable values must end with two zeroes.'
 				},
-				{q: '', a: ''
+				{q: 'What is the hierarchy that is being followed when it comes to style sheets?', a: 'If a single selector includes three different style definitions, the definition that is closest to the actual tag takes precedence. Inline style takes priority over embedded style sheets, which takes priority over external style sheets.'
 				},
-				{q: '', a: ''
+				{q: 'Can several selectors with class names be grouped together?', a: 'You can define several selectors with the same style definition by separating them with commas. This same technique also works for selectors with class names.'
 				},
-				{q: '', a: ''
+				{q: 'What happens if you open the external CSS file in a browser?', a: 'If you try to open the external CSS file in a browser, the browser cannot open the file, because the file has a different extension. The only way to use an external CSS file is to reference it using <link/> tag within another html document.'
 				},
-				{q: '', a: ''
+				{q: 'What happens if the number of values in the rows or cols attribute doesn’t add up to 100 percent?', a: 'The browser sizes the frames relative to the total sum of the values. If the cols attribute is set to 100%, 200%, the browser displays two vertical frames with the second being twice as big as the first.'
 				}
 			]},
 
