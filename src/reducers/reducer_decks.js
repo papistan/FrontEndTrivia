@@ -129,8 +129,6 @@ export default function() {
 				},
 				{q: 'How can the style of a list be changed?', a: 'Using the property list-style-type.'
 				},
-				{q: 'What does CSS stand for?', a: 'Cascading Style Sheets'
-				},
 				{q: 'How are CSS stylesheets added to HTML pages?', a: 'Using the <link rel="stylesheet" href="path/to/style.css" type="text/css" />'
 				},
 				{q: 'What tag is used to internally add CSS styles to a HTML page?', a: 'The <style> tag'
