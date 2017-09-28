@@ -83,4 +83,6 @@ members of the project's leadership.
 
 ### List of the contributors to the project:
 
-1. Rishabh Bansal (https://github.com/rishabh-bansal)
+1. Jay Papisan (https://github.com/papistan) 
+2. Jacob Moyle (https://github.com/jacobmoyle)
+3. Rishabh Bansal (https://github.com/rishabh-bansal)
