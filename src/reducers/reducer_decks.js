@@ -136,6 +136,8 @@ export default function() {
 				{q: 'Which property used to change the color of text?', a: 'Using the property color'
 				},
 				{q: 'How is a background image set to be fixed?', a: 'Using the property background-attachment: fixed'
+				},
+				{q: 'What is the difference between width: 100% and width: 100vw?', a: 'The former sets the element width as that of the parent content area, whereas the latter sets the elements width to the width of the entire viewport'
 				}
 			]},
 
