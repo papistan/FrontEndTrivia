@@ -105,39 +105,39 @@ export default function() {
 				},
 				{q: 'What is "Z-index"', a: ''
 				},
-				{q: '', a: ''
+				{q: 'What is the purpose of a pseudo-class', a: 'specifies a special state of selected elements\nExample -\n div:hover { \n/** set styles for when mouse is over div */ \n}'
 				},
-				{q: '', a: ''
+				{q: 'What is the difference between a class and an ID selector?', a: 'id selector used to style one specific element, class selector used to style multiple elements'
 				},
-				{q: '', a: ''
+				{q: 'What are pseudo elements?', a: 'keyword added to selectors to style specific parts of the selected elements\nExample -\n p::first-line { \n /** Style the first line of the element red */ color: #F00; \n}'
 				},
-				{q: '', a: ''
+				{q: 'How can elements be fixed on the screen?', a: 'Using property position: fixed;'
 				},
-				{q: '', a: ''
+				{q: 'What is the difference between an element whose position is fixed vs absolute?', a: 'A fixed position element has the position relative to the viewport. A absolutely positioned element has the position set relative to it\'s nearest positioned ancestor'
 				},
-				{q: '', a: ''
+				{q: 'How are text or inline elements centered inside their parent element?', a: 'using property text-align: center'
 				},
-				{q: '', a: ''
+				{q: 'What is the difference between margin and padding?', a: 'Padding is space between border and element contents, margin is space between border and neighboring elements'
 				},
-				{q: '', a: ''
+				{q: 'How can CSS styles be applied inline in HTML?', a: 'style attribute on elements'
 				},
-				{q: '', a: ''
+				{q: 'How are background images set for an element?', a: 'using background-image: url(\'path/to/image.png\') or background: url(\'path/to/image.png\')'
 				},
-				{q: '', a: ''
+				{q: 'How are CSS selectors grouped together', a: 'using comma (,) separator'
 				},
-				{q: '', a: ''
+				{q: 'How can a font family be set throughout the page?', a: 'By applying font-family property on the body tag -\nbody { \nfont-family: \'Comic Sans\'; \n}'
 				},
-				{q: '', a: ''
+				{q: 'How can the style of a list be changed?', a: 'using the list-style-type property'
 				},
-				{q: '', a: ''
+				{q: 'What does CSS stand for?', a: 'Cascading Style Sheets'
 				},
-				{q: '', a: ''
+				{q: 'How are CSS stylesheets added to HTML pages?', a: 'using <link rel="stylesheet" href="path/to/style.css" type="text/css" />'
 				},
-				{q: '', a: ''
+				{q: 'What tag is used to internally add CSS styles to a HTML page?', a: '<style> tag'
 				},
-				{q: '', a: ''
+				{q: 'Which property used to change the color of text?', a: 'using the color property'
 				},
-				{q: '', a: ''
+				{q: 'How is a background image set to be fixed?', a: 'using background-attachment: fixed property'
 				}
 			]},
 
