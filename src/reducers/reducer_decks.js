@@ -145,25 +145,25 @@ export default function() {
 
 		{title: 'HTML', image: '../style/images/html5.png',
 			cards: [ 
-				{q: 'What is "placeholder" attribute?', a: ''
+				{q: 'What is "placeholder" attribute?', a: 'HTML5 introduced a new attribute called placeholder. This attribute on <input> and <textarea> elements provides a hint to the user of what can be entered in the field. The placeholder text must not contain carriage returns or line-feeds.'
 				},
-				{q: '', a: ''
+				{q: 'What is the purpose of 'autofocus' attribute in HTML5?', a: 'This is a simple one-step pattern, easily programmed in JavaScript at the time of document load, automatically focus one particular form field.'
 				},
-				{q: '', a: ''
+				{q: 'What are Web Workers?', a: 'Web Workers do all the computationally expensive tasks without interrupting the user interface and typically run on separate threads. Web Workers allow for long-running scripts that are not interrupted by scripts that respond to clicks or other user interactions, and allows long tasks to be executed without yielding to keep the page responsive.'
 				},
-				{q: '', a: ''
+				{q: 'What do you mean by local storage in HTML5?', a: 'HTML5 introduces the localStorage attribute which would be used to access a page's local storage area without no time limit and this local storage will be available whenever you would use that page.'
 				},
-				{q: '', a: ''
+				{q: 'What is the purpose of 'output' tag in HTML5?', a: 'HTML5 introduced a new element <output> which is used to represent the result of different types of output, such as output written by a script.'
 				},
-				{q: '', a: ''
+				{q: 'What is the purpose of 'canvas' tag in HTML5?', a: 'HTML5 element <canvas> gives you an easy and powerful way to draw graphics using JavaScript. It can be used to draw graphs, make photo compositions or do simple (and not so simple) animations.'
 				},
-				{q: '', a: ''
+				{q: 'What do you mean by session storage in HTML5?', a: 'HTML5 introduces the sessionStorage attribute which would be used by the sites to add data to the session storage, and it will be accessible to any page from the same site opened in that window i.e. session and as soon as you close the window, session would be lost.'
 				},
-				{q: '', a: ''
+				{q: 'What is HTML5?', a: 'HTML5 is the latest version of HTML and XHTML with new features like Drawing, Animation, Video and Audio etc. It is used to solve some common structural problems encountered with HTML 4.1. It gives more flexibility to both the web developers, the web designers and enables more exciting and interactive websites in addition to more powerful and efficient applications. The HTML 5 <! doctype html> is recognized by all modern browsers.'
 				},
-				{q: '', a: ''
+				{q: 'How you can Use Modernizr in HTML 5?', a: 'Modernizr is an open source JavaScript library that helps to detect features of HTML5 and CSS3. The good thing about the Modernizr JS is that we can download this depending on the requirements. In other words, if an application needs to check for only few features of HTML5 and CSS3 then select those features and download the file. That JavaScript file will contain only the source code for the selected features.'
 				},
-				{q: '', a: ''
+				{q: 'What are HTML5 Semantic Elements?', a: 'HTML5 introduced a new set of Semantic Elements. It help developers to define the structure of a page in an easy way. Semantic means 'meaning' and Semantic Element means elements with a meaning. A Semantic Element helps the developer and the browser to understand its meaning. There are two types of Semantic Elements: 1.Semantic: These elements clearly define their content like <form>, <img>, <table> and so on. 2. Non-semantic: These elements have no definition, they don't define anything about their content like <span> and <div>.'
 				},
 				{q: '', a: ''
 				},
