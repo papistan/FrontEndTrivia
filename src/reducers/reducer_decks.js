@@ -145,43 +145,43 @@ export default function() {
 
 		{title: 'HTML', image: '../style/images/html5.png',
 			cards: [ 
-				{q: 'What is "placeholder" attribute?', a: ''
+				{q: 'What is "placeholder" attribute?', a: '<input> placeholder Attribute'
 				},
-				{q: '', a: ''
+				{q: 'Choose the correct HTML element for the largest heading:', a: '<h1>'
 				},
-				{q: '', a: ''
+				{q: 'What is the correct HTML element for inserting a line break?', a: '<br>'
 				},
-				{q: '', a: ''
+				{q: 'What is the correct HTML for adding a background color?', a: '<body style="background-color:yellow;">'
 				},
-				{q: '', a: ''
+				{q: 'Choose the correct HTML element to define important text', a: '<strong>'
 				},
-				{q: '', a: ''
+				{q: 'Choose the correct HTML element to define emphasized text', a: '<i>'
 				},
-				{q: '', a: ''
+				{q: 'What is the correct HTML for creating a hyperlink?', a: '<a href="http://example.com">W3Schools</a>'
 				},
-				{q: '', a: ''
+				{q: 'Which character is used to indicate an end tag?', a: '/'
 				},
-				{q: '', a: ''
+				{q: 'How can you open a link in a new tab/browser window?', a: '<a href="url" target="_blank">'
 				},
-				{q: '', a: ''
+				{q: 'How can you make a numbered list?', a: '<ol>'
 				},
-				{q: '', a: ''
+				{q: 'How can you make a bulleted list?', a: '<ul>'
 				},
-				{q: '', a: ''
+				{q: 'What is the correct HTML for making a drop-down list?', a: '<select>'
 				},
-				{q: '', a: ''
+				{q: 'How to do HTML comments?', a: '<!-- and end with -->'
 				},
-				{q: '', a: ''
+				{q: 'Which HTML element defines the title of a document?', a: '<title>'
 				},
-				{q: '', a: ''
+				{q: 'Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?', a: ' alt'
 				},
-				{q: '', a: ''
+				{q: 'Which doctype is correct for HTML5?', a: '<!DOCTYPE html>'
 				},
-				{q: '', a: ''
+				{q: 'What is the correct HTML element for playing video files?.', a: '<video>'
 				},
-				{q: '', a: ''
+				{q: 'What is the correct HTML element for playing audio files?', a: 'use the <audio> element'
 				},
-				{q: '', a: ''
+				{q: 'In HTML, onblur and onfocus are ?', a: 'Style attributes'
 				}
 			]},
 
