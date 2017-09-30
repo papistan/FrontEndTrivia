@@ -275,6 +275,25 @@ export default function() {
 				},
 				{q: 'What is variable', a: 'a thing'
 				}
-			]}
+			]},
+
+	// ES6
+
+	{title: 'ES6', image: '../style/images/js.png',
+	cards: [ 
+		{q: 'In what two circumstances does comparing two variables with Object.is differ from the results of strict equality (the so-called triple equals or ===)?', a: 'NaN compared to itself\nNaN === Nan // false\nObject.is(NaN, NaN) // true\n\n-0 compared to 0\n-0 === 0 // true\nObect.is(-0, 0) // false'
+		},
+		{q: 'What is the output of the following code using a new block-scoped \'let\' statement? Does it differ from using \'var\'?\nfor (let i = 0; i < 3; i++) {\nsetTimeout(function() {\nconsole.log(i)\n}, 0)\n}', a: 'Using \'let\' will log the following to the console:\n0\n1\n2\nUsing \'var\' will instead log\n3\n3\n3'
+		},
+		{q: 'Do the following arrow functions both return the same value?\n(x, y) => x + y\n(x, y) => { x + y; }', a: 'No, an arrow function without curly braces may only contain one expression and will return the result of evaluating that expression (i.e. x + y). The body of an arrow function with curly braces (like a normal function) requires an explicit \'return\' statement or will return undefined'
+		},
+		{q: 'How would you return an object literal from an arrow function with no curly braces?', a: 'By wrapping it in parentheses, e.g.:\n(x, y) => ({ sum: x + y })\nThis prevents ambiguity over the meaning of the curly braces.'
+		},
+		{q: 'What is the difference between the spread and the rest operator?', a: 'The spread operator expands  an array to replace zero or more arguments (in function calls) or elements (in array literals)\ne.g. myFunc(...[0, 1, 2]) is equivalent to myFunc(0, 1, 2).\nThe rest operator does the opposite, collecting multiple values into a single array.'
+		},
+		{q: 'As the syntax for rest/spread looks identical, how does a JavaScript engine know which you\'re using?', a: 'Spread is used on the left-hand side of assignment (\'receiving\' a value) and rest, on the right-hand side (\'passing\' a value). For instance:\n[a, ...b]=[0,1,2]; //rest: b=[1, 2]\na=[0, ...b];  //spread: a=[0,1,2]\nThe same is true of function definition (rest) and function invocation (spread).'
+		}
+	]}
+	
 	]
 }
