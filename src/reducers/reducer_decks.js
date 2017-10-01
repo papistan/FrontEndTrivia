@@ -236,27 +236,37 @@ export default function() {
 
 		{title: 'React', image: '../style/images/react.svg',
 			cards: [ 
-				{q: 'What is closure', a: 'a thing'
+				{q: 'What part of your application does react focus on - the model, view or controller?', a: 'The view.'
 				},
-				{q: 'What is function', a: 'a thing'
+				{q: 'React uses a HTML-like syntax that lets you create create JavaScript objects. What is it called?', a: 'JSX'
 				},
-				{q: 'What is variable', a: 'a thing'
+				{q: 'What tool can you use to transform the HTML-like syntax that react uses to JavaScript?', a: 'Babel'
 				},
-				{q: '', a: ''
+				{q: 'React uses a technique to limit direct manipulation of the DOM and improve performance. What is it called?', a: 'It is called Virtual DOM.'
 				},
-				{q: '', a: ''
+				{q: 'Where can you define a components initial state when you use the ES6 class syntax?', a: 'The components constructor.'
 				},
-				{q: '', a: ''
+				{q: 'Where can you define a components initial state when you use React.createClass', a: 'The getInitialState method.'
 				},
-				{q: '', a: ''
+				{q: 'Which package should you require/import in addition to the react package to render a React component in an existing DOM element of your HTML file?', a: 'react-dom'
 				},
-				{q: '', a: ''
+				{q: 'Which lifecycle function should you use to set default property values?', a: 'The getDefaultProps method.'
 				},
-				{q: '', a: ''
+				{q: 'Which lifecycle method is invoked immediately a component is added to the DOM?', a: 'The componentDidMount method.'
 				},
-				{q: '', a: ''
+				{q: 'Whats the date of the first React commit on GitHub?', a: 'May 26th, 2013.'
 				},
-				{q: '', a: ''
+				{q: 'What is the name of the concept that allows to render children into a DOM node that exists outside the DOM hierarchy of the parent component?', a: 'This concept is called Portals and is available starting with React version 16.'
+				},
+				{q: 'What is the advantage of rendering React on a server?', a: 'A complete HTML representation of the requested site is send from the server to the browser. This enables better SEO (search engine optimization).'
+				},
+				{q: 'Which way are unknown DOM attributes handled?', a: 'Starting with React version 16, unknown DOM attributes on the JSX will end up in the DOM. Previous versions of React had a whitelist of allowed attributes and simply ignored these unknown attributes.'
+				},
+				{q: 'There are two types of components in React. Name them and explain the difference!', a: 'Class-based components can manage their own state and implement lifecycle methods, while stateless functional components can not, but offer easier testability and improved performance.'
+				},
+				{q: 'Which company created and maintains React?', a: 'Facebook'
+				},
+				{q: 'What is redux?', a: 'Redux is a library that allows predictable state management in JavaScript apps. It is often used in large-scale React apps.'
 				}
 			]},
 
