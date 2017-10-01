@@ -218,27 +218,45 @@ export default function() {
 
 		{title: 'Angular', image: '../style/images/ang.png',
 			cards: [ 
-				{q: 'What is closure', a: 'a thing'
+				{q: 'How do AngularJS Expressions?', a: 'AngularJS expressions can be written inside double braces: {{ expression }}. Eg: <p>{{ 2 + 2 }}</p> will display <p>4</p>'
 				},
-				{q: 'What is function', a: 'a thing'
+				{q: 'How to transform all string in expression to uppercase?', a: 'Use Expression with Pipe, Eg: <p>{{ "this is frontendtrivia" | uppercase }}</p> will display <p>THIS IS FRONTENDTRIVIA</p>'
 				},
-				{q: 'What is variable', a: 'a thing'
+				{q: 'How to loop in html with AngularJS?', a: 'use ng-repeat directive. Eg <span ng-repeat="bar in [0,2,3,4]">{{ bar * 2 }}</span>'
 				},
-				{q: '', a: ''
+				{q: 'What is two-way data binding?', a: 'Any changes to Model will reflect to view(DOM) and vice versa'
 				},
-				{q: '', a: ''
+				{q: 'How to do a two-way data binding?', a: '{{ variableName }}'
 				},
-				{q: '', a: ''
+				{q: 'What is one-way data binding?', a: 'After the model have been merge with template, any changes to model will NOT reflect to view'
 				},
-				{q: '', a: ''
+				{	q: 'When to use one-way data binding and two-way data binding?',
+					a: 'One way data binding is usefull when you done want the display to be change from model/view and it also improve performance.' +
+						' While 2-way data binding is great if you want to keep track of data changes (input form)'
 				},
-				{q: '', a: ''
+				{
+					q: 'How to format a date "MM/dd/yyyy" ?',
+					a: '{{ dateVariable | date:"MM/dd/yyyy }}'
 				},
-				{q: '', a: ''
+				{
+					q: 'How to grab an element in AngularJS?',
+					a: 'use "angular.element("selector")", it is the same like jquery $("selector")'
 				},
-				{q: '', a: ''
+				{
+					q: 'There is Best Style Guide that you can follow them',
+					a: 'John Papa and Todd Motto style guide, check them out later'
 				},
-				{q: '', a: ''
+				{
+					q: 'How to reuse the same html to all over your app?',
+					a: 'By using "directive" or "ng-include"'
+				},
+				{
+					q: 'What is the different between ng-if and ng-show',
+					a: 'ng-if will remove/inserted element into the dom, while ng-show utilise css class with ng-show'
+				},
+				{
+					q: 'How to you mange different routes in your app',
+					a: 'Use library call UI-Router'
 				}
 			]},
 
