@@ -143,7 +143,7 @@ export default function() {
 				},
 				{q: 'When using flex-box to create a responsive layout what atribute will allow a containers elemets to not break outside a set media query', a: 'Using flew-wrap will allow a given set of elements to break and re order when there parent container becomes too small'
 				},
-				{q: 'When laying out a number of variable sized containers, each with text inside, how can flex-box be used to align this text', a: 'Using align-items with the baseline attribute will position the elemnts inside there parent containers.
+				{q: 'When laying out a number of variable sized containers, each with text inside, how can flex-box be used to align this text', a: 'Using align-items with the baseline attribute will position the elemnts inside there parent containers.'
 				},
 				{q: 'Can flex-box commands be chained or combined', a: 'Yes flex-grow | flex-shrink | flex-basis can be written as flex: 5 5 10%;'
 				}
