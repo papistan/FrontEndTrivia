@@ -153,6 +153,44 @@ export default function() {
 
 		{title: 'HTML', image: '../style/images/html5.png',
 			cards: [ 
+				{q: 'What is "placeholder" attribute?', a: '<input> placeholder Attribute'
+				},
+				{q: 'Choose the correct HTML element for the largest heading:', a: '<h1>'
+				},
+				{q: 'What is the correct HTML element for inserting a line break?', a: '<br>'
+				},
+				{q: 'What is the correct HTML for adding a background color?', a: '<body style="background-color:yellow;">'
+				},
+				{q: 'Choose the correct HTML element to define important text', a: '<strong>'
+				},
+				{q: 'Choose the correct HTML element to define emphasized text', a: '<i>'
+				},
+				{q: 'What is the correct HTML for creating a hyperlink?', a: '<a href="http://example.com">W3Schools</a>'
+				},
+				{q: 'Which character is used to indicate an end tag?', a: '/'
+				},
+				{q: 'How can you open a link in a new tab/browser window?', a: '<a href="url" target="_blank">'
+				},
+				{q: 'How can you make a numbered list?', a: '<ol>'
+				},
+				{q: 'How can you make a bulleted list?', a: '<ul>'
+				},
+				{q: 'What is the correct HTML for making a drop-down list?', a: '<select>'
+				},
+				{q: 'How to do HTML comments?', a: '<!-- and end with -->'
+				},
+				{q: 'Which HTML element defines the title of a document?', a: '<title>'
+				},
+				{q: 'Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?', a: ' alt'
+				},
+				{q: 'Which doctype is correct for HTML5?', a: '<!DOCTYPE html>'
+				},
+				{q: 'What is the correct HTML element for playing video files?.', a: '<video>'
+				},
+				{q: 'What is the correct HTML element for playing audio files?', a: 'use the <audio> element'
+				},
+				{q: 'In HTML, onblur and onfocus are ?', a: 'Style attributes'
+         },
 				{q: 'What is "placeholder" attribute?', a: 'HTML5 introduced a new attribute called placeholder. This attribute on <input> and <textarea> elements provides a hint to the user of what can be entered in the field. The placeholder text must not contain carriage returns or line-feeds.'
 				},
 				{q: 'What is the purpose of autofocus attribute in HTML5?', a: 'This is a simple one-step pattern, easily programmed in JavaScript at the time of document load, automatically focus one particular form field.'
@@ -190,6 +228,7 @@ export default function() {
 				{q: 'What happens if you open the external CSS file in a browser?', a: 'If you try to open the external CSS file in a browser, the browser cannot open the file, because the file has a different extension. The only way to use an external CSS file is to reference it using <link/> tag within another html document.'
 				},
 				{q: 'What happens if the number of values in the rows or cols attribute doesn’t add up to 100 percent?', a: 'The browser sizes the frames relative to the total sum of the values. If the cols attribute is set to 100%, 200%, the browser displays two vertical frames with the second being twice as big as the first.'
+
 				}
 			]},
 
