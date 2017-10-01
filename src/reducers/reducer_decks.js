@@ -138,6 +138,14 @@ export default function() {
 				{q: 'How is a background image set to be fixed?', a: 'Using the property background-attachment: fixed'
 				},
 				{q: 'What is the difference between width: 100% and width: 100vw?', a: 'The former sets the element width as that of the parent content area, whereas the latter sets the elements width to the width of the entire viewport'
+				},
+				{q: 'When setting a z-index to an element what other css atribute must also be set?', a: 'An element must have a display setting to utilize z-indexing'
+				},
+				{q: 'When using flex-box to create a responsive layout what atribute will allow a containers elemets to not break outside a set media query', a: 'Using flew-wrap will allow a given set of elements to break and re order when there parent container becomes too small'
+				},
+				{q: 'When laying out a number of variable sized containers, each with text inside, how can flex-box be used to align this text', a: 'Using align-items with the baseline attribute will position the elemnts inside there parent containers.'
+				},
+				{q: 'Can flex-box commands be chained or combined', a: 'Yes flex-grow | flex-shrink | flex-basis can be written as flex: 5 5 10%;'
 				}
 			]},
 
