@@ -218,13 +218,14 @@ export default function() {
 
 		{title: 'Angular', image: '../style/images/ang.png',
 			cards: [ 
+
 				{
-					q: 'How do AngularJS Expressions?',
+					q: 'How are AngularJS Expressions generally written?',
 					a: 'AngularJS expressions can be written inside double braces: {{ expression }}. Eg: <p>{{ 2 + 2 }}' +
 						'</p> will display <p>4</p>'
 				},
 				{
-					q: 'How to transform all string in expression to uppercase?',
+					q: 'How can you transform all string in expression to uppercase?',
 					a: 'Use Expression with Pipe, Eg: <p>{{ "this is frontendtrivia" | uppercase }}</p> will display ' +
 					   '<p>THIS IS FRONTENDTRIVIA</p>'
 				},
@@ -272,6 +273,26 @@ export default function() {
 				{
 					q: 'How to you mange different routes in your app',
 					a: 'Use library call UI-Router'
+        },
+				{
+          q: 'What does the OLOO pattern stands for and where is it used in AngularJS', 
+          a: 'OLOO (Objects Linked to Other Objects) a.k.a. Prototype Inheritance is used with controllers scope hierarchy tree (the root of a tree is $rootScope)'
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
+				},
+				{q: '', a: ''
 				}
 			]},
 
