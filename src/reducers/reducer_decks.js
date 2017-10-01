@@ -450,6 +450,40 @@ export default function() {
 		},
 		{q: 'As the syntax for rest/spread looks identical, how does a JavaScript engine know which you\'re using?', a: 'Spread is used on the left-hand side of assignment (\'receiving\' a value) and rest, on the right-hand side (\'passing\' a value). For instance:\n[a, ...b]=[0,1,2]; //rest: b=[1, 2]\na=[0, ...b];  //spread: a=[0,1,2]\nThe same is true of function definition (rest) and function invocation (spread).'
 		}
+	]},
+
+// JavaScript: Intermediate
+
+	{title: 'JavaScript: Intermediate', image: '../style/images/js.png',
+	cards: [ 
+		{q: 'What is the difference between window and document?', a: 'Window is that global object that holds global variables, global functions, location, history everything is under it. Document is a property of the window object, document represents the DOM and DOM is the object oriented representation of the html markup'
+		},
+		{q: 'Does document.onload and window.onload fire at the same time?', a: 'window.onload is fired when DOM is ready and all the contents including images, css, scripts, sub-frames, etc. finished loaded. document.onload is fired when DOM (DOM tree built from markup code within the document)is ready which can be prior to images and other external content is loaded.'
+		},
+		{q: 'Is attribute similar to property?', a: 'attributes are just like attribute in your html tag (XML style attribute) inside the starting tag. html attributes are exposed to the DOM via property. Hence, a property is created when DOM is parsed for each attribute in the html tag. If you change an attribute only the value of the property will change. However, the value of attribute will remain same.'
+		},
+		{q: 'How come, I can\'t use forEach or similar array methods on a NodeList?', a: 'Array has different prototype object than nodeList. forEach, map, etc are on array.prototype which doesn\'t exist in the NodeList.prototype object. Hence, you don\'t have forEach on a nodeList'
+		},
+		{q: 'How would you add a class to an element by query selector?', a: 'Just get the element and add the classname to the classlist.'
+		},
+		{q: 'How could you prevent a click on an anchor from going to the link?', a: 'preventDefault() inside event handler. However, this doesnt stop further propagation.'
+		},
+		{q: 'How could you stop further propagation of an event?', a: 'Call event.stopPropagation();'
+		},
+		{q: 'Can you remove an event handler from an element?', a: 'Yes. target.removeEventListener(\'click\', handler)'
+		},
+		{q: 'How could I check whether an event is cancelable or not?', a: ' Use event.cancelable to get true or false return. However, you have to preventDefault() to prevent the event.'
+		},
+		{q: 'Is there anything you have to be careful when using node.cloneNode()?', a: 'While cloning, make sure you didnt duplicate ID.'
+		},
+		{q: 'What are different nodeTypes?', a: 'ELEMENT_NODE (1), TEXT_NODE (3), COMMENT_NODE(8), DOCUMENT_NODE(9), DOCUMENT_TYPE_NODE(10), DOCUMENT_FRAGMENT_NODE(11), etc'
+		},
+		{q: 'How can you get all the texts in a web page?', a: 'The easiest way to get all the text is to get the innerText of body tag. document.body.innerText;'
+		},
+		{q: 'What are different nodeTypes?', a: 'ELEMENT_NODE (1), TEXT_NODE (3), COMMENT_NODE(8), DOCUMENT_NODE(9), DOCUMENT_TYPE_NODE(10), DOCUMENT_FRAGMENT_NODE(11), etc'
+		},
+		{q: 'What are different nodeTypes?', a: 'ELEMENT_NODE (1), TEXT_NODE (3), COMMENT_NODE(8), DOCUMENT_NODE(9), DOCUMENT_TYPE_NODE(10), DOCUMENT_FRAGMENT_NODE(11), etc'
+		}
 	]}
 	
 	]
