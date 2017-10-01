@@ -218,7 +218,7 @@ export default function() {
 
 		{title: 'Angular', image: '../style/images/ang.png',
 			cards: [ 
-				{q: 'What is closure', a: 'a thing'
+				{q: 'What does the OLOO pattern stand for and where is it used in AngularJS', a: 'OLOO (objects linked to other objects) a.k.a. prototype inheritance is used with controllers scope hierarchy tree (The root of a tree is $rootScope)'
 				},
 				{q: 'What is function', a: 'a thing'
 				},
