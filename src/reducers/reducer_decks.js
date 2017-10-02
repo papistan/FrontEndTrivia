@@ -558,7 +558,7 @@ export default function() {
                 },
                 {
                     q: 'What are the 4 HTTP Protocols?',
-                    a: 'GET, PST, PUT, DELETE'
+                    a: 'GET, POST, PUT, DELETE'
                 }
             ]
         }
