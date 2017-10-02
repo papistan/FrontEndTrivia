@@ -18,8 +18,8 @@ export default function() {
                     a: 'Objects'
                 },
                 {
-                    q: 'What are the five primitives?',
-                    a: 'Boolean, null, undefined, string, and number'
+                    q: 'What are the six primitives?',
+                    a: 'Boolean, null, undefined, string, number and Symbol'
                 },
                 {
                     q: 'What are the three object data types?',
@@ -27,7 +27,7 @@ export default function() {
                 },
                 {
                     q: 'How can you read properties of an Object in JavaScript?',
-                    a: 'Using the dot notation − Getting:\nemp.name  // ==> Zara\nSetting:\nemp.name = "Daisy"  // <== Daisy'
+                    a: 'Using the dot notation or [] − Getting:\nemp.name or emp["name"]  // ==> Zara\nSetting:\nemp.name = "Daisy" or emp["name"] = Daisy  // <== Daisy'
                 },
                 {
                     q: 'How to read elements of an array in JavaScript?',
@@ -58,20 +58,12 @@ export default function() {
                     a: 'Yes'
                 },
                 {
-                    q: 'What is arguments object in JavaScript?',
-                    a: 'Yes'
-                },
-                {
-                    q: 'What is the purpose of -this- operator in JavaScript?',
-                    a: 'always refers to the current context.'
-                },
-                {
                     q: 'What is the purpose of -this- operator in JavaScript?',
                     a: 'always refers to the current context.'
                 },
                 {
                     q: 'What are the valid scopes of a variable in JavaScript?',
-                    a: 'The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.\n -Global Variables − A global variable has global scope which means it is visible everywhere in your JavaScript code.\n-Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function'
+                    a: 'The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only three scopes.\n -Global Variables − A global variable has global scope which means it is visible everywhere in your JavaScript code.\n-Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function.\nBlock Scoped variables- variables defined using const/let keywords are scoped to the block in which they are defined.'
                 },
                 {
                     q: 'Which type of variable among global and local, takes precedence over other if names are same?',
@@ -611,11 +603,8 @@ export default function() {
                     a: 'GET, POST, PUT, DELETE'
                 }
             ]
-        }
-    ]
-}
-
-
+		},
+		
 	// ES6
 
 	{title: 'ES6', image: '../style/images/js.png',
@@ -631,6 +620,8 @@ export default function() {
 		{q: 'What is the difference between the spread and the rest operator?', a: 'The spread operator expands  an array to replace zero or more arguments (in function calls) or elements (in array literals)\ne.g. myFunc(...[0, 1, 2]) is equivalent to myFunc(0, 1, 2).\nThe rest operator does the opposite, collecting multiple values into a single array.'
 		},
 		{q: 'As the syntax for rest/spread looks identical, how does a JavaScript engine know which you\'re using?', a: 'Spread is used on the left-hand side of assignment (\'receiving\' a value) and rest, on the right-hand side (\'passing\' a value). For instance:\n[a, ...b]=[0,1,2]; //rest: b=[1, 2]\na=[0, ...b];  //spread: a=[0,1,2]\nThe same is true of function definition (rest) and function invocation (spread).'
+		},
+		{q: 'What is the output of following code? Explain. \n{ \nconsole.log(x);\nlet x = 4;\n}',	a: 'Reference error is caused. This is more often termed as TDZ ( Temporal Dead Zone), it occurs in case of let/const variables when they are declared but not yet initialized. Point to be noted, let/const variables are hoisted, but they are not initialized automatically.'
 		}
 	]},
 
@@ -670,4 +661,3 @@ export default function() {
 	
 	]
 }
-
