@@ -46,15 +46,15 @@ export default function() {
                     a: 'A function in JavaScript can be either named or anonymous.'
                 },
                 {
-                    q: 'How to define a anonymous function?',
+                    q: 'How to define an anonymous function?',
                     a: 'An anonymous function can be defined in similar way as a normal function but it would not have any name.'
                 },
                 {
-                    q: 'Can you assign a anonymous function to a variable?',
+                    q: 'Can you assign an anonymous function to a variable?',
                     a: 'Yes'
                 },
                 {
-                    q: 'Can you pass a anonymous function as an argument to another function?',
+                    q: 'Can you pass an anonymous function as an argument to another function?',
                     a: 'Yes'
                 },
                 {
