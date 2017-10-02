@@ -1,9 +1,9 @@
 {
-  "name": "redux-simple-starter",
+  "name": "FrontEndTrivia",
   "version": "1.0.0",
-  "description": "Simple starter package for Redux with React and Babel support",
+  "description": "Built on React, Redux, Webpack - Flip through cards to test your front end knowledge",
   "main": "index.js",
-  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+  "repository": "git@github.com:papistan/FrontEndTrivia.gitpistan/FrontEndTrivia.git",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "postinstall": "webpack -p",
