@@ -161,6 +161,14 @@ export default function() {
                 {
                     q: 'Returns the string representation of the numbers value?',
                     a: 'toString() '
+                },
+		{
+                    q: 'Writing/Displaying data into an alert box?',
+                    a: 'window.alert()'
+                },
+		{
+                    q: 'Writing/Displaying data into the browser console?',
+                    a: 'console.log()'
                 }
             ]
         },
