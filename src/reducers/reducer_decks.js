@@ -124,7 +124,7 @@ export default function () {
 		},
 		{
 			q: 'Returns the length of the string?',
-			a: 'length()'
+			a: 'length'
 		},
 		{
 			q: 'Removes the last element from an array and returns that element?',
@@ -157,6 +157,50 @@ export default function () {
 		{
 			q: 'Returns the string representation of the numbers value?',
 			a: 'toString() '
+		},
+		{
+			q: 'Creates a new array with the results of calling a provided function on every element in the calling array?',
+			a: 'map()'
+		},
+		{
+			q: 'Creates a new array with all elements that pass the test implemented by the provided function?',
+			a: 'filter()'
+		},
+		{
+			q: 'Merges two or more arrays, returning a new array without changing the existing arrays?',
+			a: 'concat()'
+		},
+		{
+			q: 'Joins all elements of an array (or an array-like object) into a string?',
+			a: 'join()'
+		},
+		{
+			q: 'Applies a function against an accumulator and each element in the array (from left to right) to reduce it to a single value?',
+			a: 'reduce()'
+		},
+		{
+			q: 'Retrieves the matches when matching a string against a regular expression?',
+			a: 'match()'
+		},
+		{
+			q: 'What is the return of the string match() method?',
+			a: 'An Array containing the entire match result and any parentheses-captured matched results; null if there were no matches.'
+		},
+		{
+			q: 'Returns a new string with some or all matches of a pattern (string or RegExp) replaced by a replacement (string or a function to be called for each match)?',
+			a: 'replace()'
+		},
+		{
+			q: 'Extracts a section of a string and returns it as a new string?',
+			a: 'slice()'
+		},
+		{
+			q: 'Splits a String object into an array of strings by separating the string into substrings, using a specified separator string to determine where to make each split?',
+			a: 'split()'
+		},
+		{
+			q: 'Removes whitespace from both ends of a string?',
+			a: 'trim()'
 		}
 		]
 	},
