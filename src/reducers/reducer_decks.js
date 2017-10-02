@@ -292,7 +292,6 @@ export default function() {
 		    		},
 		    		{q: 'What is the difference between inline, embedded and linked style sheets?', a: 'Inline Style Sheet is used to style only a small piece of code. Embedded style sheets are put between the <head> and </head> tags. Linked style sheet is used to apply the style to all the pages within your website by linking an external style sheet to the html document.'
 		    		}
-'
 			]},
 
 
