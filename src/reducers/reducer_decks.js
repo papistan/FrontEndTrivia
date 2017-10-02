@@ -372,9 +372,9 @@ export default function() {
 				{q: 'What happens if the number of values in the rows or cols attribute doesn’t add up to 100 percent?', a: 'The browser sizes the frames relative to the total sum of the values. If the cols attribute is set to 100%, 200%, the browser displays two vertical frames with the second being twice as big as the first.'
 
 				}
-				{q: 'What is a marquee?', a:'A marquee tage (Syntax: <marquee>...</marquee>) allows you to put a scrolling text in a web page.'
+				{q: 'What is a marquee?', a:'A marquee tag (Syntax: <marquee>...</marquee>) allows you to put a scrolling text in a web page.'
 				}
-				{q: 'Are <br> tags the only way to separate sections of text?', a:'The <br> tag is only one way to separate lines of text. Other tags, like the <p> tag and <blockquote> tag, also separate sections of text.'
+				{q: 'In addition to <br> tags, what other tags separate sections of text?', a:' <p> and <blockquote> '
 				}
 			]},
 
