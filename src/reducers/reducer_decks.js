@@ -560,7 +560,11 @@ export default function() {
                 {
                     q: 'How do cookies translate/move to the browser?',
                     a: ''
-                }
+                },
+                {
+                    q: 'How do you explicitly set "this" inside the callback?',
+                    a: 'Bind the callback\'s this to the value of its function. i.e. \n function SampleConstructor(data, transport) { \n this.data = data; \n var boundFunc = (function() {\n alert(this.data);\n}).bind(this);'
+                },
             ]
         },
 
@@ -601,6 +605,10 @@ export default function() {
                 {
                     q: 'What is variable',
                     a: 'a thing'
+                },
+                {
+                    q: 'What are the 4 HTTP Protocols?',
+                    a: 'GET, POST, PUT, DELETE'
                 }
             ]
         }
