@@ -96,7 +96,11 @@ export default function() {
                 {
                     q: 'Adding a number and a string, result is...?',
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
-                }
+                },
+				        {
+                    q: 'What is the difference between "undefined" and "null" in javascript?', 
+                    a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
+				         }
             ]
         },
 
