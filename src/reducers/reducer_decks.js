@@ -88,11 +88,7 @@ export default function() {
                 {
                     q: 'Adding a number and a string, result is...?',
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
-                },
-				        {
-                    q: 'What is the difference between "undefined" and "null" in javascript?', 
-                    a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
-				         }
+                }
             ]
         },
 
@@ -153,14 +149,6 @@ export default function() {
                 {
                     q: 'Returns the string representation of the numbers value?',
                     a: 'toString() '
-                },
-		{
-                    q: 'Writing/Displaying data into an alert box?',
-                    a: 'window.alert()'
-                },
-		{
-                    q: 'Writing/Displaying data into the browser console?',
-                    a: 'console.log()'
                 }
             ]
         },
@@ -219,7 +207,21 @@ export default function() {
                      q: 'What are pseudo elements?', 
                      a: 'Pseudo-elements are a keyword added to selectors to style specific parts of the selected elements\nExample -\n p::first-line { \n /** Style the first line of the element red */ color: #F00; \n}'
 				        },
-				        {
+		    
+		    {
+		     q:'how many types of css?',
+		     a:'three types 1)external 2)internal 3)inline	    
+		    },
+		    {
+		     q:'List of links is also called as?',
+		     a:'Nav Bar'	    
+		    },
+		    {
+		     q:'Range of "opacity" property?',
+		     a: '0.0 - 1.0'
+			  
+		    },
+		    {
                      q: 'How can elements be fixed on the screen?', 
                      a: 'Using the property position: fixed;'
 				        },
@@ -297,33 +299,6 @@ export default function() {
 		    		{q: 'What is the difference between inline, embedded and linked style sheets?', a: 'Inline Style Sheet is used to style only a small piece of code. Embedded style sheets are put between the <head> and </head> tags. Linked style sheet is used to apply the style to all the pages within your website by linking an external style sheet to the html document.'
 		    		}
 			]},
-			{title: 'CSS3 - Flexbox', image; '../style/images/css3.svg', 
-				cards: [
-					{q: 'What does the "flex-direction" property do?', a: 'The "flex-direction" property controls the directional flow of flex content.  The values "row" and "row-reverse" orient content from left to right, and right to left, repsectively.  The values "column" and "column-reverse" orient content from top to bottom, and bottom to top, respectively.'
-					},
-					{q: 'What is the "main-axis"?', a: 'The "main-axis" is a positional reference that corresponds to the "flex-direction" property.  For "flex-direction: row;" the main-axis runs left-to-right.  For "flex-direction: column;" the main-axis runs from top to bottom.'
-					},
-					{q: 'What is the "cross-axis"?', a: 'The "cross-axis" is a positional reference that runs in the converse direction as the "main-axis."  For "flex-direction: row;" the cross-axis runs from top to bottom.  For "flex-direction: column;" the cross-axis runs from left to right.'
-					},
-					{q: 'What does the "justify-content" property do?', a: '"Justify-content" orients flex items along the main-axis.  For "flex-direction: row;" it positions elements horizontally.  For "flex-direction: column;" it positions elements vertically.'
-					},
-					{q: 'What does the "align-items" property do?', a: '"Align-items" orients flex items along the cross-axis.  For "flex-direction: row;" it positions elements vertically.  For "flex-direction: column;" it positions elements horizontally.'
-					},
-					{q: 'What does the "align-content" property do?', a: '"Align-content" determines the layout of all items, and distribution of space, within a flex container relative to the cross-axis.  For "flex-direction: row;" it orients items and space vertically.  For "flex-direction: column;" it orients items and space horizontally.'
-					},
-					{q: 'What does the "align-self" property do?', a: '"Align-self" orients an individual flex item along the cross-axis, overriding the value of the "align-items" property.  For "flex-direction: row;" it positions the element vertically.  For "flex-direction: column;" it positions the element horizontally.'
-					},
-					{q: 'What does the "flex-wrap" property do?', a: '"Flex-wrap" determines whether or not flex items are able to wrap onto multiple lines.  For "flex-wrap: nowrap;" items will be forced to occupy a single line (and therefore may overflow the container element).  For "flex-wrap: wrap;" and "flex-wrap: wrap-reverse;" items will automatically flow onto the next line when necessary.'
-					},
-					{q: 'What does the "order" property do?', a: '"Order" determines the position of a flex item along the main axis relative to the other existent flex items.  The "order" property takes a numerical value, and positions items in ascending order.'
-					},
-					{q: 'What does the "flex-grow" property do?', a: '"Flex-grow" takes a numerical value, and determines the proportion of available free space along the main-axis a flex item should take up relative to other existent flex items.  For example, "flex-grow: 2;" indicates that an item should occupy twice the available free space as an item with "flex-grow: 1;".'
-					},
-					{q: 'What does the "flex-shrink" property do?', a: '"Flex-shrink" takes a numerical value, and determines the proportional amount a flex item will shrink along the main-axis relative to other existent flex items.  An element with "flex-shrink: 2;" will shrink twice as much relative to an element with "flex-shrink: 1;".  Items with "flex-shrink: 0;" will not shrink.'
-					},
-					{q: 'What does the "flex-basis" property do?', a: '"Flex-basis" controls the ideal size of a flex item along the main-axis prior to being rendered in a flex container.  When rendered in a container, the actual size of a flex item is determined by its container's size, and the values assigned to each flex item's "flex-grow" and "flex-shrink" properties.'
-					}
-				]},
 
 
         // HTML
@@ -367,7 +342,13 @@ export default function() {
 				{q: 'What is the correct HTML element for playing audio files?', a: 'use the <audio> element'
 				},
 				{q: 'In HTML, onblur and onfocus are ?', a: 'Style attributes'
-         },
+                                },
+				{q: 'Name some block-level element' , a: '<div> <h1> - <h6> <p> <form>'
+				},
+				{q: 'Predefined shape in unordered list' , a: 'circle'
+				},
+				{q: 'what is use for single space?' , a: '&nbsp;'
+				},
 				{q: 'What is "placeholder" attribute?', a: 'HTML5 introduced a new attribute called placeholder. This attribute on <input> and <textarea> elements provides a hint to the user of what can be entered in the field. The placeholder text must not contain carriage returns or line-feeds.'
 				},
 				{q: 'What is the purpose of autofocus attribute in HTML5?', a: 'This is a simple one-step pattern, easily programmed in JavaScript at the time of document load, automatically focus one particular form field.'
@@ -517,25 +498,22 @@ export default function() {
           q: 'What does the OLOO pattern stands for and where is it used in AngularJS', 
           a: 'OLOO (Objects Linked to Other Objects) a.k.a. Prototype Inheritance is used with controllers scope hierarchy tree (the root of a tree is $rootScope)'
 				},
-				{q: 'Does the \'ng-if\' directive create new scope?', a: 'Yes, the \'ng-if\' directive creates new scope, which is linked to parent scope within \'Prototype Inheritance\''
+				{q: '', a: ''
 				},
-				{q: 'How to trigger AngularJS digest loop', a: 'By calling \'$apply\' method on scope object reference'
+				{q: '', a: ''
 				},
-				{q: 'Is it possible to access AngularJS scope object reference via browser console?', a: 'Yes, it is. Example: angular.element(\'element selector\').scope()'
+				{q: '', a: ''
 				},
-				{q: 'When and why sometimes we have to trigger change detection manually in AngularJS?', a: 'It\'s because framework is not aware of changes being made by i.e. third party libraries, which work out of framework environment. Examples: in setTimeout callback or XHR response callback'
+				{q: '', a: ''
 				},
-				{q: 'Can we access scope object reference via directive\'s compile function in AngularJS?', a: 'No, it\'s not possible. We can change the template of directive, but scope is accessible only within pre/post-link functions'
+				{q: '', a: ''
 				},
-				{q: 'How to compile HTML string to DOM element and link it with given scope using AngularJS', a: 'We can use $compile service provided by framework'
+				{q: '', a: ''
 				},
-				{q: 'What\'s the difference between \'pre-link\' and \'post-link\' in AngularJS ', a: '\'Post-link\' (as an opposite of \'Pre-link\') function is called after the child directives and controllers are compiled and initialized by framework'
+				{q: '', a: ''
 				},
-				{q: 'Is the \'link\' function of directive configuration in AngularJS same as \'pre-link\' function?', a: 'Nope, it\'s equal to \'post-link\' function'
-				},
-				{q: 'How to use bind once in AngularJS', a: 'By putting \'::\' in front of template expression'},
-				{q: 'What is the purpose of using bind once in AngularJS?', a: 'In short: performance. After value is resolved, it is no longer watched by framework, which keeps our digest loop more performant'},
-				{q: 'How in general does the Dependency Injection work in AngularJS?', a: 'It parses your factory function to string, then using regular expression retrives function arguments, searches for proper providers by name and injects them into your factory function'}
+				{q: '', a: ''
+				}
 			]},
 
 
@@ -622,40 +600,6 @@ export default function() {
 		{q: 'As the syntax for rest/spread looks identical, how does a JavaScript engine know which you\'re using?', a: 'Spread is used on the left-hand side of assignment (\'receiving\' a value) and rest, on the right-hand side (\'passing\' a value). For instance:\n[a, ...b]=[0,1,2]; //rest: b=[1, 2]\na=[0, ...b];  //spread: a=[0,1,2]\nThe same is true of function definition (rest) and function invocation (spread).'
 		},
 		{q: 'What is the output of following code? Explain. \n{ \nconsole.log(x);\nlet x = 4;\n}',	a: 'Reference error is caused. This is more often termed as TDZ ( Temporal Dead Zone), it occurs in case of let/const variables when they are declared but not yet initialized. Point to be noted, let/const variables are hoisted, but they are not initialized automatically.'
-		}
-	]},
-
-// JavaScript: Intermediate
-
-	{title: 'JavaScript: Intermediate', image: '../style/images/js.png',
-	cards: [ 
-		{q: 'What is the difference between window and document?', a: 'Window is that global object that holds global variables, global functions, location, history everything is under it. Document is a property of the window object, document represents the DOM and DOM is the object oriented representation of the html markup'
-		},
-		{q: 'Does document.onload and window.onload fire at the same time?', a: 'window.onload is fired when DOM is ready and all the contents including images, css, scripts, sub-frames, etc. finished loaded. document.onload is fired when DOM (DOM tree built from markup code within the document)is ready which can be prior to images and other external content is loaded.'
-		},
-		{q: 'Is attribute similar to property?', a: 'attributes are just like attribute in your html tag (XML style attribute) inside the starting tag. html attributes are exposed to the DOM via property. Hence, a property is created when DOM is parsed for each attribute in the html tag. If you change an attribute only the value of the property will change. However, the value of attribute will remain same.'
-		},
-		{q: 'How come, I can\'t use forEach or similar array methods on a NodeList?', a: 'Array has different prototype object than nodeList. forEach, map, etc are on array.prototype which doesn\'t exist in the NodeList.prototype object. Hence, you don\'t have forEach on a nodeList'
-		},
-		{q: 'How would you add a class to an element by query selector?', a: 'Just get the element and add the classname to the classlist.'
-		},
-		{q: 'How could you prevent a click on an anchor from going to the link?', a: 'preventDefault() inside event handler. However, this doesnt stop further propagation.'
-		},
-		{q: 'How could you stop further propagation of an event?', a: 'Call event.stopPropagation();'
-		},
-		{q: 'Can you remove an event handler from an element?', a: 'Yes. target.removeEventListener(\'click\', handler)'
-		},
-		{q: 'How could I check whether an event is cancelable or not?', a: ' Use event.cancelable to get true or false return. However, you have to preventDefault() to prevent the event.'
-		},
-		{q: 'Is there anything you have to be careful when using node.cloneNode()?', a: 'While cloning, make sure you didnt duplicate ID.'
-		},
-		{q: 'What are different nodeTypes?', a: 'ELEMENT_NODE (1), TEXT_NODE (3), COMMENT_NODE(8), DOCUMENT_NODE(9), DOCUMENT_TYPE_NODE(10), DOCUMENT_FRAGMENT_NODE(11), etc'
-		},
-		{q: 'How can you get all the texts in a web page?', a: 'The easiest way to get all the text is to get the innerText of body tag. document.body.innerText;'
-		},
-		{q: 'What are different nodeTypes?', a: 'ELEMENT_NODE (1), TEXT_NODE (3), COMMENT_NODE(8), DOCUMENT_NODE(9), DOCUMENT_TYPE_NODE(10), DOCUMENT_FRAGMENT_NODE(11), etc'
-		},
-		{q: 'What are different nodeTypes?', a: 'ELEMENT_NODE (1), TEXT_NODE (3), COMMENT_NODE(8), DOCUMENT_NODE(9), DOCUMENT_TYPE_NODE(10), DOCUMENT_FRAGMENT_NODE(11), etc'
 		}
 	]}
 	
