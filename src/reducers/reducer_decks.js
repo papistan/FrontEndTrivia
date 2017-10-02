@@ -297,9 +297,13 @@ export default function() {
 				{q: 'Why is it easy to insert a file by importing it?', a: 'mporting enables combining external sheets to be inserted in many sheets. Different files and sheets can be used to have different functions. Syntax: @import notation, used with <Style> tag.'
 				},
 				{q: 'Differentiate logical tags from physical tags?', a: 'While physical tags are also referred to as presentational mark-up, logical tags are useless for appearances, also Physical tags are newer versions while logical tags are old and concentrate on content.'
-				},
+				}, 
 				{q: 'Enlist the media types CSS allows? ', a: 'The design and customization of documents are rendered by media. By applying media control over the external style sheets, they can be retrieved and used by loading it from the network.'
-				}
+				},
+		   	 	{q: 'Explain the difference between visibility:hidden and display:none', a: 'By visibility:Hidden;the element is not visible but takes up the original space, whereas by display:None element is hidden and takes up no space as if it was never there.'
+		    		},
+		    		{q: 'What is the difference between inline, embedded and linked style sheets?', a: 'Inline Style Sheet is used to style only a small piece of code. Embedded style sheets are put between the <head> and </head> tags. Linked style sheet is used to apply the style to all the pages within your website by linking an external style sheet to the html document.'
+		    		}
 			]},
 			{title: 'CSS3 - Flexbox', image; '../style/images/css3.svg', 
 				cards: [
