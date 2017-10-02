@@ -478,22 +478,25 @@ export default function() {
           q: 'What does the OLOO pattern stands for and where is it used in AngularJS', 
           a: 'OLOO (Objects Linked to Other Objects) a.k.a. Prototype Inheritance is used with controllers scope hierarchy tree (the root of a tree is $rootScope)'
 				},
-				{q: '', a: ''
+				{q: 'Does the \'ng-if\' directive create new scope?', a: 'Yes, the \'ng-if\' directive creates new scope, which is linked to parent scope within \'Prototype Inheritance\''
 				},
-				{q: '', a: ''
+				{q: 'How to trigger AngularJS digest loop', a: 'By calling \'$apply\' method on scope object reference'
 				},
-				{q: '', a: ''
+				{q: 'Is it possible to access AngularJS scope object reference via browser console?', a: 'Yes, it is. Example: angular.element(\'element selector\').scope()'
 				},
-				{q: '', a: ''
+				{q: 'When and why sometimes we have to trigger change detection manually in AngularJS?', a: 'It\'s because framework is not aware of changes being made by i.e. third party libraries, which work out of framework environment. Examples: in setTimeout callback or XHR response callback'
 				},
-				{q: '', a: ''
+				{q: 'Can we access scope object reference via directive\'s compile function in AngularJS?', a: 'No, it\'s not possible. We can change the template of directive, but scope is accessible only within pre/post-link functions'
 				},
-				{q: '', a: ''
+				{q: 'How to compile HTML string to DOM element and link it with given scope using AngularJS', a: 'We can use $compile service provided by framework'
 				},
-				{q: '', a: ''
+				{q: 'What\'s the difference between \'pre-link\' and \'post-link\' in AngularJS ', a: '\'Post-link\' (as an opposite of \'Pre-link\') function is called after the child directives and controllers are compiled and initialized by framework'
 				},
-				{q: '', a: ''
-				}
+				{q: 'Is the \'link\' function of directive configuration in AngularJS same as \'pre-link\' function?', a: 'Nope, it\'s equal to \'post-link\' function'
+				},
+				{q: 'How to use bind once in AngularJS', a: 'By putting \'::\' in front of template expression'},
+				{q: 'What is the purpose of using bind once in AngularJS?', a: 'In short: performance. After value is resolved, it is no longer watched by framework, which keeps our digest loop more performant'},
+				{q: 'How in general does the Dependency Injection work in AngularJS?', a: 'It parses your factory function to string, then using regular expression retrives function arguments, searches for proper providers by name and injects them into your factory function'}
 			]},
 
 
