@@ -804,7 +804,7 @@ export default function() {
                 },
                 {
                     q: 'How do cookies translate/move to the browser?',
-                    a: ''
+                    a: 'cookies: information are stored as name-value pairs, it will generate unique id for each visitor of the website and stores them in your machine and later retreive it.'
                 },
             ]
         },
