@@ -6,7 +6,8 @@
   "repository": "git@github.com:papistan/FrontEndTrivia.gitpistan/FrontEndTrivia.git",
   "scripts": {
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
+    "build": "node node_modules/webpack/bin/webpack.js --display-error-details",
+    "postinstall": "webpack -p",
     "start": "node server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
