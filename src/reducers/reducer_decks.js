@@ -948,7 +948,12 @@ export default function() {
 						{
 							q: 'What are different nodeTypes?', 
 							a: 'ELEMENT_NODE (1), TEXT_NODE (3), COMMENT_NODE(8), DOCUMENT_NODE(9), DOCUMENT_TYPE_NODE(10), DOCUMENT_FRAGMENT_NODE(11), etc'
+						},
+						{
+							q:'what is the use of var and let?',
+							a:'var:(function scope) gets scoped to the current function, while let:(block scope) gets scoped to the current block'
 						}
+							
 	]}
 	]
 }
