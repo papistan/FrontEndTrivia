@@ -389,6 +389,44 @@ export default function() {
 						]
 
 			},
+			
+			// CSS: Pseudo-classes
+			// Source: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+			{
+				title: 'CSS: Pseudo-classes', 
+				image: '../style/images/css3.svg', 
+
+				cards: [
+						{
+							q: 'What is a CSS Pseudo-class?', 
+							a: 'A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s) such as ":hover".'
+						},
+						{
+							q: 'What is the general CSS Pseudo-class syntax?',
+							a: 'For example, one creates rules like this: selector:pseudo-class { property: value; }'
+						},
+						{
+							q: 'How are pseudo-classes used to style elements?',
+							a: 'Pseudo-classes style elements in relation to the history of the navigator (like :link for <a>), content status (like :focus on input forms), and mouse position (like :hover).'
+						},
+						{
+							q: 'What are the standard pseudo-classes for styling <a> link states?',
+							a: 'a:link - a normal, unvisited link, a:visited, a:hover - when one mouses over the link, and a:active - moment the link is clicked'
+						},
+						{
+							q: 'What are some pseudo-classes for the status of the content such as inputs, checkboxes, etc.?',
+							a: 'One can use :checked, :active, :focus, :disabled, :enabled, :hover, :required, etc.'
+						},
+						{
+							q: 'What are some helpful pseudo-classes for selecting specific DOM elements such as the first child, last child, etc.?',
+							a: 'One can use :first-child, :last-child, :nth-child(), :nth-last-child(), :not(), :only-child, :nth-of-type, etc.'
+						},
+						{
+							q: 'How do pseudo-elements differ from pseudo-classes?',
+							a: 'Pseudo-elements are used to style a specific part of an element.'
+						}
+					]
+			},
 
 			// CSS: Animations
 			// Source: https://css-tricks.com/almanac/properties/a/animation/
