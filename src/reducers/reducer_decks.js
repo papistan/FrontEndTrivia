@@ -545,6 +545,18 @@ export default function() {
 						{
 							q: 'How do pseudo-elements differ from pseudo-classes?',
 							a: 'Pseudo-elements are used to style a specific part of an element.'
+						},
+						{
+						    q: 'What is the CSS selector for a div with the ID of #element, only when the mouse is hovering over it?',
+						    a: '#element:hover'
+						},
+						    {
+						    q: 'What is the CSS selector for the input field with an ID of #email, only the field has received focus?',
+						    a: '#email:focus'
+						},
+						    {
+						    q: 'What is the CSS selector for a h1 within a div with the ID of #element, only when the #element div is being hovered over?',
+						    a: '#element:hover h1'
 						}
 					]
 			},
