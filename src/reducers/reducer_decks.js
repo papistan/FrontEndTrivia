@@ -172,16 +172,41 @@ export default function() {
                     q: 'Returns the string representation of the numbers value?',
                     a: 'toString()'
                 },
-								{
+		{
                     q: 'Writing/Displaying data into an alert box?',
                     a: 'window.alert()'
                 },
-								{
+		{
                     q: 'Writing/Displaying data into the browser console?',
                     a: 'console.log()'
-                }					
-            ]
-        },
+
+                },
+		{
+		    q: 'Display an alert message along with asking the user to enter a value?',
+		    a: 'window.prompt()'
+		},
+		{
+		    q: 'Show a confirmation message and ask the user to confirm or cancel?',
+		    a: 'window.confirm()'
+		},
+		{
+		    q: 'Get an integer number from a string?',
+		    a: 'parseInt()'
+		},
+		{
+		    q: 'Get a float number from a string',
+		    a: 'parseFloat()'
+		},
+		{
+		    q: 'Convert a string to base 64?',
+		    a: 'window.btoa()'
+		},
+		{
+		    q: 'Convert a base 64 to string?',
+		    a: 'window.atob()'
+    }         
+  ]
+},
 
         //Javascript: Common event handlers
 
