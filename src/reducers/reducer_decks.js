@@ -108,6 +108,10 @@ export default function() {
                     q: 'Returns the character at the specified index?',
                     a: 'charAt()'
                 },
+				{
+					q: 'Returns the unicode integer of a character/index',
+					a: 'charCodeAt(index)'
+				},
                 {
                     q: 'Combines the text of two strings and returns a new string?',
                     a: 'concat()'
@@ -120,6 +124,10 @@ export default function() {
                     q: 'Returns the index within the calling String object of the first occurrence of the specified value?',
                     a: 'indexOf()'
                 },
+				{
+					q: 'Concatenate elements of an array into a string?',
+					a: 'join()'
+				}, 
                 {
                     q: 'Returns the length of the string?',
                     a: 'length()'
@@ -136,10 +144,18 @@ export default function() {
                     q: 'Reverses the order of the elements of an array?',
                     a: 'reverse()'
                 },
+				{			
+					q: 'Returns a copy of a selection of an array?',
+					a: 'slice()'
+				}, 
                 {
                     q: 'Sorts the elements of an array?',
                     a: 'sort()'
                 },
+				{
+					q: 'Changes the contents of an array by removing existingelements or adding elements?',
+					a: 'splice()'
+				},
                 {
                     q: 'Returns the characters in a string beginning at the specified location?',
                     a: 'substr()'
@@ -154,7 +170,7 @@ export default function() {
                 },
                 {
                     q: 'Returns the string representation of the numbers value?',
-                    a: 'toString() '
+                    a: 'toString()'
                 },
 								{
                     q: 'Writing/Displaying data into an alert box?',
@@ -163,7 +179,7 @@ export default function() {
 								{
                     q: 'Writing/Displaying data into the browser console?',
                     a: 'console.log()'
-                }
+                }					
             ]
         },
 
