@@ -886,6 +886,26 @@ export default function() {
 							a: 'Reference error is caused. This is more often termed as TDZ ( Temporal Dead Zone), it occurs in case of let/const variables when they are declared but not yet initialized. Point to be noted, let/const variables are hoisted, but they are not initialized automatically.'
 					}
 	]},
+	   
+// CSS Pseudo-Classes 
+	{
+            title: 'CSS: Pseudo-classes',
+            image: '../style/images/css3.svg',
+
+            cards: [{
+                    q: 'What is the CSS selector for a div with the ID of #element, only when the mouse is hovering over it?',
+                    a: '#element:hover'
+                },
+		    {
+                    q: 'What is the CSS selector for the input field with an ID of #email, only the field has received focus?',
+                    a: '#email:focus'
+                },
+		    {
+                    q: 'What is the CSS selector for a h1 within a div with the ID of #element, only when the #element div is being hovered over?',
+                    a: '#element:hover h1'
+                }
+            ]},
+	    
 
 // JavaScript: Intermediate
 
