@@ -954,7 +954,40 @@ export default function() {
 							a:'var:(function scope) gets scoped to the current function, while let:(block scope) gets scoped to the current block'
 						}
 							
-	]}
+	]},
+
+//SASS: Basics
+
+	{
+		title: 'SASS: Basics',
+		image: '../style/images/sass.png',
+		cards: [
+			{
+				q: 'What character is used when defining a variable?',
+				a: 'The dollar sign ($).'
+			},
+			{
+				q: 'Defining an partial, you have to use a special character in a filename. What is that character?',
+				a: 'The underscore (_).'
+			},
+			{
+				q: 'In SASS you can import one .scss file in another. Do you need to write the extension of file too?',
+				a: 'No, SASS is smart enough to resolve the file without it\'s extension.'
+			},
+			{
+				q: 'What general problem are mixins solving?',
+				a: 'Reusability of styles.'
+			},
+			{
+				q: 'Let\'s say you have a .message class. You want to create .error and .success classes which inherits from .message. Which keyword and functionality will you use?',
+				a: 'The @extend keyword and inheritance.'
+			},
+			{
+				q: 'SASS is able to do basic math operations. Which are these?',
+				a: 'Addition, substraction, multiplication, division by numbers and percents.'
+			}
+		]
+	}
 	]
 }
 
