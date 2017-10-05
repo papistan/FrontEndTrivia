@@ -146,9 +146,13 @@ body {
   border: 1px solid #ccc;
 }
 
-.list-group-item {
-  width: 250px !important;
-  background: transparent !important;
+.list-group .list-group-item {
+  width: 250px;
+  background: transparent;
+}
+
+.list-group .selected-list-group-item {
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 .media-body {
