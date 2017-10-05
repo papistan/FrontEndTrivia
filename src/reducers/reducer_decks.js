@@ -89,8 +89,36 @@ export default function() {
                     q: 'Adding a number and a string results in?',
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
                 },
-                {
-                    q: 'What is the difference between "undefined" and "null" in javascript?',
+		{
+                    q: 'What is the difference between "undefined" and "not defined" in javascript?',
+                    a: '"Undefined" means a variable is declared but not assingned any values but "Not defined" means the variable is not declared yet.'
+                },
+		{
+                    q: 'What is the difference between == and === in javascript?',
+                    a: 'The == operator checks only equality of the values while === checks equality of values with its datatype i.e. values should be of same type.'
+                },
+		{
+                    q: 'What are different programming paradigm important for javascript developers?',
+                    a: 'Procedural Programming with Object Oriented Programming and Fuctional Programming.'
+                },
+		    {
+                    q: 'How can you get type of arguments passed to a function?',
+                    a: 'Using "typeof" operator. Ex- function abc(x){console.log(typeof x, arguments.length);}//Here when function "abc" is called it returns the type and length of passed value.'
+                },
+		 {
+                    q: 'What is the disadvantage of creating true private methods in javascript?',
+                    a: 'They are very memory inefficient as new copy of method is created every instance.'
+                },
+		{
+                    q: 'What is the output of following code:-" var x = 1;  var y = (function(){delete x; return x;})() console.log(y); "?',
+                    a: 'Output will be 1. delete operator used to delete an object but here x is not an object.'
+                },
+		{
+                    q: 'How to use external JavaScript file?',
+                    a: '<script type="text/javascript" src="myfile.js"></script>  "Here It is assumed that myfile.js is the external js file". '
+                },
+				        {
+                    q: 'What is the difference between "undefined" and "null" in javascript?', 
                     a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
                  }
             ]
