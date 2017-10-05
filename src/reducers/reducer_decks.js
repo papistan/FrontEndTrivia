@@ -120,7 +120,40 @@ export default function() {
 				        {
                     q: 'What is the difference between "undefined" and "null" in javascript?', 
                     a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
-                 }
+				         },
+                {
+                  q: 'Explain HOISTING',
+                  a: 'Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.',
+                },
+                {
+                  q: 'What\'s the difference between .call and .apply?',
+                  a: 'The difference is that apply lets you invoke the function with arguments as an array; call requires the parameters be listed explicitly',
+                },
+                {
+                  q: 'What\'s the difference between an "attribute" and a "property"?',
+                  a: 'Attribute is a quality or object that we attribute to someone or something. Attribute is a quality or object that we attribute to someone or something. \n' +
+                  'Property is a quality that exists without any attribution. For example, clay has adhesive qualities; or, one of the properties of metals is electrical conductivity.',
+                },
+                {
+                  q: 'What is function composition?',
+                  a: 'Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through.'
+                },
+                {
+                  q: 'What is function composition?',
+                  a: 'Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through.'
+                },
+                {
+                  q: 'What is event bubbling?',
+                  a: 'An event received by an element doesn\'t stop with that one element. That event moves to other elements like the parent, and other ancestors of the element. This is called "event bubbling".'
+                },
+                {
+                  q: 'What is event delegation?',
+                  a: 'Event delegation allows you to avoid adding event listeners to specific nodes;  instead, the event listener is added to one parent.  That event listener analyzes bubbled events to find a match on child elements.'
+                },
+                {
+                  q: 'Why it is a better to use == than === ?',
+                  a: 'Type coercion. To avoid problems when false == 0  becomes true. Compares not only value but the type too'
+                }
             ]
         },
 
