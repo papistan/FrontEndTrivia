@@ -1216,7 +1216,7 @@ export default function() {
 			},
 			{
 				q: 'What general problem are mixins solving?',
-				a: 'Reusability of styles.'
+				a: 'Reusability of groups of CSS declarations that you want to reuse throughout your site.'
 			},
 			{
 				q: 'Let\'s say you have a .message class. You want to create .error and .success classes which inherits from .message. Which keyword and functionality will you use?',
@@ -1225,6 +1225,10 @@ export default function() {
 			{
 				q: 'SASS is able to do basic math operations. Which are these?',
 				a: 'Addition, substraction, multiplication, division by numbers and percents.'
+			},
+			{
+				q: 'What is the difference between functions and mixins in SASS?',
+				a: 'Mixins return styles. Functions return values.'
 			}
 		]
 	},
