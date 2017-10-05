@@ -89,10 +89,10 @@ export default function() {
                     q: 'Adding a number and a string results in?',
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
                 },
-				        {
+				{
                     q: 'What is the difference between "undefined" and "null" in javascript?', 
                     a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
-				         }
+				}
             ]
         },
 
@@ -172,41 +172,40 @@ export default function() {
                     q: 'Returns the string representation of the numbers value?',
                     a: 'toString()'
                 },
-		{
+				{
                     q: 'Writing/Displaying data into an alert box?',
                     a: 'window.alert()'
                 },
-		{
+				{
                     q: 'Writing/Displaying data into the browser console?',
                     a: 'console.log()'
-<<<<<<< HEAD
 
                 },
-		{
-		    q: 'Display an alert message along with asking the user to enter a value?',
-		    a: 'window.prompt()'
-		},
-		{
-		    q: 'Show a confirmation message and ask the user to confirm or cancel?',
-		    a: 'window.confirm()'
-		},
-		{
-		    q: 'Get an integer number from a string?',
-		    a: 'parseInt()'
-		},
-		{
-		    q: 'Get a float number from a string',
-		    a: 'parseFloat()'
-		},
-		{
-		    q: 'Convert a string to base 64?',
-		    a: 'window.btoa()'
-		},
-		{
-		    q: 'Convert a base 64 to string?',
-		    a: 'window.atob()'
-   		},
-		{
+				{
+					q: 'Display an alert message along with asking the user to enter a value?',
+					a: 'window.prompt()'
+				},
+				{
+					q: 'Show a confirmation message and ask the user to confirm or cancel?',
+					a: 'window.confirm()'
+				},
+				{
+					q: 'Get an integer number from a string?',
+					a: 'parseInt()'
+				},
+				{
+					q: 'Get a float number from a string',
+					a: 'parseFloat()'
+				},
+				{
+					q: 'Convert a string to base 64?',
+					a: 'window.btoa()'
+				},
+				{
+					q: 'Convert a base 64 to string?',
+					a: 'window.atob()'
+				},
+				{
                     q: 'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
                     a: 'localeCompare()'
                 },
@@ -284,11 +283,6 @@ export default function() {
                 }
   ]
 },
-=======
-                }					
-            ]
-        },
->>>>>>> 5a8afb1da947408802c94c610bb41de2e58ea970
 
         //Javascript: Common event handlers
 
@@ -449,70 +443,70 @@ export default function() {
 				        {    q: 'What is the difference between an element whose position is fixed vs absolute?', 
                      a: 'A fixed position element has the position relative to the viewport. A absolutely positioned element has the position set relative to it\'s nearest positioned ancestor.'
 				        },
-								{
-									q: 'How are text or inline elements centered inside their parent element?', 
-									a: 'Using the property text-align: center'
-								},
-								{
-									q: 'What is the difference between margin and padding?', 
-									a: 'Padding is the space between border and element contents, margin is the space between border and neighboring elements.'
-								},
-								{
-									q: 'How can CSS styles be applied inline in HTML?', 
-									a: 'Using the style attribute on element tags.'
-								},
-								{
-									q: 'How are background images set for an element?', 
-									a: 'Using background-image: url(\'path/to/image.png\')'
-								},
-								{
-									q: 'How are CSS selectors grouped together', 
-									a: 'Using the comma (,) separator.'
-								},
-								{
-									q: 'How can a font family be set throughout the page?', 
-									a: 'By applying the font-family property on the body tag -\nbody { \nfont-family: \'Comic Sans\'; \n}'
-								},
-								{
-									q: 'How can the style of a list be changed?', 
-									a: 'Using the property list-style-type.'
-								},
-								{
-									q: 'How are CSS stylesheets added to HTML pages?', 
-									a: 'Using the <link rel="stylesheet" href="path/to/style.css" type="text/css" />'
-								},
-								{
-									q: 'What tag is used to internally add CSS styles to a HTML page?', 
-									a: 'The <style> tag'
-								},
-								{
-									q: 'Which property used to change the color of text?', 
-									a: 'Using the property color'
-								},
-								{
-									q: 'How is a background image set to be fixed?', 
-									a: 'Using the property background-attachment: fixed'
-								},
-								{
-									q: 'What is the difference between width: 100% and width: 100vw?', 
-									a: 'The former sets the element width as that of the parent content area, whereas the latter sets the elements width to the width of the entire viewport'
-								},
-								{
-									q: 'When setting a z-index to an element what other css atribute must also be set?', 
-									a: 'An element must have a display setting to utilize z-indexing'
-								},
-								{
-									q: 'When using flex-box to create a responsive layout what atribute will allow a containers elemets to not break outside a set media query', 
-									a: 'Using flew-wrap will allow a given set of elements to break and re order when there parent container becomes too small'
-								},
-								{
-									q: 'When laying out a number of variable sized containers, each with text inside, how can flex-box be used to align this text', 
-									a: 'Using align-items with the baseline attribute will position the elemnts inside there parent containers.'
-								},
-								{
-									q: 'Can flex-box commands be chained or combined', 
-									a: 'Yes flex-grow | flex-shrink | flex-basis can be written as flex: 5 5 10%;'
-								},
+						{
+							q: 'How are text or inline elements centered inside their parent element?', 
+							a: 'Using the property text-align: center'
+						},
+						{
+							q: 'What is the difference between margin and padding?', 
+							a: 'Padding is the space between border and element contents, margin is the space between border and neighboring elements.'
+						},
+						{
+							q: 'How can CSS styles be applied inline in HTML?', 
+							a: 'Using the style attribute on element tags.'
+						},
+						{
+							q: 'How are background images set for an element?', 
+							a: 'Using background-image: url(\'path/to/image.png\')'
+						},
+						{
+							q: 'How are CSS selectors grouped together', 
+							a: 'Using the comma (,) separator.'
+						},
+						{
+							q: 'How can a font family be set throughout the page?', 
+							a: 'By applying the font-family property on the body tag -\nbody { \nfont-family: \'Comic Sans\'; \n}'
+						},
+						{
+							q: 'How can the style of a list be changed?', 
+							a: 'Using the property list-style-type.'
+						},
+						{
+							q: 'How are CSS stylesheets added to HTML pages?', 
+							a: 'Using the <link rel="stylesheet" href="path/to/style.css" type="text/css" />'
+						},
+						{
+							q: 'What tag is used to internally add CSS styles to a HTML page?', 
+							a: 'The <style> tag'
+						},
+						{
+							q: 'Which property used to change the color of text?', 
+							a: 'Using the property color'
+						},
+						{
+							q: 'How is a background image set to be fixed?', 
+							a: 'Using the property background-attachment: fixed'
+						},
+						{
+							q: 'What is the difference between width: 100% and width: 100vw?', 
+							a: 'The former sets the element width as that of the parent content area, whereas the latter sets the elements width to the width of the entire viewport'
+						},
+						{
+							q: 'When setting a z-index to an element what other css atribute must also be set?', 
+							a: 'An element must have a display setting to utilize z-indexing'
+						},
+						{
+							q: 'When using flex-box to create a responsive layout what atribute will allow a containers elemets to not break outside a set media query', 
+							a: 'Using flew-wrap will allow a given set of elements to break and re order when there parent container becomes too small'
+						},
+						{
+							q: 'When laying out a number of variable sized containers, each with text inside, how can flex-box be used to align this text', 
+							a: 'Using align-items with the baseline attribute will position the elemnts inside there parent containers.'
+						},
+						{
+							q: 'Can flex-box commands be chained or combined', 
+							a: 'Yes flex-grow | flex-shrink | flex-basis can be written as flex: 5 5 10%;'
+						},
         				{
         					q: 'Differentiate Class selector from ID selector?', 
         					a: 'While an overall block is given to class selector, ID selector prefers only a single element differing from other elements. In other words, ID are uniques while classes are not. Its possible that an element has both class and ID.'
