@@ -1344,6 +1344,59 @@ export default function() {
 					q: 'which preprocessor loader refer?',
 					a: 'preprocessor such as Sass, or a transpiler such as Babel'
 				}
-			]}
+			]},
+            
+            // Pseudo Classes
+
+        {
+            title: 'Pseudo Classes', 
+            image: '../style/images/css3.svg',
+            cards: [ 
+
+                {
+                    q: 'How to select all unvisited links',
+                    a: 'a:link'
+                },
+                {
+                    q: 'How to select all visited links',
+                    a: 'a:visited'
+                },
+                {
+                    q: 'How to select the active link',
+                    a: 'a:active'
+                },
+                {
+                    q: 'How to select links on mouse over',
+                    a: 'a:hover'
+                },
+                {
+                    q: 'How to select the input element which has focus',
+                    a: 'input:focus'
+                },
+                {
+                    q: 'How to select the first letter of every <p> element',
+                    a: 'p::first-letter'
+                },
+                {
+                    q: 'How to select the first line of every <p> element',
+                    a: 'p::first-line'
+                },
+                {
+                    q: 'How to select every <p> elements that is the first child of its parent',
+                    a: 'p:first-child'
+                },
+                {
+                    q: 'How to insert content before every <p> element',
+                    a: 'p::before'
+                },
+                {
+                    q: 'How to insert content after every <p> element',
+                    a: 'p::after'
+                },
+                {
+                    q: 'How to select every <p> element with a lang attribute value starting with "it"',
+                    a: 'p:lang(it)'
+                }
+            ]}
 	]	
 }
