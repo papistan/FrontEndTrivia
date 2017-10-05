@@ -1326,41 +1326,69 @@ export default function() {
 
 //SASS: Basics
 
-  {
-    title: 'SASS: Basics',
-    image: '../style/images/sass.png',
-    cards: [
-      {
-        q: 'What character is used when defining a variable?',
-        a: 'The dollar sign ($).'
-      },
-      {
-        q: 'Defining an partial, you have to use a special character in a filename. What is that character?',
-        a: 'The underscore (_).'
-      },
-      {
-        q: 'In SASS you can import one .scss file in another. Do you need to write the extension of file too?',
-        a: 'No, SASS is smart enough to resolve the file without it\'s extension.'
-      },
-      {
-        q: 'What general problem are mixins solving?',
-        a: 'Reusability of groups of CSS declarations that you want to reuse throughout your site.'
-      },
-      {
-        q: 'Let\'s say you have a .message class. You want to create .error and .success classes which inherits from .message. Which keyword and functionality will you use?',
-        a: 'The @extend keyword and inheritance.'
-      },
-      {
-        q: 'SASS is able to do basic math operations. Which are these?',
-        a: 'Addition, substraction, multiplication, division by numbers and percents.'
-      },
-      {
-        q: 'What is the difference between functions and mixins in SASS?',
-        a: 'Mixins return styles. Functions return values.'
-      }
-    ]
-  },
-
+	{
+		title: 'SASS: Basics',
+		image: '../style/images/sass.png',
+		cards: [
+			{
+				q: 'What character is used when defining a variable?',
+				a: 'The dollar sign ($).'
+			},
+			{
+				q: 'When would using a variable be useful?',
+				a: 'Using a variable is valuable when you need to use the same value in multiple places, such as with brand colours, or when defining number values for a property.'
+			},
+			{
+				q: 'What is a partial?',
+				a: 'A partial is a separate file that contains pieces of your CSS. It helps you to modularize your CSS, and greatly improves maintainability.'
+			},
+			{
+				q: 'When defining a partial, you have to use a special character in a filename. What is that character?',
+				a: 'The underscore (_).'
+			},
+			{
+				q: 'What does it mean to import one SCSS file into another?',
+				a: 'Importing means that the CSS from one file will be present and usable in another file. This is particularly helpful when defining a top level SCSS file that contains all of your styles.'
+			},
+			{
+				q: 'In SASS you can import one .scss file in another. Do you need to write the extension of file too?',
+				a: 'No, SASS is smart enough to resolve the file without it\'s extension.'
+			},
+			{
+				q: 'What does it mean to extend in SCSS?',
+				a: 'Extending lets you share a set of CSS properties from one selector to another. The advantage of doing this is it allows you to keep your CSS very dry, and reusable.'
+			},
+			{
+				q: 'What is a mixin?',
+				a: ' A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible. To create a mixin you use the @mixin directive and give it a name, like so "@mixin border-radius($radius)"'
+			},
+			{
+				q: 'What general problem are mixins solving?',
+				a: 'Reusability of groups of CSS declarations that you want to reuse throughout your site.'
+			},
+			{
+				q: 'After you have defined a mixin, how do you use it?',
+				a: 'Using the keyword "@include"'
+			},
+			{
+				q: 'Let\'s say you have a .message class. You want to create .error and .success classes which inherits from .message. Which keyword and functionality will you use?',
+				a: 'The @extend keyword and inheritance.'
+			},
+			{
+				q: 'SASS is able to do basic math operations. Which are these?',
+				a: 'Addition, substraction, multiplication, division by numbers and percents.'
+			},
+			{
+				q: 'What is the difference between functions and mixins in SASS?',
+				a: 'Mixins return styles. Functions return values.'
+			},
+			{
+				q: 'What does nesting mean in SASS?',
+				a: 'Nesting allows you to nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. Be aware that overly nested rules will result in over-qualified CSS that could prove hard to maintain and is generally considered bad practice.'
+			}
+		]
+	},
+            
 // webpack
 
     {
