@@ -627,7 +627,6 @@ export default function() {
 						{
 							q: 'How do pseudo-elements differ from pseudo-classes?',
 							a: 'Pseudo-elements are used to style a specific part of an element.'
-<<<<<<< HEAD
 						},
 						{
 						    q: 'What is the CSS selector for a div with the ID of #element, only when the mouse is hovering over it?',
@@ -653,9 +652,6 @@ export default function() {
 							q: 'You want all input fields that must be filled in to have red border. Which CSS pseudo-class would you use?',
 							a: 'The :required pseudo-class'
 						},
-=======
-						}
->>>>>>> 5a8afb1da947408802c94c610bb41de2e58ea970
 					]
 			},
 
