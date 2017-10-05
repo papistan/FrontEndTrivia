@@ -172,14 +172,13 @@ export default function() {
                     q: 'Returns the string representation of the numbers value?',
                     a: 'toString()'
                 },
-				{
+		            {
                     q: 'Writing/Displaying data into an alert box?',
                     a: 'window.alert()'
                 },
-				{
+		            {
                     q: 'Writing/Displaying data into the browser console?',
                     a: 'console.log()'
-
                 },
 				{
 					q: 'Display an alert message along with asking the user to enter a value?',
@@ -206,81 +205,81 @@ export default function() {
 					a: 'window.atob()'
 				},
 				{
-                    q: 'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
-                    a: 'localeCompare()'
-                },
-                {
-                    q: 'Used to match a regular expression against a string?',
-                    a: 'match()'
-                },
-                {
-                    q: 'Used to find a match between a regular expression and a string, and to replace the matched substring with a new substring?',
-                    a: 'replace()'
-                },
-                {
-                    q: 'Returns true if every element in this array satisfies the provided testing function?',
-                    a: 'every()'
-                },
-                {
-                    q: 'Returns true if at least one element in this array satisfies the provided testing function?',
-                    a: 'some()'
-                },
-                {
-                    q: 'Creates a new array with all of the elements of this array for which the provided function returns true?',
-                    a: 'filter()'
-                },
-                {
-                    q: 'Removes the first element from an array and returns that element?',
-                    a: 'shift()'
-                },
-                {
-                    q: 'Adds one or more elements to the front of an array and returns the new length of the array?',
-                    a: 'unshift()'
-                },
-                {
-                    q: 'Returns current date and time?',
-                    a: 'Date()'
-                },
-                {
-                    q: 'Returns the day of the month for the specified date according to local time?',
-                    a: 'getDate()'
-                },
-                {
-                    q: 'Returns the day of the week for the specified date according to local time?',
-                    a: 'getDay()'
-                },
-                {
-                    q: 'Returns the month in the specified date according to local time?',
-                    a: 'getMonth()'
-                },
-                {
-                    q: 'Returns the year of the specified date according to local time?',
-                    a: 'getFullYear()'
-                },
-                {
-                    q: 'Returns a pseudo-random number between 0 and 1?',
-                    a: 'random()'
-                },
-                {
-                    q: 'Returns the largest of zero or more numbers?',
-                    a: 'max()'
-                },
-                {
-                    q: 'Returns the smallest of zero or more numbers?',
-                    a: 'min()'
-                },
-                {
-                    q: 'Defines how many total digits (including digits to the left and right of the decimal) to display of a number?',
-                    a: 'toPrecision()'
-                },
-                {
-                    q: 'Evaluates an expression?',
-                    a: 'eval()'
-                },
-                {
-                    q: 'Checks if the content of a variable is valid?',
-                    a: 'isNaN()'
-                }
+          q: 'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
+          a: 'localeCompare()'
+        },
+        {
+          q: 'Used to match a regular expression against a string?',
+          a: 'match()'
+        },
+        {
+          q: 'Used to find a match between a regular expression and a string, and to replace the matched substring with a new substring?',
+          a: 'replace()'
+        },
+        {
+          q: 'Returns true if every element in this array satisfies the provided testing function?',
+          a: 'every()'
+        },
+        {
+          q: 'Returns true if at least one element in this array satisfies the provided testing function?',
+          a: 'some()'
+        },
+        {
+          q: 'Creates a new array with all of the elements of this array for which the provided function returns true?',
+          a: 'filter()'
+        },
+        {
+          q: 'Removes the first element from an array and returns that element?',
+          a: 'shift()'
+        },
+        {
+          q: 'Adds one or more elements to the front of an array and returns the new length of the array?',
+          a: 'unshift()'
+        },
+        {
+          q: 'Returns current date and time?',
+          a: 'Date()'
+        },
+        {
+          q: 'Returns the day of the month for the specified date according to local time?',
+          a: 'getDate()'
+        },
+        {
+          q: 'Returns the day of the week for the specified date according to local time?',
+          a: 'getDay()'
+        },
+        {
+          q: 'Returns the month in the specified date according to local time?',
+          a: 'getMonth()'
+        },
+        {
+          q: 'Returns the year of the specified date according to local time?',
+          a: 'getFullYear()'
+        },
+        {
+          q: 'Returns a pseudo-random number between 0 and 1?',
+          a: 'random()'
+        },
+        {
+          q: 'Returns the largest of zero or more numbers?',
+          a: 'max()'
+        },
+        {
+          q: 'Returns the smallest of zero or more numbers?',
+          a: 'min()'
+        },
+        {
+          q: 'Defines how many total digits (including digits to the left and right of the decimal) to display of a number?',
+          a: 'toPrecision()'
+        },
+        {
+          q: 'Evaluates an expression?',
+          a: 'eval()'
+        },
+        {
+          q: 'Checks if the content of a variable is valid?',
+          a: 'isNaN()'
+        }
   ]
 },
 
