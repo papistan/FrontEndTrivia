@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Card from '../components/card_detail';
-import { selectNewDeck, missedCard } from '../actions/index';
+import { selectNewDeck } from '../actions/index';
 import { bindActionCreators } from 'redux';
 
 class CardView extends Component {
