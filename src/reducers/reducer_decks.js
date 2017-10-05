@@ -89,10 +89,10 @@ export default function() {
                     q: 'Adding a number and a string results in?',
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
                 },
-				        {
+				{
                     q: 'What is the difference between "undefined" and "null" in javascript?', 
                     a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
-				         }
+				}
             ]
         },
 
@@ -172,115 +172,114 @@ export default function() {
                     q: 'Returns the string representation of the numbers value?',
                     a: 'toString()'
                 },
-		{
+		            {
                     q: 'Writing/Displaying data into an alert box?',
                     a: 'window.alert()'
                 },
-		{
+		            {
                     q: 'Writing/Displaying data into the browser console?',
                     a: 'console.log()'
-
                 },
-		{
-		    q: 'Display an alert message along with asking the user to enter a value?',
-		    a: 'window.prompt()'
-		},
-		{
-		    q: 'Show a confirmation message and ask the user to confirm or cancel?',
-		    a: 'window.confirm()'
-		},
-		{
-		    q: 'Get an integer number from a string?',
-		    a: 'parseInt()'
-		},
-		{
-		    q: 'Get a float number from a string',
-		    a: 'parseFloat()'
-		},
-		{
-		    q: 'Convert a string to base 64?',
-		    a: 'window.btoa()'
-		},
-		{
-		    q: 'Convert a base 64 to string?',
-		    a: 'window.atob()'
-   		},
-		{
-                    q: 'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
-                    a: 'localeCompare()'
-                },
-                {
-                    q: 'Used to match a regular expression against a string?',
-                    a: 'match()'
-                },
-                {
-                    q: 'Used to find a match between a regular expression and a string, and to replace the matched substring with a new substring?',
-                    a: 'replace()'
-                },
-                {
-                    q: 'Returns true if every element in this array satisfies the provided testing function?',
-                    a: 'every()'
-                },
-                {
-                    q: 'Returns true if at least one element in this array satisfies the provided testing function?',
-                    a: 'some()'
-                },
-                {
-                    q: 'Creates a new array with all of the elements of this array for which the provided function returns true?',
-                    a: 'filter()'
-                },
-                {
-                    q: 'Removes the first element from an array and returns that element?',
-                    a: 'shift()'
-                },
-                {
-                    q: 'Adds one or more elements to the front of an array and returns the new length of the array?',
-                    a: 'unshift()'
-                },
-                {
-                    q: 'Returns current date and time?',
-                    a: 'Date()'
-                },
-                {
-                    q: 'Returns the day of the month for the specified date according to local time?',
-                    a: 'getDate()'
-                },
-                {
-                    q: 'Returns the day of the week for the specified date according to local time?',
-                    a: 'getDay()'
-                },
-                {
-                    q: 'Returns the month in the specified date according to local time?',
-                    a: 'getMonth()'
-                },
-                {
-                    q: 'Returns the year of the specified date according to local time?',
-                    a: 'getFullYear()'
-                },
-                {
-                    q: 'Returns a pseudo-random number between 0 and 1?',
-                    a: 'random()'
-                },
-                {
-                    q: 'Returns the largest of zero or more numbers?',
-                    a: 'max()'
-                },
-                {
-                    q: 'Returns the smallest of zero or more numbers?',
-                    a: 'min()'
-                },
-                {
-                    q: 'Defines how many total digits (including digits to the left and right of the decimal) to display of a number?',
-                    a: 'toPrecision()'
-                },
-                {
-                    q: 'Evaluates an expression?',
-                    a: 'eval()'
-                },
-                {
-                    q: 'Checks if the content of a variable is valid?',
-                    a: 'isNaN()'
-                }
+				{
+					q: 'Display an alert message along with asking the user to enter a value?',
+					a: 'window.prompt()'
+				},
+				{
+					q: 'Show a confirmation message and ask the user to confirm or cancel?',
+					a: 'window.confirm()'
+				},
+				{
+					q: 'Get an integer number from a string?',
+					a: 'parseInt()'
+				},
+				{
+					q: 'Get a float number from a string',
+					a: 'parseFloat()'
+				},
+				{
+					q: 'Convert a string to base 64?',
+					a: 'window.btoa()'
+				},
+				{
+					q: 'Convert a base 64 to string?',
+					a: 'window.atob()'
+				},
+				{
+          q: 'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
+          a: 'localeCompare()'
+        },
+        {
+          q: 'Used to match a regular expression against a string?',
+          a: 'match()'
+        },
+        {
+          q: 'Used to find a match between a regular expression and a string, and to replace the matched substring with a new substring?',
+          a: 'replace()'
+        },
+        {
+          q: 'Returns true if every element in this array satisfies the provided testing function?',
+          a: 'every()'
+        },
+        {
+          q: 'Returns true if at least one element in this array satisfies the provided testing function?',
+          a: 'some()'
+        },
+        {
+          q: 'Creates a new array with all of the elements of this array for which the provided function returns true?',
+          a: 'filter()'
+        },
+        {
+          q: 'Removes the first element from an array and returns that element?',
+          a: 'shift()'
+        },
+        {
+          q: 'Adds one or more elements to the front of an array and returns the new length of the array?',
+          a: 'unshift()'
+        },
+        {
+          q: 'Returns current date and time?',
+          a: 'Date()'
+        },
+        {
+          q: 'Returns the day of the month for the specified date according to local time?',
+          a: 'getDate()'
+        },
+        {
+          q: 'Returns the day of the week for the specified date according to local time?',
+          a: 'getDay()'
+        },
+        {
+          q: 'Returns the month in the specified date according to local time?',
+          a: 'getMonth()'
+        },
+        {
+          q: 'Returns the year of the specified date according to local time?',
+          a: 'getFullYear()'
+        },
+        {
+          q: 'Returns a pseudo-random number between 0 and 1?',
+          a: 'random()'
+        },
+        {
+          q: 'Returns the largest of zero or more numbers?',
+          a: 'max()'
+        },
+        {
+          q: 'Returns the smallest of zero or more numbers?',
+          a: 'min()'
+        },
+        {
+          q: 'Defines how many total digits (including digits to the left and right of the decimal) to display of a number?',
+          a: 'toPrecision()'
+        },
+        {
+          q: 'Evaluates an expression?',
+          a: 'eval()'
+        },
+        {
+          q: 'Checks if the content of a variable is valid?',
+          a: 'isNaN()'
+        }
   ]
 },
 
@@ -443,70 +442,70 @@ export default function() {
 				        {    q: 'What is the difference between an element whose position is fixed vs absolute?', 
                      a: 'A fixed position element has the position relative to the viewport. A absolutely positioned element has the position set relative to it\'s nearest positioned ancestor.'
 				        },
-								{
-									q: 'How are text or inline elements centered inside their parent element?', 
-									a: 'Using the property text-align: center'
-								},
-								{
-									q: 'What is the difference between margin and padding?', 
-									a: 'Padding is the space between border and element contents, margin is the space between border and neighboring elements.'
-								},
-								{
-									q: 'How can CSS styles be applied inline in HTML?', 
-									a: 'Using the style attribute on element tags.'
-								},
-								{
-									q: 'How are background images set for an element?', 
-									a: 'Using background-image: url(\'path/to/image.png\')'
-								},
-								{
-									q: 'How are CSS selectors grouped together', 
-									a: 'Using the comma (,) separator.'
-								},
-								{
-									q: 'How can a font family be set throughout the page?', 
-									a: 'By applying the font-family property on the body tag -\nbody { \nfont-family: \'Comic Sans\'; \n}'
-								},
-								{
-									q: 'How can the style of a list be changed?', 
-									a: 'Using the property list-style-type.'
-								},
-								{
-									q: 'How are CSS stylesheets added to HTML pages?', 
-									a: 'Using the <link rel="stylesheet" href="path/to/style.css" type="text/css" />'
-								},
-								{
-									q: 'What tag is used to internally add CSS styles to a HTML page?', 
-									a: 'The <style> tag'
-								},
-								{
-									q: 'Which property used to change the color of text?', 
-									a: 'Using the property color'
-								},
-								{
-									q: 'How is a background image set to be fixed?', 
-									a: 'Using the property background-attachment: fixed'
-								},
-								{
-									q: 'What is the difference between width: 100% and width: 100vw?', 
-									a: 'The former sets the element width as that of the parent content area, whereas the latter sets the elements width to the width of the entire viewport'
-								},
-								{
-									q: 'When setting a z-index to an element what other css atribute must also be set?', 
-									a: 'An element must have a display setting to utilize z-indexing'
-								},
-								{
-									q: 'When using flex-box to create a responsive layout what atribute will allow a containers elemets to not break outside a set media query', 
-									a: 'Using flew-wrap will allow a given set of elements to break and re order when there parent container becomes too small'
-								},
-								{
-									q: 'When laying out a number of variable sized containers, each with text inside, how can flex-box be used to align this text', 
-									a: 'Using align-items with the baseline attribute will position the elemnts inside there parent containers.'
-								},
-								{
-									q: 'Can flex-box commands be chained or combined', 
-									a: 'Yes flex-grow | flex-shrink | flex-basis can be written as flex: 5 5 10%;'
-								},
+						{
+							q: 'How are text or inline elements centered inside their parent element?', 
+							a: 'Using the property text-align: center'
+						},
+						{
+							q: 'What is the difference between margin and padding?', 
+							a: 'Padding is the space between border and element contents, margin is the space between border and neighboring elements.'
+						},
+						{
+							q: 'How can CSS styles be applied inline in HTML?', 
+							a: 'Using the style attribute on element tags.'
+						},
+						{
+							q: 'How are background images set for an element?', 
+							a: 'Using background-image: url(\'path/to/image.png\')'
+						},
+						{
+							q: 'How are CSS selectors grouped together', 
+							a: 'Using the comma (,) separator.'
+						},
+						{
+							q: 'How can a font family be set throughout the page?', 
+							a: 'By applying the font-family property on the body tag -\nbody { \nfont-family: \'Comic Sans\'; \n}'
+						},
+						{
+							q: 'How can the style of a list be changed?', 
+							a: 'Using the property list-style-type.'
+						},
+						{
+							q: 'How are CSS stylesheets added to HTML pages?', 
+							a: 'Using the <link rel="stylesheet" href="path/to/style.css" type="text/css" />'
+						},
+						{
+							q: 'What tag is used to internally add CSS styles to a HTML page?', 
+							a: 'The <style> tag'
+						},
+						{
+							q: 'Which property used to change the color of text?', 
+							a: 'Using the property color'
+						},
+						{
+							q: 'How is a background image set to be fixed?', 
+							a: 'Using the property background-attachment: fixed'
+						},
+						{
+							q: 'What is the difference between width: 100% and width: 100vw?', 
+							a: 'The former sets the element width as that of the parent content area, whereas the latter sets the elements width to the width of the entire viewport'
+						},
+						{
+							q: 'When setting a z-index to an element what other css atribute must also be set?', 
+							a: 'An element must have a display setting to utilize z-indexing'
+						},
+						{
+							q: 'When using flex-box to create a responsive layout what atribute will allow a containers elemets to not break outside a set media query', 
+							a: 'Using flew-wrap will allow a given set of elements to break and re order when there parent container becomes too small'
+						},
+						{
+							q: 'When laying out a number of variable sized containers, each with text inside, how can flex-box be used to align this text', 
+							a: 'Using align-items with the baseline attribute will position the elemnts inside there parent containers.'
+						},
+						{
+							q: 'Can flex-box commands be chained or combined', 
+							a: 'Yes flex-grow | flex-shrink | flex-basis can be written as flex: 5 5 10%;'
+						},
         				{
         					q: 'Differentiate Class selector from ID selector?', 
         					a: 'While an overall block is given to class selector, ID selector prefers only a single element differing from other elements. In other words, ID are uniques while classes are not. Its possible that an element has both class and ID.'
@@ -633,7 +632,19 @@ export default function() {
 						    {
 						    q: 'What is the CSS selector for a h1 within a div with the ID of #element, only when the #element div is being hovered over?',
 						    a: '#element:hover h1'
-						}
+						},
+						{
+							q: 'Which pseudo-class would you use to match element with specific language?',
+							a: 'The :lang pseudo-class'
+						},
+						{
+							q: 'Is it possible to select an element that is displayed in browser\s fullscreen mode using only CSS selector?',
+							a: 'Yes, it is, by using :fullscreen pseudo-class'
+						},
+						{
+							q: 'You want all input fields that must be filled in to have red border. Which CSS pseudo-class would you use?',
+							a: 'The :required pseudo-class'
+						},
 					]
 			},
 
