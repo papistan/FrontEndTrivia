@@ -132,9 +132,58 @@ export default function() {
             image: '../style/images/js.png',
 
 
-            cards: [{
-                    q: 'Returns the character at the specified index?',
-                    a: 'charAt()'
+            cards: [ 
+	{
+          q: 'Returns code of character?',
+          a: 'charCodeAt()'
+        },
+        {
+          q:
+            'Returns the index within the calling String object of the last occurrence of the specified value starting?',
+          a: 'lastIndexOf()'
+        },
+        {
+          q:
+            'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
+          a: 'localeCompare()'
+        },
+        {
+          q:
+            'Returns a new string with some or all matches of a pattern replaced by a replacement?',
+          a: 'replace()'
+        },
+        {
+          q:
+            'Executes a search for a match between a regular expression and this String object?',
+          a: 'search()'
+        },
+        {
+          q: 'Extracts a section of a string and returns it as a new string?',
+          a: 'slice()'
+        },
+        {
+          q:
+            'Splits a String object into an array of strings by separating the string into substrings, using a specified separator string to determine where to make each split?',
+          a: 'split()'
+        },
+        {
+          q:
+            'Returns a subset of a string between one index and another, or through the end of the string?',
+          a: 'substring()'
+        },
+        {
+          q:
+            'Returns the calling string value converted to lower case, according to any locale-specific case mappings?',
+          a: 'toLocaleLowerCase()'
+        },
+        {
+          q:
+            'Returns the calling string value converted to upper case, according to any locale-specific case mappings?',
+          a: 'toLocaleUpperCase()'
+        },
+	{
+	    q: 'Returns the character at the specified index?',
+	    a: 'charAt()'
                 },
         {
           q: 'Returns the unicode integer of a character/index',
