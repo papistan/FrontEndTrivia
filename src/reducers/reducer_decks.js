@@ -108,6 +108,10 @@ export default function() {
                     q: 'Returns the character at the specified index?',
                     a: 'charAt()'
                 },
+				{
+					q: 'Returns the unicode integer of a character/index',
+					a: 'charCodeAt(index)'
+				},
                 {
                     q: 'Combines the text of two strings and returns a new string?',
                     a: 'concat()'
@@ -120,6 +124,10 @@ export default function() {
                     q: 'Returns the index within the calling String object of the first occurrence of the specified value?',
                     a: 'indexOf()'
                 },
+				{
+					q: 'Concatenate elements of an array into a string?',
+					a: 'join()'
+				}, 
                 {
                     q: 'Returns the length of the string?',
                     a: 'length()'
@@ -136,10 +144,18 @@ export default function() {
                     q: 'Reverses the order of the elements of an array?',
                     a: 'reverse()'
                 },
+				{			
+					q: 'Returns a copy of a selection of an array?',
+					a: 'slice()'
+				}, 
                 {
                     q: 'Sorts the elements of an array?',
                     a: 'sort()'
                 },
+				{
+					q: 'Changes the contents of an array by removing existingelements or adding elements?',
+					a: 'splice()'
+				},
                 {
                     q: 'Returns the characters in a string beginning at the specified location?',
                     a: 'substr()'
@@ -154,19 +170,216 @@ export default function() {
                 },
                 {
                     q: 'Returns the string representation of the numbers value?',
-                    a: 'toString() '
+                    a: 'toString()'
                 },
-								{
+		{
                     q: 'Writing/Displaying data into an alert box?',
                     a: 'window.alert()'
                 },
-								{
+		{
                     q: 'Writing/Displaying data into the browser console?',
                     a: 'console.log()'
-                }
-            ]
-        },
 
+                },
+		{
+		    q: 'Display an alert message along with asking the user to enter a value?',
+		    a: 'window.prompt()'
+		},
+		{
+		    q: 'Show a confirmation message and ask the user to confirm or cancel?',
+		    a: 'window.confirm()'
+		},
+		{
+		    q: 'Get an integer number from a string?',
+		    a: 'parseInt()'
+		},
+		{
+		    q: 'Get a float number from a string',
+		    a: 'parseFloat()'
+		},
+		{
+		    q: 'Convert a string to base 64?',
+		    a: 'window.btoa()'
+		},
+		{
+		    q: 'Convert a base 64 to string?',
+		    a: 'window.atob()'
+   		},
+		{
+                    q: 'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
+                    a: 'localeCompare()'
+                },
+                {
+                    q: 'Used to match a regular expression against a string?',
+                    a: 'match()'
+                },
+                {
+                    q: 'Used to find a match between a regular expression and a string, and to replace the matched substring with a new substring?',
+                    a: 'replace()'
+                },
+                {
+                    q: 'Returns true if every element in this array satisfies the provided testing function?',
+                    a: 'every()'
+                },
+                {
+                    q: 'Returns true if at least one element in this array satisfies the provided testing function?',
+                    a: 'some()'
+                },
+                {
+                    q: 'Creates a new array with all of the elements of this array for which the provided function returns true?',
+                    a: 'filter()'
+                },
+                {
+                    q: 'Removes the first element from an array and returns that element?',
+                    a: 'shift()'
+                },
+                {
+                    q: 'Adds one or more elements to the front of an array and returns the new length of the array?',
+                    a: 'unshift()'
+                },
+                {
+                    q: 'Returns current date and time?',
+                    a: 'Date()'
+                },
+                {
+                    q: 'Returns the day of the month for the specified date according to local time?',
+                    a: 'getDate()'
+                },
+                {
+                    q: 'Returns the day of the week for the specified date according to local time?',
+                    a: 'getDay()'
+                },
+                {
+                    q: 'Returns the month in the specified date according to local time?',
+                    a: 'getMonth()'
+                },
+                {
+                    q: 'Returns the year of the specified date according to local time?',
+                    a: 'getFullYear()'
+                },
+                {
+                    q: 'Returns a pseudo-random number between 0 and 1?',
+                    a: 'random()'
+                },
+                {
+                    q: 'Returns the largest of zero or more numbers?',
+                    a: 'max()'
+                },
+                {
+                    q: 'Returns the smallest of zero or more numbers?',
+                    a: 'min()'
+                },
+                {
+                    q: 'Defines how many total digits (including digits to the left and right of the decimal) to display of a number?',
+                    a: 'toPrecision()'
+                },
+                {
+                    q: 'Evaluates an expression?',
+                    a: 'eval()'
+                },
+                {
+                    q: 'Checks if the content of a variable is valid?',
+                    a: 'isNaN()'
+                }
+  ]
+},
+
+        //Javascript: Common event handlers
+
+
+        {
+            title: 'Javascript: Common event handlers', 
+            image: '../style/images/js.png',
+            
+            cards: [{
+                    q: 'What handler fires when loading stopped?',
+                    a: 'onAbort'
+                },
+                {
+                    q: 'Handles losing focus?',
+                    a: 'onBlur'
+                },
+                {
+                    q: 'What handler fires when content is modified?',
+                    a: 'onChange'
+                },
+                {
+                    q: 'Handles click?',
+                    a: 'onClick'
+                },
+                {
+                    q: 'What handler detects if clicked twice?',
+                    a: 'onDblClick'
+                },
+                {
+                    q: 'What handler fires when element is moved?',
+                    a: 'onDragDrop'
+                },
+                {
+                    q: 'What handler fires when document is not loaded?',
+                    a: 'onError'
+                },
+                {
+                    q: 'What handler fires on focus enter?',
+                    a: 'onFocus'
+                },
+                {
+                    q: 'What handler fires on key depress?',
+                    a: 'onKeyDown'
+                },
+                {
+                    q: 'What handler fires on key press?',
+                    a: 'onKeyPress'
+                },
+                {
+                    q: 'What handler fires on key release?',
+                    a: 'onKeyUp'
+                },
+                {
+                    q: 'What handler fires just after document loading?',
+                    a: 'onLoad'
+                },
+                {
+                    q: 'What handler fires on mouse button depress?',
+                    a: 'onMouseDown'
+                },
+                {
+                    q: 'What handler fires on mouse move?',
+                    a: 'onMouseMove'
+                },
+                {
+                    q: 'What handler fires on mouse exit?',
+                    a: 'onMouseOut'
+                },
+                {
+                    q: 'What handler fires when mouse is on the element?',
+                    a: 'onMouseOver'
+                },
+                {
+                    q: 'What handler fires on mouse button release?',
+                    a: 'onMouseUp'
+                },
+                {
+                    q: 'What handler fires when reset form button is clicked?',
+                    a: 'onReset'
+                },
+                {
+                    q: 'What handler fires when page size changes?',
+                    a: 'onResize'
+                },
+                {
+                    q: 'What handler fires when element is selected?',
+                    a: 'onSelect'
+                },
+                {
+                    q: 'What handler fires when form is submitted?',
+                    a: 'onSubmit'
+                },
+                {
+                    q: 'What handler fires when page is exited?',
+                    a: 'onUnload'
+                }]
+        },
 
 
         // CSS
@@ -374,7 +587,134 @@ export default function() {
 
 			},
 			
+			// CSS: Pseudo-classes
+			// Source: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+			{
+				title: 'CSS: Pseudo-classes', 
+				image: '../style/images/css3.svg', 
 
+				cards: [
+						{
+							q: 'What is a CSS Pseudo-class?', 
+							a: 'A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s) such as ":hover".'
+						},
+						{
+							q: 'What is the general CSS Pseudo-class syntax?',
+							a: 'For example, one creates rules like this: selector:pseudo-class { property: value; }'
+						},
+						{
+							q: 'How are pseudo-classes used to style elements?',
+							a: 'Pseudo-classes style elements in relation to the history of the navigator (like :link for <a>), content status (like :focus on input forms), and mouse position (like :hover).'
+						},
+						{
+							q: 'What are the standard pseudo-classes for styling <a> link states?',
+							a: 'a:link - a normal, unvisited link, a:visited, a:hover - when one mouses over the link, and a:active - moment the link is clicked'
+						},
+						{
+							q: 'What are some pseudo-classes for the status of the content such as inputs, checkboxes, etc.?',
+							a: 'One can use :checked, :active, :focus, :disabled, :enabled, :hover, :required, etc.'
+						},
+						{
+							q: 'What are some helpful pseudo-classes for selecting specific DOM elements such as the first child, last child, etc.?',
+							a: 'One can use :first-child, :last-child, :nth-child(), :nth-last-child(), :not(), :only-child, :nth-of-type, etc.'
+						},
+						{
+							q: 'How do pseudo-elements differ from pseudo-classes?',
+							a: 'Pseudo-elements are used to style a specific part of an element.'
+						},
+						{
+						    q: 'What is the CSS selector for a div with the ID of #element, only when the mouse is hovering over it?',
+						    a: '#element:hover'
+						},
+						    {
+						    q: 'What is the CSS selector for the input field with an ID of #email, only the field has received focus?',
+						    a: '#email:focus'
+						},
+						    {
+						    q: 'What is the CSS selector for a h1 within a div with the ID of #element, only when the #element div is being hovered over?',
+						    a: '#element:hover h1'
+						},
+						{
+							q: 'Which pseudo-class would you use to match element with specific language?',
+							a: 'The :lang pseudo-class'
+						},
+						{
+							q: 'Is it possible to select an element that is displayed in browser\s fullscreen mode using only CSS selector?',
+							a: 'Yes, it is, by using :fullscreen pseudo-class'
+						},
+						{
+							q: 'You want all input fields that must be filled in to have red border. Which CSS pseudo-class would you use?',
+							a: 'The :required pseudo-class'
+						},
+					]
+			},
+
+			// CSS: Animations
+			// Source: https://css-tricks.com/almanac/properties/a/animation/
+			{
+				title: 'CSS: Animations',
+				image: '../style/images/css3.svg',
+	
+				cards: [
+					{
+						q: 'How is a general CSS animation defined?',
+						a: 'Each animation needs an "@keyframes" at-rule that is called with an "animation" property. For example, .class-name { animation: <keyframes_name> <other-shorthand-values> } and @keyframes <name> { 0% { ... } 100% { ... }'
+					},
+					{
+						q: 'What do "@keyframes" at-rules define?',
+						a: 'They define what should happen at specific moments during the animation like going from 0% to 100%. One can use the shorthand "animation" property or use its 8 sub-properties to manipulate it.'
+					},
+					{
+						q: 'What are the 8 sub-properties of "animation"?',
+						a: '1. "animation-name" 2. "animation-duration" 3. "animation-timing-function" 4. "animation-delay" 5. "animation-direction" 6. "animation-iteration-count" 7. "animation-fill-mode" 8. "animation-play-state"'
+					},
+					{
+						q: 'What is "animation-name"?',
+						a: 'This defines the name of the "@keyframes" at-rule to use.'
+					},
+					{
+						q: 'What is "animation-duration"?',
+						a: 'This defines the length of time for the animation to complete one cycle.'
+					},
+					{
+						q: 'What is "animation-timing-function"?',
+						a: 'This sets the preset acceleration curves such as "ease" or "linear".'
+					},
+					{
+						q: 'What is "animation-delay"?',
+						a: 'This corresponds to the time between the element being loaded and the start of the animation sequence.'
+					},
+					{
+						q: 'What is "animation-direction"?',
+						a: 'This sets the direction of the animation after the cycle. Its default resets on each cycle.'
+					},
+					{
+						q: 'What is "animation-iteration-count"?',
+						a: 'This is the number of times the animation will run.'
+					},
+					{
+						q: 'What is "animation-play-state"?',
+						a: 'This is used to pause or play the animation.'
+					},
+					{
+						q: 'How do we handle multiple animations or animations with multiple steps?',
+						a: 'Comma-separate the values like the following: "animation: someanimation 3s ease ..., anotheranimation 2s linear ..."'
+					},
+					{
+						q: 'Generally, which CSS properties can be animated?',
+						a: 'For the most part, colors and numbers but things like "background-image" cannot be animated. Check MDN for an exact list."'
+					},
+					{
+						q: 'Though performance may be an issue, which combos can be animated safely?',
+						a: 'Transforms like translate, scale, and rotate, changing opacity, etc.'
+					},
+					{
+						q: 'How do we support older browsers for animations?',
+						a: 'Use vendor prefixes like -webkit-animation/-moz-animation/-o-animation/animation: <keyframe-name> 5s infinite; and @-webkit-keyframes <keyframe-name> { ... }.'
+					},
+				]
+			},
+			
 			{
 						title: 'CSS3 - Flexbox', 
 						image: '../style/images/css3.svg', 
@@ -976,7 +1316,7 @@ export default function() {
 			},
 			{
 				q: 'What general problem are mixins solving?',
-				a: 'Reusability of styles.'
+				a: 'Reusability of groups of CSS declarations that you want to reuse throughout your site.'
 			},
 			{
 				q: 'Let\'s say you have a .message class. You want to create .error and .success classes which inherits from .message. Which keyword and functionality will you use?',
@@ -985,9 +1325,37 @@ export default function() {
 			{
 				q: 'SASS is able to do basic math operations. Which are these?',
 				a: 'Addition, substraction, multiplication, division by numbers and percents.'
+			},
+			{
+				q: 'What is the difference between functions and mixins in SASS?',
+				a: 'Mixins return styles. Functions return values.'
 			}
 		]
-	}
-	]
-}
+	},
+            
+// webpack
 
+		{
+			title: 'Webpack Basic Concepts', 
+			image: '../style/images/webpack.png',
+			cards: [ 
+
+				{
+					q: 'Which script is automatically generated by webpack?',
+					a: 'dist/bundle.js Webpack is going to create this file'
+				},
+				{
+					q: 'What are the commands for watch in webpacks?',
+					a: 'webpack --watch or webpack -w'
+				},
+				{
+					q: 'Webpacks primary language?',
+					a: 'JavaScript'
+				},
+				{
+					q: 'which preprocessor loader refer?',
+					a: 'preprocessor such as Sass, or a transpiler such as Babel'
+				}
+			]}
+	]	
+}
