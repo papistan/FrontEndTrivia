@@ -172,16 +172,117 @@ export default function() {
                     q: 'Returns the string representation of the numbers value?',
                     a: 'toString()'
                 },
-								{
+		{
                     q: 'Writing/Displaying data into an alert box?',
                     a: 'window.alert()'
                 },
-								{
+		{
                     q: 'Writing/Displaying data into the browser console?',
                     a: 'console.log()'
-                }					
-            ]
-        },
+
+                },
+		{
+		    q: 'Display an alert message along with asking the user to enter a value?',
+		    a: 'window.prompt()'
+		},
+		{
+		    q: 'Show a confirmation message and ask the user to confirm or cancel?',
+		    a: 'window.confirm()'
+		},
+		{
+		    q: 'Get an integer number from a string?',
+		    a: 'parseInt()'
+		},
+		{
+		    q: 'Get a float number from a string',
+		    a: 'parseFloat()'
+		},
+		{
+		    q: 'Convert a string to base 64?',
+		    a: 'window.btoa()'
+		},
+		{
+		    q: 'Convert a base 64 to string?',
+		    a: 'window.atob()'
+   		},
+		{
+                    q: 'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
+                    a: 'localeCompare()'
+                },
+                {
+                    q: 'Used to match a regular expression against a string?',
+                    a: 'match()'
+                },
+                {
+                    q: 'Used to find a match between a regular expression and a string, and to replace the matched substring with a new substring?',
+                    a: 'replace()'
+                },
+                {
+                    q: 'Returns true if every element in this array satisfies the provided testing function?',
+                    a: 'every()'
+                },
+                {
+                    q: 'Returns true if at least one element in this array satisfies the provided testing function?',
+                    a: 'some()'
+                },
+                {
+                    q: 'Creates a new array with all of the elements of this array for which the provided function returns true?',
+                    a: 'filter()'
+                },
+                {
+                    q: 'Removes the first element from an array and returns that element?',
+                    a: 'shift()'
+                },
+                {
+                    q: 'Adds one or more elements to the front of an array and returns the new length of the array?',
+                    a: 'unshift()'
+                },
+                {
+                    q: 'Returns current date and time?',
+                    a: 'Date()'
+                },
+                {
+                    q: 'Returns the day of the month for the specified date according to local time?',
+                    a: 'getDate()'
+                },
+                {
+                    q: 'Returns the day of the week for the specified date according to local time?',
+                    a: 'getDay()'
+                },
+                {
+                    q: 'Returns the month in the specified date according to local time?',
+                    a: 'getMonth()'
+                },
+                {
+                    q: 'Returns the year of the specified date according to local time?',
+                    a: 'getFullYear()'
+                },
+                {
+                    q: 'Returns a pseudo-random number between 0 and 1?',
+                    a: 'random()'
+                },
+                {
+                    q: 'Returns the largest of zero or more numbers?',
+                    a: 'max()'
+                },
+                {
+                    q: 'Returns the smallest of zero or more numbers?',
+                    a: 'min()'
+                },
+                {
+                    q: 'Defines how many total digits (including digits to the left and right of the decimal) to display of a number?',
+                    a: 'toPrecision()'
+                },
+                {
+                    q: 'Evaluates an expression?',
+                    a: 'eval()'
+                },
+                {
+                    q: 'Checks if the content of a variable is valid?',
+                    a: 'isNaN()'
+                }
+  ]
+},
 
         //Javascript: Common event handlers
 
@@ -520,6 +621,18 @@ export default function() {
 						{
 							q: 'How do pseudo-elements differ from pseudo-classes?',
 							a: 'Pseudo-elements are used to style a specific part of an element.'
+						},
+						{
+						    q: 'What is the CSS selector for a div with the ID of #element, only when the mouse is hovering over it?',
+						    a: '#element:hover'
+						},
+						    {
+						    q: 'What is the CSS selector for the input field with an ID of #email, only the field has received focus?',
+						    a: '#email:focus'
+						},
+						    {
+						    q: 'What is the CSS selector for a h1 within a div with the ID of #element, only when the #element div is being hovered over?',
+						    a: '#element:hover h1'
 						}
 					]
 			},
@@ -1191,7 +1304,7 @@ export default function() {
 			},
 			{
 				q: 'What general problem are mixins solving?',
-				a: 'Reusability of styles.'
+				a: 'Reusability of groups of CSS declarations that you want to reuse throughout your site.'
 			},
 			{
 				q: 'Let\'s say you have a .message class. You want to create .error and .success classes which inherits from .message. Which keyword and functionality will you use?',
@@ -1200,22 +1313,36 @@ export default function() {
 			{
 				q: 'SASS is able to do basic math operations. Which are these?',
 				a: 'Addition, substraction, multiplication, division by numbers and percents.'
+			},
+			{
+				q: 'What is the difference between functions and mixins in SASS?',
+				a: 'Mixins return styles. Functions return values.'
 			}
 		]
 	},
             
 // webpack
 
-		{title: 'Webpack Basic Concepts', image: '../style/images/webpack.png',
+		{
+			title: 'Webpack Basic Concepts', 
+			image: '../style/images/webpack.png',
 			cards: [ 
 
-				{q: 'Which script is automatically generated by webpack?', a: 'dist/bundle.js Webpack is going to create this file'
+				{
+					q: 'Which script is automatically generated by webpack?',
+					a: 'dist/bundle.js Webpack is going to create this file'
 				},
-				{q: 'What are the commands for watch in webpacks?' a: 'webpack --watch or webpack -w'
+				{
+					q: 'What are the commands for watch in webpacks?',
+					a: 'webpack --watch or webpack -w'
 				},
-				{q: 'Webpacks primary language?' a: 'JavaScript'
+				{
+					q: 'Webpacks primary language?',
+					a: 'JavaScript'
 				},
-				{q: 'which preprocessor loader refer?' a: 'preprocessor such as Sass, or a transpiler such as Babel'
+				{
+					q: 'which preprocessor loader refer?',
+					a: 'preprocessor such as Sass, or a transpiler such as Babel'
 				}
 			]}
 	]	
