@@ -724,7 +724,7 @@ export default function() {
 								{
 									q: 'In HTML, onblur and onfocus are ?', 
 									a: 'Style attributes'
-         				},
+         						},
 								{
 									q: 'What is "placeholder" attribute?', 
 									a: 'HTML5 introduced a new attribute called placeholder. This attribute on <input> and <textarea> elements provides a hint to the user of what can be entered in the field. The placeholder text must not contain carriage returns or line-feeds.'
@@ -1099,7 +1099,7 @@ export default function() {
 						{
 							q: 'What is the output of following code? Explain. \n{ \nconsole.log(x);\nlet x = 4;\n}',	
 							a: 'Reference error is caused. This is more often termed as TDZ ( Temporal Dead Zone), it occurs in case of let/const variables when they are declared but not yet initialized. Point to be noted, let/const variables are hoisted, but they are not initialized automatically.'
-					}
+						}
 	]},
 
 // JavaScript: Intermediate
