@@ -297,7 +297,6 @@ export default function() {
 				{
                     q: 'Writing/Displaying data into the browser console?',
                     a: 'console.log()'
-
                 },
 				{
 					q: 'Display an alert message along with asking the user to enter a value?',
@@ -496,7 +495,8 @@ export default function() {
                 {
                     q: 'What handler fires when page is exited?',
                     a: 'onUnload'
-                }]
+				}
+			]
         },
 
 
@@ -709,7 +709,6 @@ export default function() {
       {
         title: 'CSS: Pseudo-classes',
         image: '../style/images/css3.svg',
-
         cards: [
             {
               q: 'What is a CSS Pseudo-class?',
@@ -806,7 +805,19 @@ export default function() {
                 {
                     q: 'How to select every <p> element with a lang attribute value starting with "it"',
                     a: 'p:lang(it)'
-                }
+                },
+				{
+					q: 'Which pseudo-class would you use to match element with specific language?',
+					a: 'The :lang pseudo-class'
+				},
+				{
+					q: 'Is it possible to select an element that is displayed in browser\s fullscreen mode using only CSS selector?',
+					a: 'Yes, it is, by using :fullscreen pseudo-class'
+				},
+				{
+					q: 'You want all input fields that must be filled in to have red border. Which CSS pseudo-class would you use?',
+					a: 'The :required pseudo-class'
+				},
           ]
       },
 
