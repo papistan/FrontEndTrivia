@@ -89,10 +89,87 @@ export default function() {
                     q: 'Adding a number and a string results in?',
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
                 },
-                {
-                    q: 'What is the difference between "undefined" and "null" in javascript?',
+				{
+                    q: 'What is the difference between "undefined" and "null" in javascript?', 
                     a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
-                 }
+				},
+                {
+                    q: 'What boolean operators does JavaScript support?',
+                    a: '&&, || and !'
+                },
+                {
+                    q: 'What is this keyword?',
+                    a: 'It refers to the current object.'
+                },
+                {
+                    q: 'What does isNaN function do?',
+                    a: 'Return true if the argument is not a number.'
+                     },
+		{
+                    q: 'What is the difference between "undefined" and "not defined" in javascript?',
+                    a: '"Undefined" means a variable is declared but not assingned any values but "Not defined" means the variable is not declared yet.'
+                },
+		{
+                    q: 'What is the difference between == and === in javascript?',
+                    a: 'The == operator checks only equality of the values while === checks equality of values with its datatype i.e. values should be of same type.'
+                },
+		{
+                    q: 'What are different programming paradigm important for javascript developers?',
+                    a: 'Procedural Programming with Object Oriented Programming and Fuctional Programming.'
+                },
+		    {
+                    q: 'How can you get type of arguments passed to a function?',
+                    a: 'Using "typeof" operator. Ex- function abc(x){console.log(typeof x, arguments.length);}//Here when function "abc" is called it returns the type and length of passed value.'
+                },
+		 {
+                    q: 'What is the disadvantage of creating true private methods in javascript?',
+                    a: 'They are very memory inefficient as new copy of method is created every instance.'
+                },
+		{
+                    q: 'What is the output of following code:-" var x = 1;  var y = (function(){delete x; return x;})() console.log(y); "?',
+                    a: 'Output will be 1. delete operator used to delete an object but here x is not an object.'
+                },
+		{
+                    q: 'How to use external JavaScript file?',
+                    a: '<script type="text/javascript" src="myfile.js"></script>  "Here It is assumed that myfile.js is the external js file". '
+                },
+				        {
+                    q: 'What is the difference between "undefined" and "null" in javascript?', 
+                    a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
+				         },
+                {
+                  q: 'Explain HOISTING',
+                  a: 'Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.',
+                },
+                {
+                  q: 'What\'s the difference between .call and .apply?',
+                  a: 'The difference is that apply lets you invoke the function with arguments as an array; call requires the parameters be listed explicitly',
+                },
+                {
+                  q: 'What\'s the difference between an "attribute" and a "property"?',
+                  a: 'Attribute is a quality or object that we attribute to someone or something. Attribute is a quality or object that we attribute to someone or something. \n' +
+                  'Property is a quality that exists without any attribution. For example, clay has adhesive qualities; or, one of the properties of metals is electrical conductivity.',
+                },
+                {
+                  q: 'What is function composition?',
+                  a: 'Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through.'
+                },
+                {
+                  q: 'What is function composition?',
+                  a: 'Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through.'
+                },
+                {
+                  q: 'What is event bubbling?',
+                  a: 'An event received by an element doesn\'t stop with that one element. That event moves to other elements like the parent, and other ancestors of the element. This is called "event bubbling".'
+                },
+                {
+                  q: 'What is event delegation?',
+                  a: 'Event delegation allows you to avoid adding event listeners to specific nodes;  instead, the event listener is added to one parent.  That event listener analyzes bubbled events to find a match on child elements.'
+                },
+                {
+                  q: 'Why it is a better to use == than === ?',
+                  a: 'Type coercion. To avoid problems when false == 0  becomes true. Compares not only value but the type too'
+                }
             ]
         },
 
@@ -104,9 +181,58 @@ export default function() {
             image: '../style/images/js.png',
 
 
-            cards: [{
-                    q: 'Returns the character at the specified index?',
-                    a: 'charAt()'
+            cards: [ 
+	{
+          q: 'Returns code of character?',
+          a: 'charCodeAt()'
+        },
+        {
+          q:
+            'Returns the index within the calling String object of the last occurrence of the specified value starting?',
+          a: 'lastIndexOf()'
+        },
+        {
+          q:
+            'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
+          a: 'localeCompare()'
+        },
+        {
+          q:
+            'Returns a new string with some or all matches of a pattern replaced by a replacement?',
+          a: 'replace()'
+        },
+        {
+          q:
+            'Executes a search for a match between a regular expression and this String object?',
+          a: 'search()'
+        },
+        {
+          q: 'Extracts a section of a string and returns it as a new string?',
+          a: 'slice()'
+        },
+        {
+          q:
+            'Splits a String object into an array of strings by separating the string into substrings, using a specified separator string to determine where to make each split?',
+          a: 'split()'
+        },
+        {
+          q:
+            'Returns a subset of a string between one index and another, or through the end of the string?',
+          a: 'substring()'
+        },
+        {
+          q:
+            'Returns the calling string value converted to lower case, according to any locale-specific case mappings?',
+          a: 'toLocaleLowerCase()'
+        },
+        {
+          q:
+            'Returns the calling string value converted to upper case, according to any locale-specific case mappings?',
+          a: 'toLocaleUpperCase()'
+        },
+	{
+	    q: 'Returns the character at the specified index?',
+	    a: 'charAt()'
                 },
         {
           q: 'Returns the unicode integer of a character/index',
@@ -426,7 +552,7 @@ export default function() {
                 },
                 {
                     q: 'What is the purpose of a pseudo-class',
-                    a: 'Pseudo-clases specify a special state for selected elements\nExample -\n div:hover { \n/** set styles for when mouse is over div */ \n}'
+                    a: 'Pseudo-classes specify a special state for selected elements\nExample -\n div:hover { \n/** set styles for when mouse is over div */ \n}'
                  },
                 {
                      q: 'What is the difference between a class and an ID selector?',
@@ -512,7 +638,7 @@ export default function() {
                   a: 'While an overall block is given to class selector, ID selector prefers only a single element differing from other elements. In other words, ID are uniques while classes are not. Its possible that an element has both class and ID.'
                 },
                 {
-                  q: 'What is Pseudo-elements ?',
+                  q: 'What is Pseudo-elements?', 
                   a: 'Pseudo-elements are used to add special effects to some selectors.  CSS in used to apply styles in HTML mark-up. In some cases when extra mark-up or styling is not possible for the document, then there is a feature available in CSS known as pseudo-elements. It will allow extra mark-up to the document without disturbing the actual document.'
                 },
                 {
@@ -584,7 +710,6 @@ export default function() {
                   a: 'Inline Style Sheet is used to style only a small piece of code. Embedded style sheets are put between the <head> and </head> tags. Linked style sheet is used to apply the style to all the pages within your website by linking an external style sheet to the html document.'
                 }
             ]
-
       },
 
       // CSS: Pseudo-classes
@@ -633,7 +758,63 @@ export default function() {
                 {
                 q: 'What is the CSS selector for a h1 within a div with the ID of #element, only when the #element div is being hovered over?',
                 a: '#element:hover h1'
-            }
+            },
+            {
+                q: 'Is content contained within a CSS :before or :after pseudo-class readable by search engines?',
+                a: 'No. \'Google does not reliably index text contained in JavaScript or CSS, even if it is visible to users on the page.\''
+            },
+            {
+                q: 'Is content contained within a CSS :before or :after pseudo-class readable by screen readers?',
+                a: 'Not reliably. Remember separation of concerns - any pseudo-class content should be presentational only.'
+            },
+            {
+                q: 'Can you combine psuedo selectors for complex targeting?',
+                a: 'Yes. Consider the following: .item:nth-child(3):last-child. This will only target the 3rd child of the .item class when it is also the last instance.'
+            },
+          {
+                  q: 'How to select all unvisited links',
+                    a: 'a:link'
+                },
+                {
+                    q: 'How to select all visited links',
+                    a: 'a:visited'
+                },
+                {
+                    q: 'How to select the active link',
+                    a: 'a:active'
+                },
+                {
+                    q: 'How to select links on mouse over',
+                    a: 'a:hover'
+                },
+                {
+                    q: 'How to select the input element which has focus',
+                    a: 'input:focus'
+                },
+                {
+                    q: 'How to select the first letter of every <p> element',
+                    a: 'p::first-letter'
+                },
+                {
+                    q: 'How to select the first line of every <p> element',
+                    a: 'p::first-line'
+                },
+                {
+                    q: 'How to select every <p> elements that is the first child of its parent',
+                    a: 'p:first-child'
+                },
+                {
+                    q: 'How to insert content before every <p> element',
+                    a: 'p::before'
+                },
+                {
+                    q: 'How to insert content after every <p> element',
+                    a: 'p::after'
+                },
+                {
+                    q: 'How to select every <p> element with a lang attribute value starting with "it"',
+                    a: 'p:lang(it)'
+                }
           ]
       },
 
@@ -764,7 +945,6 @@ export default function() {
     {
         title: 'HTML',
         image: '../style/images/html5.png',
-
 
         cards: [{
                   q: 'What is "placeholder" attribute?',
@@ -1286,38 +1466,66 @@ export default function() {
 
 //SASS: Basics
 
-  {
-    title: 'SASS: Basics',
-    image: '../style/images/sass.png',
-    cards: [
-      {
-        q: 'What character is used when defining a variable?',
-        a: 'The dollar sign ($).'
-      },
-      {
-        q: 'Defining an partial, you have to use a special character in a filename. What is that character?',
-        a: 'The underscore (_).'
-      },
-      {
-        q: 'In SASS you can import one .scss file in another. Do you need to write the extension of file too?',
-        a: 'No, SASS is smart enough to resolve the file without it\'s extension.'
-      },
-      {
-        q: 'What general problem are mixins solving?',
-        a: 'Reusability of groups of CSS declarations that you want to reuse throughout your site.'
-      },
-      {
-        q: 'Let\'s say you have a .message class. You want to create .error and .success classes which inherits from .message. Which keyword and functionality will you use?',
-        a: 'The @extend keyword and inheritance.'
-      },
-      {
-        q: 'SASS is able to do basic math operations. Which are these?',
-        a: 'Addition, substraction, multiplication, division by numbers and percents.'
-      },
-      {
-        q: 'What is the difference between functions and mixins in SASS?',
-        a: 'Mixins return styles. Functions return values.'
-      },
+	{
+		title: 'SASS: Basics',
+		image: '../style/images/sass.png',
+		cards: [
+			{
+				q: 'What character is used when defining a variable?',
+				a: 'The dollar sign ($).'
+			},
+			{
+				q: 'When would using a variable be useful?',
+				a: 'Using a variable is valuable when you need to use the same value in multiple places, such as with brand colours, or when defining number values for a property.'
+			},
+			{
+				q: 'What is a partial?',
+				a: 'A partial is a separate file that contains pieces of your CSS. It helps you to modularize your CSS, and greatly improves maintainability.'
+			},
+			{
+				q: 'When defining a partial, you have to use a special character in a filename. What is that character?',
+				a: 'The underscore (_).'
+			},
+			{
+				q: 'What does it mean to import one SCSS file into another?',
+				a: 'Importing means that the CSS from one file will be present and usable in another file. This is particularly helpful when defining a top level SCSS file that contains all of your styles.'
+			},
+			{
+				q: 'In SASS you can import one .scss file in another. Do you need to write the extension of file too?',
+				a: 'No, SASS is smart enough to resolve the file without it\'s extension.'
+			},
+			{
+				q: 'What does it mean to extend in SCSS?',
+				a: 'Extending lets you share a set of CSS properties from one selector to another. The advantage of doing this is it allows you to keep your CSS very dry, and reusable.'
+			},
+			{
+				q: 'What is a mixin?',
+				a: ' A mixin lets you make groups of CSS declarations that you want to reuse throughout your site. You can even pass in values to make your mixin more flexible. To create a mixin you use the @mixin directive and give it a name, like so "@mixin border-radius($radius)"'
+			},
+			{
+				q: 'What general problem are mixins solving?',
+				a: 'Reusability of groups of CSS declarations that you want to reuse throughout your site.'
+			},
+			{
+				q: 'After you have defined a mixin, how do you use it?',
+				a: 'Using the keyword "@include"'
+			},
+			{
+				q: 'Let\'s say you have a .message class. You want to create .error and .success classes which inherits from .message. Which keyword and functionality will you use?',
+				a: 'The @extend keyword and inheritance.'
+			},
+			{
+				q: 'SASS is able to do basic math operations. Which are these?',
+				a: 'Addition, substraction, multiplication, division by numbers and percents.'
+			},
+			{
+				q: 'What is the difference between functions and mixins in SASS?',
+				a: 'Mixins return styles. Functions return values.'
+			},
+			{
+				q: 'What does nesting mean in SASS?',
+				a: 'Nesting allows you to nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. Be aware that overly nested rules will result in over-qualified CSS that could prove hard to maintain and is generally considered bad practice.'
+			},
       {
         q: 'How can you denote a placeholder selector in SASS?',
         a: '\'SASS supports a special type of selector called a "placeholder selector". These look like class and id selectors, except the # or . is replaced by %.\''
@@ -1326,16 +1534,15 @@ export default function() {
         q: 'What types of loops does SASS support?',
         a: 'SASS supports three types of loops, @for, @each, and @while.'
       }
-    ]
-  },
-
+		]
+	},
+            
 // webpack
 
     {
       title: 'Webpack Basic Concepts',
       image: '../style/images/webpack.png',
       cards: [
-
         {
           q: 'Which script is automatically generated by webpack?',
           a: 'dist/bundle.js Webpack is going to create this file'
