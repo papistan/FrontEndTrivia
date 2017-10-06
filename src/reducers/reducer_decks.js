@@ -1212,6 +1212,14 @@ export default function() {
 						{
 							q: 'What is the output of following code? Explain. \n{ \nconsole.log(x);\nlet x = 4;\n}',	
 							a: 'Reference error is caused. This is more often termed as TDZ ( Temporal Dead Zone), it occurs in case of let/const variables when they are declared but not yet initialized. Point to be noted, let/const variables are hoisted, but they are not initialized automatically.'
+						},
+						{
+							q: 'How is this keyword scoped in arrow function?',
+							a: 'this keyword is scoped lexically inside arrow function, this, arguments, super keywords all are lexically scoped in arrow function.'
+						},
+						{
+							q: 'Give 4 examples of standard built in Javascript iterables.',
+							a: '1.Arrays\n2.Strings\n3.Generators\n4.Typed Arrays / Collections'
 						}
 	]},
 
