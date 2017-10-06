@@ -89,7 +89,6 @@ export default function() {
                     q: 'Adding a number and a string results in?',
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
                 },
-
 				{
                     q: 'What is the difference between "undefined" and "null" in javascript?', 
                     a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
@@ -711,7 +710,6 @@ export default function() {
                   a: 'Inline Style Sheet is used to style only a small piece of code. Embedded style sheets are put between the <head> and </head> tags. Linked style sheet is used to apply the style to all the pages within your website by linking an external style sheet to the html document.'
                 }
             ]
-
       },
 
       // CSS: Pseudo-classes
@@ -947,7 +945,6 @@ export default function() {
     {
         title: 'HTML',
         image: '../style/images/html5.png',
-
 
         cards: [{
                   q: 'What is "placeholder" attribute?',
@@ -1528,7 +1525,15 @@ export default function() {
 			{
 				q: 'What does nesting mean in SASS?',
 				a: 'Nesting allows you to nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. Be aware that overly nested rules will result in over-qualified CSS that could prove hard to maintain and is generally considered bad practice.'
-			}
+			},
+      {
+        q: 'How can you denote a placeholder selector in SASS?',
+        a: '\'SASS supports a special type of selector called a "placeholder selector". These look like class and id selectors, except the # or . is replaced by %.\''
+      },
+      {
+        q: 'What types of loops does SASS support?',
+        a: 'SASS supports three types of loops, @for, @each, and @while.'
+      }
 		]
 	},
             
