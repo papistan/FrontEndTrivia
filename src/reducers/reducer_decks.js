@@ -89,6 +89,23 @@ export default function() {
                     q: 'Adding a number and a string results in?',
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
                 },
+
+				{
+                    q: 'What is the difference between "undefined" and "null" in javascript?', 
+                    a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
+				},
+                {
+                    q: 'What boolean operators does JavaScript support?',
+                    a: '&&, || and !'
+                },
+                {
+                    q: 'What is this keyword?',
+                    a: 'It refers to the current object.'
+                },
+                {
+                    q: 'What does isNaN function do?',
+                    a: 'Return true if the argument is not a number.'
+                     },
 		{
                     q: 'What is the difference between "undefined" and "not defined" in javascript?',
                     a: '"Undefined" means a variable is declared but not assingned any values but "Not defined" means the variable is not declared yet.'
