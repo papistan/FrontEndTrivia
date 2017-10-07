@@ -567,7 +567,7 @@ export default function() {
                      a: 'Pseudo-elements are a keyword added to selectors to style specific parts of the selected elements\nExample -\n p::first-line { \n /** Style the first line of the element red */ color: #F00; \n}'
                 },
                 {
-                     q: 'How can elements be   on the screen?',
+                     q: 'How can elements be fixed  on the screen?',
                      a: 'Using the property position: fixed;'
                 },
                 {    q: 'What is the difference between an element whose position is fixed vs absolute?',
