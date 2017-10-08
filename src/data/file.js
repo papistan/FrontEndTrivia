@@ -1098,6 +1098,26 @@ export function deckData() {
                 {
                   q: 'In addition to <br> tags, what other tags separate sections of text?',
                   a:' <p> and <blockquote> '
+                },
+                {
+                    q:"What input type is used to upload a file?",
+                    a:'type="file" is used to upload a file'
+                },
+                {
+                    q:'What is <input type="hidden">?',
+                    a:'<input> elements of type "hidden" let web developers include data that cannot be seen or modified by users when a form is submitted. Hidden inputs are completely invisible in the rendered page, and there is no way to make it visible in the page\'s content.'
+                },
+                {
+                    q:'What\'s the difference between HTML and XHTML?',
+                    a:'XHTML (Extensible HyperText Markup Language) is a family of XML markup languages that mirror or extend versions of the widely used Hypertext Markup Language (HTML), the language in which web pages are written. Extended version of HTML that is stricter and XML-based.'
+                },
+                {
+                    q:'What is the use of data- attribute?',
+                    a:'It allows you to store extra information/ data in the DOM. You can write valid html with embedded private data. You can easily access data attribute by using javascript and hence a lot of libraries like knockout uses it.'
+                },
+                {
+                    q:'How can u highlight text in html?',
+                    a:'Use <mark> tag'
                 }
         ]
     },
@@ -1175,8 +1195,13 @@ export function deckData() {
                 a: 'Redux is a library that allows predictable state management in JavaScript apps. It is often used in large-scale React apps.'
               },
               {
+
                 q: 'How should a Component state be changed?',
                 a: 'A component state should never be mutated directly as it does not cause a render. The proper way is to use the setState() method provided by React.'
+              },
+              {
+                q: 'What are some notable companies using React?',
+                a: 'Facebook, Netflix, Discord, eBay, PayPal, Spotify (Web Player) and many more.'
               }
       ]
 
@@ -1325,17 +1350,45 @@ export function deckData() {
             image: '../style/images/vue.png',
 
             cards: [{
-                    q: 'Question',
-                    a: 'answer'
-                },
-                {
-                    q: 'Question',
-                    a: 'answer'
-                },
-                {
-                   q: 'Question',
-                    a: 'answer'
-                },
+                      q: 'What part of your application does Vue focus on - the model, view or controller?',
+                      a: 'The view.'
+                    },
+                    {
+                      q: 'How are Vue templates written?',
+                      a: 'Vue supports plain HTML templates (as well as templates written in languages such as Pug/Jade), but like React, it also supports JSX.'
+                    },
+                    {
+                      q: 'What are Single File Components?',
+                      a: 'Single File Components are components where the component\'s template, JavaScript, and styles are contained in a single .vue file.'
+                    },
+                    {               
+                      q: 'How are Single File Components loaded?',
+                      a: 'Using build tools such as Webpack or Browserify.'
+                    },
+                    {
+                      q: 'Vue uses a technique to limit direct manipulation of the DOM and improve performance. What is it called?',
+                      a: 'It is called Virtual DOM.'
+                    },
+                    {
+                      q: 'Where can you define a component\'s initial state?',
+                      a: 'The component\'s data object.'
+                    },
+                    {
+                      q: 'How is data passed down to child components in Vue?',
+                      a: 'Using props, which are defined using a component\'s props object.'
+                    },
+                    {
+                      q: 'What is the advantage of rendering Vue on a server?',
+                      a: 'A complete HTML representation of the requested site is send from the server to the browser. This enables better SEO (search engine optimization) and subjective performance.'
+                    },
+                    {
+                      q: 'Who created and maintains Vue?',
+                      a: 'An international team of independent developers, not backed by any single company.'
+                    },
+                    {
+                      q: 'What is Vuex?',
+                      a: 'Vuex is a library that allows predictable state management in JavaScript apps, similar to Redux. It is often used in large-scale Vue apps.'
+                    },
             ]
         },
 
@@ -1561,7 +1614,32 @@ export function deckData() {
 		          a: 'preprocessor such as Sass, or a transpiler such as Babel'
 		        }
 		      ]
-		    }
-
+		    },
+            {
+                title: 'jQuery: Basics',
+                image: '../style/images/jquery.png',
+                cards: [
+                    {
+                        q: 'How do you access jQuery methods?',
+                        a: '$ or jQuery can be used to access jQuery methods.'
+                    },
+                    {
+                        q: 'How do you select elements by class?',
+                        a: 'Similarly to CSS, jQuery selectors for class elements start with a period [.] followed by its name.'
+                    },
+                    {
+                        q: 'How do you watch for events on elements?',
+                        a: 'jQuery\'s .on() and individual event methods such as .click(), .change(), .keypress(), etc.'
+                    },
+                    {
+                        q: 'How do you add elements to the DOM?',
+                        a: 'jQuery has many ways to add elements to the DOM. .append(), .prepend(), .after(), and .before() all accept strings of HTML to be added to the DOM.'
+                    },
+                    {
+                        q: 'How can I change the style of an element with jQuery?',
+                        a: 'jQuery has methods such as $(element).attr("style","...") and $(element).css() to make style changes, as well as $(element).addClass() and $(element).removeClass() or $(element).toggleClass()'
+                    }
+                ]
+            }
   ]
 }
