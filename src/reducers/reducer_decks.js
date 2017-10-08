@@ -406,7 +406,11 @@ export default function() {
                 {
                     q: 'Checks if the content of a variable is valid?',
                     a: 'isNaN()'
-                }
+                },
+		{
+		    q: 'Which string method removed whitespace from either end of a string?', 
+		    a: 'The trim() method returns the string stripped of whitespace from both ends. trim() does not affect the value of the string itself.'
+		  }
   ]
 },
 
@@ -563,7 +567,7 @@ export default function() {
                      a: 'Pseudo-elements are a keyword added to selectors to style specific parts of the selected elements\nExample -\n p::first-line { \n /** Style the first line of the element red */ color: #F00; \n}'
                 },
                 {
-                     q: 'How can elements be fixed on the screen?',
+                     q: 'How can elements be fixed  on the screen?',
                      a: 'Using the property position: fixed;'
                 },
                 {    q: 'What is the difference between an element whose position is fixed vs absolute?',
@@ -708,7 +712,11 @@ export default function() {
                 {
                   q: 'What is the difference between inline, embedded and linked style sheets?',
                   a: 'Inline Style Sheet is used to style only a small piece of code. Embedded style sheets are put between the <head> and </head> tags. Linked style sheet is used to apply the style to all the pages within your website by linking an external style sheet to the html document.'
-                }
+                },
+		{
+		  q: 'What does the CSS property "box-sizing":"border-box" do?',
+		  a: 'It alters the default CSS box model used to calculate width and height of the elements to include any border and padding in the value you specify for width and height.'
+		}
             ]
       },
 
