@@ -1098,6 +1098,26 @@ export function deckData() {
                 {
                   q: 'In addition to <br> tags, what other tags separate sections of text?',
                   a:' <p> and <blockquote> '
+                },
+                {
+                    q:"What input type is used to upload a file?",
+                    a:'type="file" is used to upload a file'
+                },
+                {
+                    q:'What is <input type="hidden">?',
+                    a:'<input> elements of type "hidden" let web developers include data that cannot be seen or modified by users when a form is submitted. Hidden inputs are completely invisible in the rendered page, and there is no way to make it visible in the page\'s content.'
+                },
+                {
+                    q:'What\'s the difference between HTML and XHTML?',
+                    a:'XHTML (Extensible HyperText Markup Language) is a family of XML markup languages that mirror or extend versions of the widely used Hypertext Markup Language (HTML), the language in which web pages are written. Extended version of HTML that is stricter and XML-based.'
+                },
+                {
+                    q:'What is the use of data- attribute?',
+                    a:'It allows you to store extra information/ data in the DOM. You can write valid html with embedded private data. You can easily access data attribute by using javascript and hence a lot of libraries like knockout uses it.'
+                },
+                {
+                    q:'How can u highlight text in html?',
+                    a:'Use <mark> tag'
                 }
         ]
     },
