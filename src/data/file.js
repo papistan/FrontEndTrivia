@@ -1,6 +1,6 @@
 export function deckData() {
 	return [ {
-		
+
 						title: 'Javascript: Foundations',
             image: '../style/images/js.png',
 
@@ -85,7 +85,7 @@ export function deckData() {
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
                 },
 								{
-                    q: 'What is the difference between "undefined" and "null" in javascript?', 
+                    q: 'What is the difference between "undefined" and "null" in javascript?',
                     a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
 								},
                 {
@@ -129,7 +129,7 @@ export function deckData() {
                     a: '<script type="text/javascript" src="myfile.js"></script>  "Here It is assumed that myfile.js is the external js file". '
                 },
 				        {
-                    q: 'What is the difference between "undefined" and "null" in javascript?', 
+                    q: 'What is the difference between "undefined" and "null" in javascript?',
                     a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
 				         },
                 {
@@ -397,7 +397,7 @@ export function deckData() {
                     a: 'isNaN()'
                 },
 								{
-								    q: 'Which string method removed whitespace from either end of a string?', 
+								    q: 'Which string method removed whitespace from either end of a string?',
 								    a: 'The trim() method returns the string stripped of whitespace from both ends. trim() does not affect the value of the string itself.'
 								}
   						]
@@ -631,7 +631,7 @@ export function deckData() {
                   a: 'While an overall block is given to class selector, ID selector prefers only a single element differing from other elements. In other words, ID are uniques while classes are not. Its possible that an element has both class and ID.'
                 },
                 {
-                  q: 'What is Pseudo-elements?', 
+                  q: 'What is Pseudo-elements?',
                   a: 'Pseudo-elements are used to add special effects to some selectors.  CSS in used to apply styles in HTML mark-up. In some cases when extra mark-up or styling is not possible for the document, then there is a feature available in CSS known as pseudo-elements. It will allow extra mark-up to the document without disturbing the actual document.'
                 },
                 {
@@ -1195,6 +1195,11 @@ export function deckData() {
                 a: 'Redux is a library that allows predictable state management in JavaScript apps. It is often used in large-scale React apps.'
               },
               {
+
+                q: 'How should a Component state be changed?',
+                a: 'A component state should never be mutated directly as it does not cause a render. The proper way is to use the setState() method provided by React.'
+              },
+              {
                 q: 'What are some notable companies using React?',
                 a: 'Facebook, Netflix, Discord, eBay, PayPal, Spotify (Web Player) and many more.'
               }
@@ -1585,7 +1590,7 @@ export function deckData() {
 			      }
 					]
 				},
-            
+
 // webpack
 
 		    {
@@ -1636,6 +1641,5 @@ export function deckData() {
                     }
                 ]
             }
- 
   ]
 }
