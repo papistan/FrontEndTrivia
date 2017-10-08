@@ -79,7 +79,7 @@ export function deckData() {
                 {
                     q: 'Give an example of closure?',
                     a: 'Following example shows how the variable counter is visible within the create, increment, and print functions, but not outside of them −\nfunction create() {\nvar counter = 0;\nreturn {\nincrement: function() {\ncounter++;\n},\n\nprint: function() {\nconsole.log(counter);\n}\n}\n}\nvar c = create();\nc.increment();\nc.print();     // ==> 1\n'
-                },https://github.com/utkarsh-shekhar/FrontEndTrivia.git
+                },
                 {
                     q: 'Adding a number and a string results in?',
                     a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
