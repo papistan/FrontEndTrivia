@@ -1321,17 +1321,45 @@ export function deckData() {
             image: '../style/images/vue.png',
 
             cards: [{
-                    q: 'Question',
-                    a: 'answer'
-                },
-                {
-                    q: 'Question',
-                    a: 'answer'
-                },
-                {
-                   q: 'Question',
-                    a: 'answer'
-                },
+                      q: 'What part of your application does Vue focus on - the model, view or controller?',
+                      a: 'The view.'
+                    },
+                    {
+                      q: 'How are Vue templates written?',
+                      a: 'Vue supports plain HTML templates (as well as templates written in languages such as Pug/Jade), but like React, it also supports JSX.'
+                    },
+                    {
+                      q: 'What are Single File Components?',
+                      a: 'Single File Components are components where the component\'s template, JavaScript, and styles are contained in a single .vue file.'
+                    },
+                    {               
+                      q: 'How are Single File Components loaded?',
+                      a: 'Using build tools such as Webpack or Browserify.'
+                    },
+                    {
+                      q: 'Vue uses a technique to limit direct manipulation of the DOM and improve performance. What is it called?',
+                      a: 'It is called Virtual DOM.'
+                    },
+                    {
+                      q: 'Where can you define a component\'s initial state?',
+                      a: 'The component\'s data object.'
+                    },
+                    {
+                      q: 'How is data passed down to child components in Vue?',
+                      a: 'Using props, which are defined using a component\'s props object.'
+                    },
+                    {
+                      q: 'What is the advantage of rendering Vue on a server?',
+                      a: 'A complete HTML representation of the requested site is send from the server to the browser. This enables better SEO (search engine optimization) and subjective performance.'
+                    },
+                    {
+                      q: 'Who created and maintains Vue?',
+                      a: 'An international team of independent developers, not backed by any single company.'
+                    },
+                    {
+                      q: 'What is Vuex?',
+                      a: 'Vuex is a library that allows predictable state management in JavaScript apps, similar to Redux. It is often used in large-scale Vue apps.'
+                    },
             ]
         },
 
