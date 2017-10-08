@@ -5,17 +5,12 @@ There's no better way to learn concepts, frameworks, languages or new technologi
 
 Responsively designed for use mobile and desktop (so pull this out at the busstop and learn something new). 
 
-Welcoming submissions of questions on a host of front end-related topics. See issues, add issues and submit pr for added questions on [Reducers - Decks](https://github.com/papistan/FrontEndTrivia/blob/master/src/reducers/reducer_decks.js)
+Welcoming submissions of questions on a host of front end-related topics. See issues, add issues and submit pr for added questions on [here](https://github.com/papistan/FrontEndTrivia/blob/master/src/data/file.js)
 
 ### Installing
 
 ```bash
 $ npm install
-```
-
-react-flipcard
-```bash
-$ npm install react-flipcard
 ```
 
 To run in development mode (localhost:8080 to view it in the browser):
