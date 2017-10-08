@@ -1609,7 +1609,33 @@ export function deckData() {
 		          a: 'preprocessor such as Sass, or a transpiler such as Babel'
 		        }
 		      ]
-		    }
+		    },
+            {
+                title: 'jQuery: Basics',
+                image: '../style/images/jquery.png',
+                cards: [
+                    {
+                        q: 'How do you access jQuery methods?',
+                        a: '$ or jQuery can be used to access jQuery methods.'
+                    },
+                    {
+                        q: 'How do you select elements by class?',
+                        a: 'Similarly to CSS, jQuery selectors for class elements start with a period [.] followed by its name.'
+                    },
+                    {
+                        q: 'How do you watch for events on elements?',
+                        a: 'jQuery\'s .on() and individual event methods such as .click(), .change(), .keypress(), etc.'
+                    },
+                    {
+                        q: 'How do you add elements to the DOM?',
+                        a: 'jQuery has many ways to add elements to the DOM. .append(), .prepend(), .after(), and .before() all accept strings of HTML to be added to the DOM.'
+                    },
+                    {
+                        q: 'How can I change the style of an element with jQuery?',
+                        a: 'jQuery has methods such as $(element).attr("style","...") and $(element).css() to make style changes, as well as $(element).addClass() and $(element).removeClass() or $(element).toggleClass()'
+                    }
+                ]
+            }
  
   ]
 }
