@@ -104,39 +104,39 @@ export default function() {
                 {
                     q: 'What does isNaN function do?',
                     a: 'Return true if the argument is not a number.'
-                     },
-		{
+				},
+				{
                     q: 'What is the difference between "undefined" and "not defined" in javascript?',
                     a: '"Undefined" means a variable is declared but not assingned any values but "Not defined" means the variable is not declared yet.'
                 },
-		{
+				{
                     q: 'What is the difference between == and === in javascript?',
                     a: 'The == operator checks only equality of the values while === checks equality of values with its datatype i.e. values should be of same type.'
                 },
-		{
+				{
                     q: 'What are different programming paradigm important for javascript developers?',
                     a: 'Procedural Programming with Object Oriented Programming and Fuctional Programming.'
                 },
-		    {
+		    	{
                     q: 'How can you get type of arguments passed to a function?',
                     a: 'Using "typeof" operator. Ex- function abc(x){console.log(typeof x, arguments.length);}//Here when function "abc" is called it returns the type and length of passed value.'
                 },
-		 {
+		 		{
                     q: 'What is the disadvantage of creating true private methods in javascript?',
                     a: 'They are very memory inefficient as new copy of method is created every instance.'
                 },
-		{
+				{
                     q: 'What is the output of following code:-" var x = 1;  var y = (function(){delete x; return x;})() console.log(y); "?',
                     a: 'Output will be 1. delete operator used to delete an object but here x is not an object.'
                 },
-		{
+				{
                     q: 'How to use external JavaScript file?',
                     a: '<script type="text/javascript" src="myfile.js"></script>  "Here It is assumed that myfile.js is the external js file". '
                 },
-				        {
+				{
                     q: 'What is the difference between "undefined" and "null" in javascript?', 
                     a: '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
-				         },
+				},
                 {
                   q: 'Explain HOISTING',
                   a: 'Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.',
@@ -182,62 +182,54 @@ export default function() {
 
 
             cards: [ 
-	{
-          q: 'Returns code of character?',
-          a: 'charCodeAt()'
-        },
-        {
-          q:
-            'Returns the index within the calling String object of the last occurrence of the specified value starting?',
-          a: 'lastIndexOf()'
-        },
-        {
-          q:
-            'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
-          a: 'localeCompare()'
-        },
-        {
-          q:
-            'Returns a new string with some or all matches of a pattern replaced by a replacement?',
-          a: 'replace()'
-        },
-        {
-          q:
-            'Executes a search for a match between a regular expression and this String object?',
-          a: 'search()'
-        },
-        {
-          q: 'Extracts a section of a string and returns it as a new string?',
-          a: 'slice()'
-        },
-        {
-          q:
-            'Splits a String object into an array of strings by separating the string into substrings, using a specified separator string to determine where to make each split?',
-          a: 'split()'
-        },
-        {
-          q:
-            'Returns a subset of a string between one index and another, or through the end of the string?',
-          a: 'substring()'
-        },
-        {
-          q:
-            'Returns the calling string value converted to lower case, according to any locale-specific case mappings?',
-          a: 'toLocaleLowerCase()'
-        },
-        {
-          q:
-            'Returns the calling string value converted to upper case, according to any locale-specific case mappings?',
-          a: 'toLocaleUpperCase()'
-        },
-	{
-	    q: 'Returns the character at the specified index?',
-	    a: 'charAt()'
-                },
-        {
-          q: 'Returns the unicode integer of a character/index',
-          a: 'charCodeAt(index)'
-        },
+				{
+					q: 'Returns code of character?',
+					a: 'charCodeAt()'
+				},
+				{
+					q: 'Returns the index within the calling String object of the last occurrence of the specified value starting?',
+					a: 'lastIndexOf()'
+				},
+				{
+					q: 'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
+					a: 'localeCompare()'
+				},
+				{
+					q: 'Returns a new string with some or all matches of a pattern replaced by a replacement?',
+					a: 'replace()'
+				},
+				{
+					q: 'Executes a search for a match between a regular expression and this String object?',
+					a: 'search()'
+				},
+				{
+					q: 'Extracts a section of a string and returns it as a new string?',
+					a: 'slice()'
+				},
+				{
+					q: 'Splits a String object into an array of strings by separating the string into substrings, using a specified separator string to determine where to make each split?',
+					a: 'split()'
+				},
+				{
+					q: 'Returns a subset of a string between one index and another, or through the end of the string?',
+					a: 'substring()'
+				},
+				{
+					q: 'Returns the calling string value converted to lower case, according to any locale-specific case mappings?',
+					a: 'toLocaleLowerCase()'
+				},
+				{
+					q: 'Returns the calling string value converted to upper case, according to any locale-specific case mappings?',
+					a: 'toLocaleUpperCase()'
+				},
+				{
+					q: 'Returns the character at the specified index?',
+					a: 'charAt()'
+				},
+				{
+					q: 'Returns the unicode integer of a character/index',
+					a: 'charCodeAt(index)'
+				},
                 {
                     q: 'Combines the text of two strings and returns a new string?',
                     a: 'concat()'
@@ -250,10 +242,10 @@ export default function() {
                     q: 'Returns the index within the calling String object of the first occurrence of the specified value?',
                     a: 'indexOf()'
                 },
-        {
-          q: 'Concatenate elements of an array into a string?',
-          a: 'join()'
-        },
+				{
+					q: 'Concatenate elements of an array into a string?',
+					a: 'join()'
+				},
                 {
                     q: 'Returns the length of the string?',
                     a: 'length()'
@@ -270,18 +262,18 @@ export default function() {
                     q: 'Reverses the order of the elements of an array?',
                     a: 'reverse()'
                 },
-        {
-          q: 'Returns a copy of a selection of an array?',
-          a: 'slice()'
-        },
+				{
+					q: 'Returns a copy of a selection of an array?',
+					a: 'slice()'
+				},
                 {
                     q: 'Sorts the elements of an array?',
                     a: 'sort()'
                 },
-        {
-          q: 'Changes the contents of an array by removing existingelements or adding elements?',
-          a: 'splice()'
-        },
+				{
+					q: 'Changes the contents of an array by removing existingelements or adding elements?',
+					a: 'splice()'
+				},
                 {
                     q: 'Returns the characters in a string beginning at the specified location?',
                     a: 'substr()'
@@ -298,40 +290,39 @@ export default function() {
                     q: 'Returns the string representation of the numbers value?',
                     a: 'toString()'
                 },
-    {
+				{
                     q: 'Writing/Displaying data into an alert box?',
                     a: 'window.alert()'
                 },
-    {
+				{
                     q: 'Writing/Displaying data into the browser console?',
                     a: 'console.log()'
-
                 },
-    {
-        q: 'Display an alert message along with asking the user to enter a value?',
-        a: 'window.prompt()'
-    },
-    {
-        q: 'Show a confirmation message and ask the user to confirm or cancel?',
-        a: 'window.confirm()'
-    },
-    {
-        q: 'Get an integer number from a string?',
-        a: 'parseInt()'
-    },
-    {
-        q: 'Get a float number from a string',
-        a: 'parseFloat()'
-    },
-    {
-        q: 'Convert a string to base 64?',
-        a: 'window.btoa()'
-    },
-    {
-        q: 'Convert a base 64 to string?',
-        a: 'window.atob()'
-       },
-    {
+				{
+					q: 'Display an alert message along with asking the user to enter a value?',
+					a: 'window.prompt()'
+				},
+				{
+					q: 'Show a confirmation message and ask the user to confirm or cancel?',
+					a: 'window.confirm()'
+				},
+				{
+					q: 'Get an integer number from a string?',
+					a: 'parseInt()'
+				},
+				{
+					q: 'Get a float number from a string',
+					a: 'parseFloat()'
+				},
+				{
+					q: 'Convert a string to base 64?',
+					a: 'window.btoa()'
+				},
+				{
+					q: 'Convert a base 64 to string?',
+					a: 'window.atob()'
+				},
+				{
                     q: 'Returns a number indicating whether a reference string comes before or after or is the same as the given string in sort order?',
                     a: 'localeCompare()'
                 },
@@ -508,7 +499,8 @@ export default function() {
                 {
                     q: 'What handler fires when page is exited?',
                     a: 'onUnload'
-                }]
+				}
+			]
         },
 
 
@@ -725,7 +717,6 @@ export default function() {
       {
         title: 'CSS: Pseudo-classes',
         image: '../style/images/css3.svg',
-
         cards: [
             {
               q: 'What is a CSS Pseudo-class?',
@@ -822,7 +813,19 @@ export default function() {
                 {
                     q: 'How to select every <p> element with a lang attribute value starting with "it"',
                     a: 'p:lang(it)'
-                }
+                },
+				{
+					q: 'Which pseudo-class would you use to match element with specific language?',
+					a: 'The :lang pseudo-class'
+				},
+				{
+					q: 'Is it possible to select an element that is displayed in browser\s fullscreen mode using only CSS selector?',
+					a: 'Yes, it is, by using :fullscreen pseudo-class'
+				},
+				{
+					q: 'You want all input fields that must be filled in to have red border. Which CSS pseudo-class would you use?',
+					a: 'The :required pseudo-class'
+				},
           ]
       },
 
@@ -1534,39 +1537,40 @@ export default function() {
 				q: 'What does nesting mean in SASS?',
 				a: 'Nesting allows you to nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. Be aware that overly nested rules will result in over-qualified CSS that could prove hard to maintain and is generally considered bad practice.'
 			},
-      {
-        q: 'How can you denote a placeholder selector in SASS?',
-        a: '\'SASS supports a special type of selector called a "placeholder selector". These look like class and id selectors, except the # or . is replaced by %.\''
-      },
-      {
-        q: 'What types of loops does SASS support?',
-        a: 'SASS supports three types of loops, @for, @each, and @while.'
-      }
+			{
+				q: 'How can you denote a placeholder selector in SASS?',
+				a: '\'SASS supports a special type of selector called a "placeholder selector". These look like class and id selectors, except the # or . is replaced by %.\''
+			},
+			{
+				q: 'What types of loops does SASS support?',
+				a: 'SASS supports three types of loops, @for, @each, and @while.'
+			}
 		]
 	},
             
 // webpack
 
-    {
-      title: 'Webpack Basic Concepts',
-      image: '../style/images/webpack.png',
-      cards: [
-        {
-          q: 'Which script is automatically generated by webpack?',
-          a: 'dist/bundle.js Webpack is going to create this file'
-        },
-        {
-          q: 'What are the commands for watch in webpacks?',
-          a: 'webpack --watch or webpack -w'
-        },
-        {
-          q: 'Webpacks primary language?',
-          a: 'JavaScript'
-        },
-        {
-          q: 'which preprocessor loader refer?',
-          a: 'preprocessor such as Sass, or a transpiler such as Babel'
-        }
-      ]}
-  ]
+		{
+			title: 'Webpack Basic Concepts', 
+			image: '../style/images/webpack.png',
+			cards: [ 
+
+				{
+					q: 'Which script is automatically generated by webpack?',
+					a: 'dist/bundle.js Webpack is going to create this file'
+				},
+				{
+					q: 'What are the commands for watch in webpacks?',
+					a: 'webpack --watch or webpack -w'
+				},
+				{
+					q: 'Webpacks primary language?',
+					a: 'JavaScript'
+				},
+				{
+					q: 'which preprocessor loader refer?',
+					a: 'preprocessor such as Sass, or a transpiler such as Babel'
+				}
+			]}
+	]	
 }
