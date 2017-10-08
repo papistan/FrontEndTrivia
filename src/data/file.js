@@ -1193,6 +1193,10 @@ export function deckData() {
               {
                 q: 'What is redux?',
                 a: 'Redux is a library that allows predictable state management in JavaScript apps. It is often used in large-scale React apps.'
+              },
+              {
+                q: 'What are some notable companies using React?',
+                a: 'Facebook, Netflix, Discord, eBay, PayPal, Spotify (Web Player) and many more.'
               }
       ]
 
