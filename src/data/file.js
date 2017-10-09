@@ -1,7 +1,7 @@
 export function deckData() {
 	return [ {
 
-						title: 'Javascript: Foundations',
+						title: 'Javascript: Core Concepts',
             image: '../style/images/js.png',
 
             cards: [{
@@ -500,7 +500,47 @@ export function deckData() {
                 }]
         },
 
+    // Javascript: Design patterns
 
+        {
+            title: 'Javascript: Design patterns',
+            image: '../style/images/js.png',
+
+
+            cards: [{
+                q: 'Name a few design patterns for JS',
+                a: 'Module, Singleton, \nPrototype, Observer, \nConstructor, Revealing Module, \nMediator, Command, \nDecorator, Flyweight, \nFacade, Factory, Mixin',
+              },
+              {
+                q: 'What is a Design Pattern?',
+                a: 'A design pattern is a reusable software solution to a specific type of problem that occurs frequently when developing software',
+              },
+              {
+                  q: 'Describe The Decorator Pattern',
+                  a: 'The decorator is defined as a design pattern that allows behaviour to be added to an existing object dynamically',
+              },
+              {
+                  q: 'What does MVC stands for?',
+                  a: 'Model View Controller',
+              },
+              {
+                  q: 'Which pattern is it? Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.',
+                  a: 'Observer pattern',
+              },
+              {
+                  q: 'What does “favor object composition over class inheritance” mean?',
+                  a: 'Avoid the gorilla banana problem (“what you wanted was a banana, what you got was a gorilla holding the banana, and the entire jungle”)',
+              },
+              {
+                  q: 'Define Composite pattern',
+                  a: 'The composite pattern says that a group of objects can be treated in the same manner as an individual object of the group',
+              },
+              {
+                  q: 'Which design pattern restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system',
+                  a: 'Sigleton',
+              },
+            ],
+        },
         // CSS
         {
             title: 'CSS',
@@ -1617,7 +1657,7 @@ export function deckData() {
 		    },
             {
                 title: 'jQuery: Basics',
-                image: '../style/images/jquery.png',
+                image: '../style/images/jquery.gif',
                 cards: [
                     {
                         q: 'How do you access jQuery methods?',
@@ -1690,8 +1730,46 @@ export function deckData() {
                     {
                         q: "How would you change all paragraph elements to use the color red?",
                         a: "$('p').css('color', 'red')"
-                    }
+                    },
+		                {
+                          q: 'What is the difference between find and children methods?',
+                          a: 'Find method finds an element through all levels of the DOM tree but children method find only for single level.'
+                      }
+
                 ]
-            }
+            },
+		{
+              title: 'General Front End Questions',
+              image: 'https://www.w3.org/Icons/WWW/w3c_home_nb.png',
+              cards: [
+                  {
+                      q: 'What are some of the main concerns that a front end developer must address?',
+                      a: 'Markup, style, cross-browser functionality, accessibility and performance.'
+                  },
+                  {
+                    q: 'What happens when you enter a website url into your web browser and press enter?',
+                    a: 'The browser gets the IP address of the url you entered (either through DNS cache or DNS lookup).\n'
+                      + 'It then connects to the server and sends an HTTP request. When an HTTP response is returned, the browser renders the HTML content that was returned.'
+                  },
+                  {
+                    q: 'What is JSON and what does it stand for?',
+                    a: 'JSON stands for JavaScript Object Notation.\n'
+                      + 'It is a syntax for storing and exchanging data between a browser and a server.'
+                  },
+                  {
+                    q: 'What is an API and what are they used for?',
+                    a: 'API stands for Application Programming Interface. They are used for two programs or services to exchange information with one another.\n'
+                    + 'In web dev, they are typically used to fetch data from a remote resource using HTTP calls to the API.'
+                  },
+                  {
+                    q: 'What is responsive design?',
+                    a: 'Responsive Web design is the approach that suggests that design and development should respond to the user\'s behavior and environment based on screen size, platform and orientation.'
+                  },
+                  {
+                    a: 'What are some ways to speed up a website?',
+                    a: 'Minimize HTTP requests, enable browser caching, reduce redirects and optimize/compress images.'
+                  }
+              ]
+          }
   ]
 }
