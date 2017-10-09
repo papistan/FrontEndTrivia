@@ -1,7 +1,7 @@
 export function deckData() {
 	return [ {
 
-						title: 'Javascript: Foundations',
+						title: 'Javascript: Core Concepts',
             image: '../style/images/js.png',
 
             cards: [{
@@ -1617,7 +1617,7 @@ export function deckData() {
 		    },
             {
                 title: 'jQuery: Basics',
-                image: '../style/images/jquery.png',
+                image: '../style/images/jquery.gif',
                 cards: [
                     {
                         q: 'How do you access jQuery methods?',
@@ -1642,7 +1642,7 @@ export function deckData() {
                 ]
             },
 		{
-              title: 'Front End Development',
+              title: 'General Front End Questions',
               image: 'https://www.w3.org/Icons/WWW/w3c_home_nb.png',
               cards: [
                   {
