@@ -500,7 +500,47 @@ export function deckData() {
                 }]
         },
 
+    // Javascript: Design patterns
 
+        {
+            title: 'Javascript: Design patterns',
+            image: '../style/images/js.png',
+
+
+            cards: [{
+                q: 'Name a few design patterns for JS',
+                a: 'Module, Singleton, \nPrototype, Observer, \nConstructor, Revealing Module, \nMediator, Command, \nDecorator, Flyweight, \nFacade, Factory, Mixin',
+              },
+              {
+                q: 'What is a Design Pattern?',
+                a: 'A design pattern is a reusable software solution to a specific type of problem that occurs frequently when developing software',
+              },
+              {
+                  q: 'Describe The Decorator Pattern',
+                  a: 'The decorator is defined as a design pattern that allows behaviour to be added to an existing object dynamically',
+              },
+              {
+                  q: 'What does MVC stands for?',
+                  a: 'Model View Controller',
+              },
+              {
+                  q: 'Which pattern is it? Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.',
+                  a: 'Observer pattern',
+              },
+              {
+                  q: 'What does “favor object composition over class inheritance” mean?',
+                  a: 'Avoid the gorilla banana problem (“what you wanted was a banana, what you got was a gorilla holding the banana, and the entire jungle”)',
+              },
+              {
+                  q: 'Define Composite pattern',
+                  a: 'The composite pattern says that a group of objects can be treated in the same manner as an individual object of the group',
+              },
+              {
+                  q: 'Which design pattern restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system',
+                  a: 'Sigleton',
+              },
+            ],
+        },
         // CSS
         {
             title: 'CSS',
