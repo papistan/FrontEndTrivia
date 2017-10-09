@@ -1678,7 +1678,11 @@ export function deckData() {
                     {
                         q: 'How can I change the style of an element with jQuery?',
                         a: 'jQuery has methods such as $(element).attr("style","...") and $(element).css() to make style changes, as well as $(element).addClass() and $(element).removeClass() or $(element).toggleClass()'
-                    }
+                    },
+		    {
+			q: 'What is the difference between find and children methods?',
+			a: 'Find method finds an element through all levels of the DOM tree but children method find only for single level.'
+		    }
                 ]
             },
 		{
