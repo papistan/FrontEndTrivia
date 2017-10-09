@@ -1679,10 +1679,63 @@ export function deckData() {
                         q: 'How can I change the style of an element with jQuery?',
                         a: 'jQuery has methods such as $(element).attr("style","...") and $(element).css() to make style changes, as well as $(element).addClass() and $(element).removeClass() or $(element).toggleClass()'
                     },
-		    {
-			q: 'What is the difference between find and children methods?',
-			a: 'Find method finds an element through all levels of the DOM tree but children method find only for single level.'
-		    }
+                    {
+                        q: 'What does the $ sign mean in jQuery?',
+                        a: "The $ is equal to the function named jQuery. It is used typically as shorthand notation (e.g. $('.someClass') is the same as jQuery('.someClass'))."
+                    },
+                    {
+                        q: 'What is the difference between jQuery and JavaScript?',
+                        a: 'JavaScript is a programming language, jQuery is an optional library written in JavaScript and used in JavaScript projects.'
+                    },
+                    {
+                        q: 'What is the purpose of the following line of code: $(document).ready(function() { /* your code here */ }); ?',
+                        a: "jQuery cannot manipulate/interact with elements if they are not first loaded in the browser. This code will ensure the webpage is fully loaded before any jQuery code will run."
+                    },
+                    {
+                        q: "What does $('p') do?",
+                        a: 'Selects all paragraph elements in the document.'
+                    },
+                    {
+                        q: "What does $('#foo') do?",
+                        a: "Selects all elements with the id 'foo'."
+                    },
+                    {
+                        q: "What does $('.even') do?",
+                        a: "Selects all elements with the class 'even'."
+                    },
+                    {
+                        q: "What does $('div.bar') do?",
+                        a: "Selects all div elements that have the class 'bar'."
+                    },
+                    {
+                        q: "What does $('div#target') do?",
+                        a: "Selects all div elements that have the id 'target'."
+                    },
+                    {
+                        q: "How would you select the first paragraph element in a document?",
+                        a: "$('p:first')"
+                    },
+                    {
+                        q: "How would you select the last paragraph element in a document?",
+                        a: "$('p:last')"
+                    },
+                    {
+                        q: "How would you select all even rows in a table?",
+                        a: "$('tr:even')"
+                    },
+                    {
+                        q: "With jQuery, how would you make a copy of an element with id foo?",
+                        a: "$('#foo').clone()"
+                    },
+                    {
+                        q: "How would you change all paragraph elements to use the color red?",
+                        a: "$('p').css('color', 'red')"
+                    },
+		                {
+                          q: 'What is the difference between find and children methods?',
+                          a: 'Find method finds an element through all levels of the DOM tree but children method find only for single level.'
+                      }
+
                 ]
             },
 		{
