@@ -7,6 +7,29 @@ Responsively designed for use on mobile and desktop (so pull this out at the bus
 
 Welcoming submissions of questions on a host of front end-related topics. See issues, add issues and submit pr for added questions [here](https://github.com/papistan/FrontEndTrivia/blob/master/src/data/file.js)
 
+### Decks
+
+  1. Javascript: Core Concepts
+  2. Javascript: Common built-in methods
+  3. Javascript: Common event handlers
+  4. Javascript: Design patterns
+  5. CSS
+  6. CSS: Pseudo-classes
+  7. CSS: Animations
+  8. CSS3 - Flexbox
+  9. HTML
+  10. React
+  11. Angular
+  12. Javascript: 3
+  13. Vue
+  14. DOM Fundamentals
+  15. ES6
+  16. JavaScript: Intermediate
+  17. SASS: Basics
+  18. Webpack Basic Concepts
+  19. jQuery: Basics
+  20. General Front End Questions" 
+
 ### Installing
 
 ```bash
