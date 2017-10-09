@@ -1640,6 +1640,39 @@ export function deckData() {
                         a: 'jQuery has methods such as $(element).attr("style","...") and $(element).css() to make style changes, as well as $(element).addClass() and $(element).removeClass() or $(element).toggleClass()'
                     }
                 ]
-            }
+            },
+		{
+              title: 'Front End Development',
+              image: 'https://www.w3.org/Icons/WWW/w3c_home_nb.png',
+              cards: [
+                  {
+                      q: 'What are some of the main concerns that a front end developer must address?',
+                      a: 'Markup, style, cross-browser functionality, accessibility and performance.'
+                  },
+                  {
+                    q: 'What happens when you enter a website url into your web browser and press enter?',
+                    a: 'The browser gets the IP address of the url you entered (either through DNS cache or DNS lookup).\n'
+                      + 'It then connects to the server and sends an HTTP request. When an HTTP response is returned, the browser renders the HTML content that was returned.'
+                  },
+                  {
+                    q: 'What is JSON and what does it stand for?',
+                    a: 'JSON stands for JavaScript Object Notation.\n'
+                      + 'It is a syntax for storing and exchanging data between a browser and a server.'
+                  },
+                  {
+                    q: 'What is an API and what are they used for?',
+                    a: 'API stands for Application Programming Interface. They are used for two programs or services to exchange information with one another.\n'
+                    + 'In web dev, they are typically used to fetch data from a remote resource using HTTP calls to the API.'
+                  },
+                  {
+                    q: 'What is responsive design?',
+                    a: 'Responsive Web design is the approach that suggests that design and development should respond to the user\'s behavior and environment based on screen size, platform and orientation.'
+                  },
+                  {
+                    a: 'What are some ways to speed up a website?',
+                    a: 'Minimize HTTP requests, enable browser caching, reduce redirects and optimize/compress images.'
+                  }
+              ]
+          }
   ]
 }
