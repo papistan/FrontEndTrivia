@@ -6727,7 +6727,9 @@
   },
   function(e, t) {
     "use strict";
+
     function n() {
+
       return [
         {
           title: "Javascript: Core Concepts",
@@ -8623,11 +8625,14 @@
             },
             { q: "", a: "" },
             { q: "", a: "" }
+
           ]
         }
       ];
     }
+
     Object.defineProperty(t, "__esModule", { value: !0 }), (t.deckData = n);
+
   },
   function(e, t, n) {
     "use strict";
