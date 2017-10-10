@@ -2146,6 +2146,31 @@ export function deckData() {
           q:
             "If --list is given, or if there are no non-option arguments, existing branches are listed; the current branch will be highlighted with an asterisk.",
           a: "git branch"
+        },
+        {
+          q:
+            "Updates files in the working tree to match the version in the index or the specified tree. If no paths are given, it will also update HEAD to set the specified branch as the current branch.",
+          a: "git checkout"
+        },
+        {
+          q:
+            "Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.",
+          a: "git merge"
+        },
+        {
+          q:
+            "When you want to record the current state of the working directory and the index, but want to go back to a clean working directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit.",
+          a: "git stash"
+        },
+        {
+          q:
+            'Fetch branches and/or tags (collectively, "refs") from one or more other repositories, along with the objects necessary to complete their histories.',
+          a: "git fetch"
+        },
+        {
+          q:
+            "Incorporates changes from a remote repository into the current branch. In its default mode, it's shorthand for git fetch followed by git merge FETCH_HEAD",
+          a: "git pull"
         }
       ]
     }
