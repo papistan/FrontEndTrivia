@@ -6727,20 +6727,9 @@
   },
   function(e, t) {
     "use strict";
-    function n(e, t, n) {
-      return (
-        t in e
-          ? Object.defineProperty(e, t, {
-              value: n,
-              enumerable: !0,
-              configurable: !0,
-              writable: !0
-            })
-          : (e[t] = n),
-        e
-      );
-    }
-    function o() {
+
+    function n() {
+
       return [
         {
           title: "Javascript: Core Concepts",
@@ -8618,16 +8607,32 @@
               a:
                 "Responsive Web design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation."
             },
-            n(
-              { a: "What are some ways to speed up a website?" },
-              "a",
-              "Minimize HTTP requests, enable browser caching, reduce redirects and optimize/compress images."
-            )
+            {
+              q: "What are some ways to speed up a website?",
+              a:
+                "Minimize HTTP requests, enable browser caching, reduce redirects and optimize/compress images."
+            }
+          ]
+        },
+        {
+          title: "Git",
+          image: "../style/images/git_logo.png",
+          cards: [
+            {
+              q:
+                "Displays paths that have differences between the index file and the current HEAD commit, the workspace and index file, and paths in the workspace that aren't tracked by git.",
+              a: "git status"
+            },
+            { q: "", a: "" },
+            { q: "", a: "" }
+
           ]
         }
       ];
     }
-    Object.defineProperty(t, "__esModule", { value: !0 }), (t.deckData = o);
+
+    Object.defineProperty(t, "__esModule", { value: !0 }), (t.deckData = n);
+
   },
   function(e, t, n) {
     "use strict";
