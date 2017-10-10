@@ -1954,13 +1954,13 @@ export function deckData() {
         },
         {
           q: "which preprocessor loader refer?",
-          a: "preprocessor such as Sass, or a transpiler such as Babel"
+          a: "preprocessor such as Sass, or a transpsviler such as Babel"
         }
       ]
     },
     {
       title: "jQuery: Basics",
-      image: "../style/images/jquery.gif",
+      image: "../style/images/jquery.svg",
       cards: [
         {
           q: "How do you access jQuery methods?",
@@ -2053,7 +2053,7 @@ export function deckData() {
     },
     {
       title: "General Front End Questions",
-      image: "https://www.w3.org/Icons/WWW/w3c_home_nb.png",
+      image: "../style/images/w3c.svg",
       cards: [
         {
           q:
