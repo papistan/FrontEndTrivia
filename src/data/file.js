@@ -1954,7 +1954,7 @@ export function deckData() {
         },
         {
           q: "which preprocessor loader refer?",
-          a: "preprocessor such as Sass, or a transpsviler such as Babel"
+          a: "preprocessor such as Sass, or a transpiler such as Babel"
         }
       ]
     },
