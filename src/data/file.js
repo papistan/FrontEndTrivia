@@ -22,7 +22,7 @@
 // jQuery: Basics
 // General Front End Questions
 // Git
-// 
+//
 
 export function deckData() {
   return [
@@ -2099,7 +2099,8 @@ export function deckData() {
       image: "../style/images/git_logo.png",
       cards: [
         {
-          q: "Displays paths that have differences between the index file and the current HEAD commit, the workspace and index file, and paths in the workspace that aren't tracked by git.",
+          q:
+            "Displays paths\n- that have differences between the index file and the current HEAD commit.\n- that have differences between the workspace and index file.\n- in the workspace that aren't tracked by git.",
           a: "git status"
         },
         {
@@ -2109,8 +2110,8 @@ export function deckData() {
         {
           q: "",
           a: ""
-        },
+        }
       ]
-    },
+    }
   ];
 }
