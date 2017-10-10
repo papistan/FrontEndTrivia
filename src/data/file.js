@@ -2099,6 +2099,10 @@ export function deckData() {
       image: "../style/images/git_logo.png",
       cards: [
         {
+          q: "Displays paths that have differences between the index file and the current HEAD commit, the workspace and index file, and paths in the workspace that aren't tracked by git.",
+          a: "git status"
+        },
+        {
           q: "",
           a: ""
         },
