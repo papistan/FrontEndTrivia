@@ -2125,7 +2125,7 @@ export function deckData() {
         },
         {
           q:
-            "Show changes between:\n- the working tree and the index or a tree.\n- the index and a tree.\n- two trees\n- two blob objects\n- two files on disk.",
+            "Show changes between:\n- the working tree and the index or a tree.\n- the index and a tree.\n- two trees.\n- two blob objects.\n- two files on disk.",
           a: "git diff"
         },
         {
@@ -2154,7 +2154,7 @@ export function deckData() {
         },
         {
           q:
-            "Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.",
+            "Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch.",
           a: "git merge"
         },
         {
