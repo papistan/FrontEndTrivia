@@ -2122,6 +2122,30 @@ export function deckData() {
           q:
             "Updates the index using the current content found in the working tree, to prepare the content staged for the next commit.",
           a: "git add"
+        },
+        {
+          q:
+            "Show changes between:\n- the working tree and the index or a tree.\n- the index and a tree.\n- two trees\n- two blob objects\n- two files on disk.",
+          a: "git diff"
+        },
+        {
+          q:
+            "Stores the current contents of the index in a new commit along with a log message from the user describing the changes.",
+          a: "git commit"
+        },
+        {
+          q:
+            "Remove files from the index, or from the working tree and the index.",
+          a: "git rm"
+        },
+        {
+          q: "Move or rename a file, directory or symlink.",
+          a: "git mv"
+        },
+        {
+          q:
+            "If --list is given, or if there are no non-option arguments, existing branches are listed; the current branch will be highlighted with an asterisk.",
+          a: "git branch"
         }
       ]
     }
