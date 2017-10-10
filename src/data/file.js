@@ -2171,6 +2171,20 @@ export function deckData() {
           q:
             "Incorporates changes from a remote repository into the current branch. In its default mode, it's shorthand for git fetch followed by git merge FETCH_HEAD",
           a: "git pull"
+        },
+        {
+          q:
+            "Updates remote refs using local refs, while sending objects necessary to complete the given refs.",
+          a: "git push"
+        },
+        {
+          q:
+            'Manage the set of repositories ("remotes") whose branches you track.',
+          a: "git remote"
+        },
+        {
+          q: "Shows the commit logs.",
+          a: "git log"
         }
       ]
     }
