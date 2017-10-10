@@ -2100,16 +2100,28 @@ export function deckData() {
       cards: [
         {
           q:
-            "Displays paths\n- that have differences between the index file and the current HEAD commit.\n- that have differences between the workspace and index file.\n- in the workspace that aren't tracked by git.",
+            "Displays paths:\n- that have differences between the index file and the current HEAD commit.\n- that have differences between the workspace and index file.\n- in the workspace that aren't tracked by git.",
           a: "git status"
         },
         {
-          q: "",
-          a: ""
+          q:
+            "Prints the synopsis and a list of the most commonly used commands.",
+          a: "git help"
         },
         {
-          q: "",
-          a: ""
+          q:
+            "Creates an empty Git repository - basically a .git directory with subdirectories for objects, refs/heads, refs/tags, and template files. An initial HEAD file that references the HEAD of the master branch is also created.",
+          a: "git init"
+        },
+        {
+          q:
+            "Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using git branch -r), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.",
+          a: "git clone "
+        },
+        {
+          q:
+            "Updates the index using the current content found in the working tree, to prepare the content staged for the next commit.",
+          a: "git add"
         }
       ]
     }
