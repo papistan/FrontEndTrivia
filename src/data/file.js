@@ -21,7 +21,8 @@
 // Webpack Basic Concepts
 // jQuery: Basics
 // General Front End Questions
-//
+// Git
+// 
 
 export function deckData() {
   return [
@@ -2086,11 +2087,26 @@ export function deckData() {
             "Responsive Web design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation."
         },
         {
-          a: "What are some ways to speed up a website?",
+          q: "What are some ways to speed up a website?",
           a:
             "Minimize HTTP requests, enable browser caching, reduce redirects and optimize/compress images."
         }
       ]
-    }
+    },
+
+    {
+      title: "Git",
+      image: "../style/images/git_logo.png",
+      cards: [
+        {
+          q: "",
+          a: ""
+        },
+        {
+          q: "",
+          a: ""
+        },
+      ]
+    },
   ];
 }
