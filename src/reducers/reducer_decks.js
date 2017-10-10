@@ -1,14 +1,10 @@
-export default function() {
-    return [{
-            firstCard: true,
-            currentDeck: [],
-            currentCard: false,
+import { deckData } from '../data/file';
 
-            // Javascript: Foundations
+export default function () {
 
-            title: 'Javascript: Foundations',
-            image: '../style/images/js.png',
+  return deckData();
 
+<<<<<<< HEAD
             cards: [{
                     q: 'What do we call data types copied by VALUE?',
                     a: 'Primitives (or primitive types)'
@@ -1766,4 +1762,6 @@ export default function() {
         }
       ]}
   ]
+=======
+>>>>>>> 8f08f3f7899ec4a35e7ec37334d59ea2b567df06
 }
