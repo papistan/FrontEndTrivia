@@ -1,13 +1,8 @@
-export default function() {
-    return [{
-            firstCard: true,
-            currentDeck: [],
-            currentCard: false,
+import { deckData } from '../data/file';
 
-            // Javascript: Foundations
+export default function () {
 
-            title: 'Javascript: Foundations',
-            image: '../style/images/js.png',
+  return deckData();
 
             cards: [{
                     q: 'What do we call data types copied by VALUE?',
@@ -946,166 +941,6 @@ export default function() {
         title: 'HTML',
         image: '../style/images/html5.png',
 
-<<<<<<< HEAD
-				cards: [{
-									q: 'What is "placeholder" attribute?', 
-									a: '<input> placeholder Attribute'
-								},
-								{
-									q: 'Choose the correct HTML element for the largest heading:', 
-									a: '<h1>'
-								},
-								{
-									q: 'What is the correct HTML element for inserting a line break?', 
-									a: '<br>'
-								},
-								{
-									q: 'What is the correct HTML for adding a background color?', 
-									a: '<body style="background-color:yellow;">'
-								},
-								{
-									q: 'Choose the correct HTML element to define important text', 
-									a: '<strong>'
-								},
-								{
-									q: 'Choose the correct HTML element to define emphasized text', 
-									a: '<i>'
-								},
-								{
-									q: 'What is the correct HTML for creating a hyperlink?', 
-									a: '<a href="http://example.com">W3Schools</a>'
-								},
-								{
-									q: 'How can you open a link in a new tab/browser window?', 
-									a: '<a href="url" target="_blank">'
-								},
-								{
-									q: 'How can you make a numbered list?', 
-									a: '<ol>'
-								},
-								{
-									q: 'How can you make a bulleted list?', 
-									a: '<ul>'
-								},
-								{
-									q: 'What is the correct HTML for making a drop-down list?', 
-									a: '<select>'
-								},
-								{
-									q: 'How to do HTML comments?', 
-									a: '<!-- and end with -->'
-								},
-								{
-									q: 'Which HTML element defines the title of a document?', 
-									a: '<title>'
-								},
-								{
-									q: 'Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?', 
-									a: ' alt'
-								},
-								{
-									q: 'Which doctype is correct for HTML5?', 
-									a: '<!DOCTYPE html>'
-								},
-								{
-									q: 'What is the correct HTML element for playing video files?.', 
-									a: '<video>'
-								},
-								{
-									q: 'What is the correct HTML element for playing audio files?', 
-									a: 'use the <audio> element'
-								},
-								{
-									q: 'In HTML, onblur and onfocus are ?', 
-									a: 'Style attributes'
-         						},
-								{
-									q: 'What is "placeholder" attribute?', 
-									a: 'HTML5 introduced a new attribute called placeholder. This attribute on <input> and <textarea> elements provides a hint to the user of what can be entered in the field. The placeholder text must not contain carriage returns or line-feeds.'
-								},
-								{
-									q: 'What is the purpose of autofocus attribute in HTML5?', 
-									a: 'This is a simple one-step pattern, easily programmed in JavaScript at the time of document load, automatically focus one particular form field.'
-								},
-								{
-									q: 'What are Web Workers?', 
-									a: 'Web Workers do all the computationally expensive tasks without interrupting the user interface and typically run on separate threads. Web Workers allow for long-running scripts that are not interrupted by scripts that respond to clicks or other user interactions, and allows long tasks to be executed without yielding to keep the page responsive.'
-								},
-								{
-									q: 'What do you mean by local storage in HTML5?', 
-									a: 'HTML5 introduces the localStorage attribute which would be used to access a pages local storage area without no time limit and this local storage will be available whenever you would use that page.'
-								},
-								{
-									q: 'What is the purpose of output tag in HTML5?', 
-									a: 'HTML5 introduced a new element <output> which is used to represent the result of different types of output, such as output written by a script.'
-								},
-								{
-									q: 'What is the purpose of canvas tag in HTML5?', 
-									a: 'HTML5 element <canvas> gives you an easy and powerful way to draw graphics using JavaScript. It can be used to draw graphs, make photo compositions or do simple (and not so simple) animations.'
-								},
-								{
-									q: 'What do you mean by session storage in HTML5?', 
-									a: 'HTML5 introduces the sessionStorage attribute which would be used by the sites to add data to the session storage, and it will be accessible to any page from the same site opened in that window i.e. session and as soon as you close the window, session would be lost.'
-								},
-								{
-									q: 'What is HTML5?', 
-									a: 'HTML5 is the latest version of HTML and XHTML with new features like Drawing, Animation, Video and Audio etc. It is used to solve some common structural problems encountered with HTML 4.1. It gives more flexibility to both the web developers, the web designers and enables more exciting and interactive websites in addition to more powerful and efficient applications. The HTML 5 <! doctype html> is recognized by all modern browsers.'
-								},
-								{
-									q: 'How you can Use Modernizr in HTML 5?', 
-									a: 'Modernizr is an open source JavaScript library that helps to detect features of HTML5 and CSS3. The good thing about the Modernizr JS is that we can download this depending on the requirements. In other words, if an application needs to check for only few features of HTML5 and CSS3 then select those features and download the file. That JavaScript file will contain only the source code for the selected features.'
-								},
-								{
-									q: 'What are HTML5 Semantic Elements?', 
-									a: 'HTML5 introduced elements with a meaning. A Semantic Element helps the developer and the browser to understand its meaning. There are two types of Semantic Elements: 1.Semantic: These elements clearly define their content like <form>, <img>, <table> and so on. 2. Non-semantic: These elements have no definition, they dont define anything about their content like <span> and <div>.'
-								},
-								{
-									q: 'What is the advantage of collapsing white space?', 
-									a: 'White spaces are blank sequence of space characters, which is actually treated as a single space character in html. Because the browser collapses multiple space into a single space, you can indent lines of text without worrying about multiple spaces. This enables you to organize the html code into a much more readable format.'
-								},
-								{
-									q: 'Can attribute values be set to anything or are there specific values that they accept?', 
-									a: 'Some attribute values can be set to only predefined values. Other attributes can accept any numerical value that represents the number of pixels for a size.'
-								},
-								{
-									q: 'How do you insert a copyright symbol on a browser page?', 
-									a: 'To insert the copyright symbol, you need to type &copy; or & #169; in an HTML file.'
-								},
-								{
-									q: 'How are active links different from normal links?', 
-									a: 'The default color for normal and active links is blue. Some browsers recognize an active link when the mouse cursor is placed over that link; others recognize active links when the link has the focus. Those that don’t have a mouse cursor over that link is considered a normal link.'
-								},
-								{
-									q: 'Can I specify fractional weight values such as 670 or 973 for font weight?', 
-									a: 'Implementation largely depends on the browser, but the standard does not support fractional weight values. Acceptable values must end with two zeroes.'
-								},
-								{
-									q: 'What is the hierarchy that is being followed when it comes to style sheets?', 
-									a: 'If a single selector includes three different style definitions, the definition that is closest to the actual tag takes precedence. Inline style takes priority over embedded style sheets, which takes priority over external style sheets.'
-								},
-								{
-									q: 'Can several selectors with class names be grouped together?', 
-									a: 'You can define several selectors with the same style definition by separating them with commas. This same technique also works for selectors with class names.'
-								},
-								{
-									q: 'What happens if you open the external CSS file in a browser?', 
-									a: 'If you try to open the external CSS file in a browser, the browser cannot open the file, because the file has a different extension. The only way to use an external CSS file is to reference it using <link/> tag within another html document.'
-								},
-								{
-									q: 'What happens if the number of values in the rows or cols attribute doesn’t add up to 100 percent?', 
-									a: 'The browser sizes the frames relative to the total sum of the values. If the cols attribute is set to 100%, 200%, the browser displays two vertical frames with the second being twice as big as the first.'
-								},
-								{
-									q: 'What is a marquee?', 
-									a:'A marquee tag (Syntax: <marquee>...</marquee>) allows you to put a scrolling text in a web page.'
-								},
-								{
-									q: 'In addition to <br> tags, what other tags separate sections of text?', 
-									a:' <p> and <blockquote> '
-								}
-				]
-		},
-=======
         cards: [{
                   q: 'What is "placeholder" attribute?',
                   a: '<input> placeholder Attribute'
@@ -1264,7 +1099,6 @@ export default function() {
                 }
         ]
     },
->>>>>>> 7cbdd4b8a55c833756756f02eb04a441386e34b2
 
 
         // ReactJS
@@ -1520,49 +1354,6 @@ export default function() {
             ]
     },
 
-<<<<<<< HEAD
-		{
-			title: 'ES6', 
-			image: '../style/images/js.png',
-			
-			cards: [{
-								q: 'In what two circumstances does comparing two variables with Object.is differ from the results of strict equality (the so-called triple equals or ===)?', 
-								a: 'NaN compared to itself\nNaN === Nan // false\nObject.is(NaN, NaN) // true\n\n-0 compared to 0\n-0 === 0 // true\nObect.is(-0, 0) // false'
-						},
-						{	
-							q: 'What is the output of the following code using a new block-scoped \'let\' statement? Does it differ from using \'var\'?\nfor (let i = 0; i < 3; i++) {\nsetTimeout(function() {\nconsole.log(i)\n}, 0)\n}', 
-							a: 'Using \'let\' will log the following to the console:\n0\n1\n2\nUsing \'var\' will instead log\n3\n3\n3'
-						},
-						{
-							q: 'Do the following arrow functions both return the same value?\n(x, y) => x + y\n(x, y) => { x + y; }', 
-							a: 'No, an arrow function without curly braces may only contain one expression and will return the result of evaluating that expression (i.e. x + y). The body of an arrow function with curly braces (like a normal function) requires an explicit \'return\' statement or will return undefined'
-						},
-						{
-							q: 'How would you return an object literal from an arrow function with no curly braces?', 
-							a: 'By wrapping it in parentheses, e.g.:\n(x, y) => ({ sum: x + y })\nThis prevents ambiguity over the meaning of the curly braces.'
-						},
-						{
-							q: 'What is the difference between the spread and the rest operator?', 
-							a: 'The spread operator expands  an array to replace zero or more arguments (in function calls) or elements (in array literals)\ne.g. myFunc(...[0, 1, 2]) is equivalent to myFunc(0, 1, 2).\nThe rest operator does the opposite, collecting multiple values into a single array.'
-						},
-						{
-							q: 'As the syntax for rest/spread looks identical, how does a JavaScript engine know which you\'re using?', 
-							a: 'Spread is used on the left-hand side of assignment (\'receiving\' a value) and rest, on the right-hand side (\'passing\' a value). For instance:\n[a, ...b]=[0,1,2]; //rest: b=[1, 2]\na=[0, ...b];  //spread: a=[0,1,2]\nThe same is true of function definition (rest) and function invocation (spread).'
-						},
-						{
-							q: 'What is the output of following code? Explain. \n{ \nconsole.log(x);\nlet x = 4;\n}',	
-							a: 'Reference error is caused. This is more often termed as TDZ ( Temporal Dead Zone), it occurs in case of let/const variables when they are declared but not yet initialized. Point to be noted, let/const variables are hoisted, but they are not initialized automatically.'
-						},
-						{
-							q: 'How is this keyword scoped in arrow function?',
-							a: 'this keyword is scoped lexically inside arrow function, this, arguments, super keywords all are lexically scoped in arrow function.'
-						},
-						{
-							q: 'Give 4 examples of standard built in Javascript iterables.',
-							a: '1.Arrays\n2.Strings\n3.Generators\n4.Typed Arrays / Collections'
-						}
-	]},
-=======
   // ES6
 
     {
@@ -1598,7 +1389,6 @@ export default function() {
               a: 'Reference error is caused. This is more often termed as TDZ ( Temporal Dead Zone), it occurs in case of let/const variables when they are declared but not yet initialized. Point to be noted, let/const variables are hoisted, but they are not initialized automatically.'
           }
   ]},
->>>>>>> 7cbdd4b8a55c833756756f02eb04a441386e34b2
 
 // JavaScript: Intermediate
 
