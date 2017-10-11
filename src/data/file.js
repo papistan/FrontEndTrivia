@@ -2198,7 +2198,7 @@ export function deckData() {
         },
         {
           q:
-            "In git flow, publishing and tagging the releases that introduce new features",
+            "In git-flow, publishing and tagging the releases that introduce new features",
           a:
             "You publish the releases in the releases and master branches and increment the X or the Y in X.Y.Z"
         },
