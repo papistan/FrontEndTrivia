@@ -1,61 +1,10 @@
-export default function() {
-	return [
-		{firstCard: true,
-    currentDeck: [],
-    currentCard: false,
-    
-// Javascript: Foundations 
+import { deckData } from '../data/file';
 
-    title: 'Javascript: Foundations', image: '../style/images/js.png', 
+export default function () {
 
-			cards: [ 
-				{q: 'What do we call data types copied by VALUE?', a: 'Primitives (or primitive types)'
-				},
-				{q: 'What do we call data types copied by REFERENCE?', a: 'Objects'
-				},
-				{q: 'What are the five primitives?', a: 'Boolean, null, undefined, string, and number'
-				},
-				{q: 'What are the three object data types?', a: 'Array, Function, and Object'
-				},
-				{q: 'How can you read properties of an Object in JavaScript?', a: 'Using the dot notation − Getting:\nemp.name  // ==> Zara\nSetting:\nemp.name = "Daisy"  // <== Daisy'
-				},
-				{q: 'How to read elements of an array in JavaScript?', a: 'x[i]'
-				},
-				{q: 'Difference between call() and apply()?', a: 'CALL() takes a regular listing of parameters and APPLY() requires the parameters to be in an array.'
-				},
-				{q: 'What is a named function in JavaScript? How to define a named function?', a: 'A named function has a name when it is defined. A named function can be defined using function keyword as follows −\nfunction named(){\n// do some stuff here\n}'
-				},
-				{q: 'How many types of functions JavaScript supports?', a: 'A function in JavaScript can be either named or anonymous.'
-				},
-				{q: 'How to define a anonymous function?', a: 'An anonymous function can be defined in similar way as a normal function but it would not have any name.'
-				},
-				{q: 'Can you assign a anonymous function to a variable?', a: 'Yes'
-				},
-				{q: 'Can you pass a anonymous function as an argument to another function?', a: 'Yes'
-				},
-				{q: 'What is arguments object in JavaScript?', a: 'Yes'
-				},
-				{q: 'What is the purpose of -this- operator in JavaScript?', a: 'always refers to the current context.'
-				},
-				{q: 'What is the purpose of -this- operator in JavaScript?', a: 'always refers to the current context.'
-				},
-				{q: 'What are the valid scopes of a variable in JavaScript?', a: 'The scope of a variable is the region of your program in which it is defined. JavaScript variable will have only two scopes.\n -Global Variables − A global variable has global scope which means it is visible everywhere in your JavaScript code.\n-Local Variables − A local variable will be visible only within a function where it is defined. Function parameters are always local to that function'
-				},
-				{q: 'Which type of variable among global and local, takes precedence over other if names are same?', a: 'A local variable takes precedence over a global variable with the same name.'
-				},
-				{q: 'What is callback?', a: 'A callback is a plain JavaScript function passed to some method as an argument or option. Some callbacks are just events, called to give the user a chance to react when a certain state is triggered.'
-				},
-        {q: 'Explain Lexical Scoping', a: 'Lexical Scoping describes how a parser resolves variable names when functions are nested. \nThe word "lexical" refers to the fact that lexical scoping uses the location where a variable is declared within the source code to determine where that variable is available. \nE.G. Nested functions have access to variables declared in their outer scope.'
-        },
-				{q: 'What is closure?', a: 'Closures are created whenever a variable that is defined outside the current scope is accessed from within some inner scope.'
-				},
-				{q: 'Give an example of closure?', a: 'Following example shows how the variable counter is visible within the create, increment, and print functions, but not outside of them −\nfunction create() {\nvar counter = 0;\nreturn {\nincrement: function() {\ncounter++;\n},\n\nprint: function() {\nconsole.log(counter);\n}\n}\n}\nvar c = create();\nc.increment();\nc.print();     // ==> 1\n'
-				},
-				{q: 'Adding a number and a string, result is...?', a: 'Coercion: converting a value from one type to another. This happens because JS is dynamically typed.'
-				}
-			]
-		},
+  return deckData();
 
+<<<<<<< HEAD
 
 // Javascript: Common built-in methods
 
@@ -344,6 +293,6 @@ export default function() {
 
 			]}
 	]	
+=======
+>>>>>>> 19c58b94597e405d3685129277e879405fe5dc10
 }
-
-

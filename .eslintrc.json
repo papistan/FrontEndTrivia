@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error"
+    },
+    "padded-blocks": "off",
+    "no-restricted-globals": [2, "event"],
+    "no-underscore-dangle": [2, {
+      "allowAfterThis": true
+    }],
+    "arrow-body-style": 0,
+    "prefer-const": 1,
+    "no-unused-vars": [1, {
+      "vars": "local",
+      "args": "after-used",
+      "argsIgnorePattern": "_"
+    }],
+    "curly": [2, "multi-line", "consistent"],
+    "no-case-declarations": 0,
+    "react/prop-types": 0,
+    "react/no-string-refs": 0,
+    "no-console": 1
+  }
+}
