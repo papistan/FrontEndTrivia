@@ -4,7 +4,7 @@ export default function () {
 
   return deckData();
 
-<<<<<<< HEAD
+
 
 // Javascript: Common built-in methods
 
@@ -292,7 +292,34 @@ export default function () {
 				},
 
 			]}
+// Bootstrap
+
+		{title: 'Bootstrap', image: '../style/images/bootstrap.png',
+			cards: [ 
+				{q: 'Explain What Is Bootstrap??', a: 'Bootstrap is a framework for building the rich web applications with minimal effort. This framework emphasis more on building mobile web applications.'
+				},
+				{q: 'Who Developed The Bootstrap?', a: 'Mark Otto and Jacob Thornton at Twitter.'
+				},
+				{q: 'What is Contextual classes of table in Bootstrap? ', a: 'The Contextual classes allow you to change the background color of your table rows or individual cells.'
+				},
+				{q: 'What are Bootstrap media queries?', a: 'Media Queries in Bootstrap allow you to move, show and hide content based on viewport size.'
+				},
+				{q: 'How can you order columns in Bootstrap?', a: "You can easily change the order of built-in grid columns with .col-md-push-* and .col-md-pull-* modifier classes where * range from 1 to 11."
+				},
+				{q: 'What is a transition plugin?' a: 'The transition plugin provides simple transition effects such as Sliding or fading in modals.'
+				},
+				{q: 'Which class is used for basic button group?' a: '.btn-group class is used for a basic button group. Wrap a series of buttons with class .btn in .btn-group.'
+				},
+				{q: 'Which class is used to draw a toolbar of buttons?' a: '.btn-toolbar helps to combine sets of <div class = "btn-group"> into a <div class = "btn-toolbar"> for more complex components.'
+				},
+				{q: 'Which classes can be applied to button group instead of resizing each button?' a: '.btn-group-lg, .btn-group-sm, .btn-group-xs classes can be applied to button group instead of resizing each button.'
+ 				},
+				{q: 'How will you create a vertical pills navigation menu?' a: 'You can stack the pills vertically using the class .nav-stacked along with the classes: .nav, .nav-pills.'
+				},
+				
+
+			]}			
+
 	]	
-=======
->>>>>>> 19c58b94597e405d3685129277e879405fe5dc10
+
 }
