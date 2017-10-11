@@ -2185,6 +2185,21 @@ export function deckData() {
         {
           q: "Shows the commit logs.",
           a: "git log"
+        },
+        {
+          q:
+            "Resets HEAD of current branch to the specified state, when used with --hard <SHA>, deletes all commits up to a specified commit.",
+          a: "git reset"
+        },
+        {
+          q:
+            "Reapply commits on currently checked out branch on top of base tip from provided branch name",
+          a: "git rebase"
+        },
+        {
+          q:
+            "Applies a provided patch file to current branch which was created using git diff.",
+          a: "git apply"
         }
       ]
     }
