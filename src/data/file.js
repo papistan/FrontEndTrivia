@@ -2185,6 +2185,31 @@ export function deckData() {
         {
           q: "Shows the commit logs.",
           a: "git log"
+        },
+        {
+          q: "In git-flow, you spread the work on more branches.",
+          a:
+            "A normal git-flow has a development, a release, a master and more feature and hotifx branches"
+        },
+        {
+          q: "In git-flow, tagging severe bug-fixes",
+          a:
+            "In git-flow, after publishing a severe bug-fix to the master branch, you increment the Z-index in X.Y.Z"
+        },
+        {
+          q:
+            "In git flow, publishing and tagging the releases that introduce new features",
+          a:
+            "You publish the releases in the releases and master branches and increment the X or the Y in X.Y.Z"
+        },
+        {
+          q: "In git-flow, tagging minor bug-fixes",
+          a: "The tag remains unchanged"
+        },
+        {
+          q: "In git-flow, adding new features",
+          a:
+            "You checkout the development branch and when finished, you merge it back"
         }
       ]
     }
