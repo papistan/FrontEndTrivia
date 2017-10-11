@@ -308,6 +308,41 @@ export default function() {
 				},
 
 			]}
+
+// LESS
+
+		{title: 'LESS Basic', image: '../style/images/less.png',
+			cards: [ 
+				{q: 'What is LESS?', a: 'LESS is a CSS pre-processor that enables customizable, manageable and reusable style sheet for website.'
+				},
+				{q: 'Who is the inventor of Less?', a: 'Less is designed and developed by Alexis Sellier and Dmitry Fadeyev.'
+				},
+				{q: 'LESS is Cross Browser friendly? ', a: 'Yes'
+				},
+				{q: 'In LESS you can define variables?', a: 'Yes'
+				},
+				{q: 'What is "Mixins" in LESS?', a: "In LESS it's enables us to use an existing class or ids and apply all it's styles directly to another selector"
+				},
+				{q: 'You can use Nesting and Scope In Less?' a: 'Yes'
+				},
+				{q: 'What is nesting in LESS programming?' a: 'Nesting in LESS programming specifies the clustering of statements inside other statements.'
+				},
+				{q: 'How to create a Less file and where to store and compile it?' a: 'You can create a Less file with a ".less" extension'
+				},
+				{q: 'What is the use of data URI in LESS?' a: "Data URI is a technique that allows developers to avoid external image referencing and instead embed them directly into a stylesheet."
+				},
+				{q: 'Less uses JavaScript and processed which side?' a: 'at client-side'
+				},
+				{q: 'How to define Variable Name in LESS?' a: 'Variable names are prefaced with the @symbol'
+				},
+				{q: 'What is the use of &combinator in Less?' a: '&combinator concatenates nested selector with the parent selector'
+				},
+				{q: 'What is the use of e() function in Less?' a: 'The e() function is used to escape a value so that it passes straight through to the compiled CSS, without being noticed by the LESS compiler.'
+				},
+				{q:
+				},
+
+			]}
 	]	
 }
 
