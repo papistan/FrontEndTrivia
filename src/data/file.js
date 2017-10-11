@@ -2185,7 +2185,27 @@ export function deckData() {
         {
           q: "Shows the commit logs.",
           a: "git log"
-        }
+        },
+        {
+          q: "How do you check for branches with a specific commit?",
+          a: "git branch --contains <commit-hash>"
+        },
+        {
+          q: "How do you check remote and local branches for a specific commit?",
+          a: "git branch -r --contains <commit-hash>"
+        },
+        {
+          q: "How do you choose a commit from one branch and apply it to another?",
+          a: "git cherry-pick <commit-hash>"
+        },
+        {
+          q: "How do you revert a commit?",
+          a: "git revert <commit-hash>"
+        },
+        {
+          q: "How do you add an upstream repository?",
+          a: "git remote add upstream <url-to-remote-repository>"
+        },
       ]
     }
   ];
