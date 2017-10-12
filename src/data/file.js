@@ -2187,18 +2187,35 @@ export function deckData() {
           a: "git log"
         },
         {
-          q:
-            "Resets HEAD of current branch to the specified state, when used with --hard <SHA>, deletes all commits up to a specified commit.",
+          q: "How do you check for branches with a specific commit?",
+          a: "git branch --contains <commit-hash>"
+        },
+        {
+          q: "How do you check remote and local branches for a specific commit?",
+          a: "git branch -r --contains <commit-hash>"
+        },
+        {
+          q: "How do you choose a commit from one branch and apply it to another?",
+          a: "git cherry-pick <commit-hash>"
+        },
+        {
+          q: "How do you revert a commit?",
+          a: "git revert <commit-hash>"
+        },
+        {
+          q: "How do you add an upstream repository?",
+          a: "git remote add upstream <url-to-remote-repository>"
+        },
+        {
+          q:"Resets HEAD of current branch to the specified state, when used with --hard <SHA>, deletes all commits up to a specified commit.",
           a: "git reset"
         },
         {
-          q:
-            "Reapply commits on currently checked out branch on top of base tip from provided branch name",
+          q:"Reapply commits on currently checked out branch on top of base tip from provided branch name",
           a: "git rebase"
         },
         {
-          q:
-            "Applies a provided patch file to current branch which was created using git diff.",
+          q:"Applies a provided patch file to current branch which was created using git diff.",
           a: "git apply"
         }
       ]
