@@ -164,6 +164,10 @@ export function deckData() {
                 {
                   q: 'Why it is a better to use == than === ?',
                   a: 'Type coercion. To avoid problems when false == 0  becomes true. Compares not only value but the type too'
+                },
+                {
+                  q: 'What is the difference between "typeof" and "instanceof" operator',
+                  a: 'The typeof operator checks if the value belongs to one of the primitive types. It returns the primitive type of whatever you pass it. Whereas instanceof operator tests to see if the right operand appears anywhere in the prototype chain. It returns a Boolean value.'
                 }
             ]
         },
@@ -1116,7 +1120,7 @@ export function deckData() {
                     a:'It allows you to store extra information/ data in the DOM. You can write valid html with embedded private data. You can easily access data attribute by using javascript and hence a lot of libraries like knockout uses it.'
                 },
                 {
-                    q:'How can u highlight text in html?',
+                    q:'How can you highlight text in html?',
                     a:'Use <mark> tag'
                 }
         ]
