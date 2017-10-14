@@ -41,6 +41,7 @@ $ npm run dev
 * Webpack Basic Concepts
 * jQuery: Basics
 * General Front End Questions
+* Git
 
 ## License
 

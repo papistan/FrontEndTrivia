@@ -21,6 +21,7 @@
 // Webpack Basic Concepts
 // jQuery: Basics
 // General Front End Questions
+// Git
 //
 
 export function deckData() {
@@ -1960,7 +1961,7 @@ export function deckData() {
     },
     {
       title: "jQuery: Basics",
-      image: "../style/images/jquery.gif",
+      image: "../style/images/jquery.svg",
       cards: [
         {
           q: "How do you access jQuery methods?",
@@ -2053,7 +2054,7 @@ export function deckData() {
     },
     {
       title: "General Front End Questions",
-      image: "https://www.w3.org/Icons/WWW/w3c_home_nb.png",
+      image: "../style/images/w3c.svg",
       cards: [
         {
           q:
@@ -2086,9 +2087,136 @@ export function deckData() {
             "Responsive Web design is the approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation."
         },
         {
-          a: "What are some ways to speed up a website?",
+          q: "What are some ways to speed up a website?",
           a:
             "Minimize HTTP requests, enable browser caching, reduce redirects and optimize/compress images."
+        }
+      ]
+    },
+
+    {
+      title: "Git",
+      image: "../style/images/git_logo.png",
+      cards: [
+        {
+          q:
+            "Displays paths:\n- that have differences between the index file and the current HEAD commit.\n- that have differences between the workspace and index file.\n- in the workspace that aren't tracked by git.",
+          a: "git status"
+        },
+        {
+          q:
+            "Prints the synopsis and a list of the most commonly used commands.",
+          a: "git help"
+        },
+        {
+          q:
+            "Creates an empty Git repository - basically a .git directory with subdirectories for objects, refs/heads, refs/tags, and template files. An initial HEAD file that references the HEAD of the master branch is also created.",
+          a: "git init"
+        },
+        {
+          q:
+            "Clones a repository into a newly created directory, creates remote-tracking branches for each branch in the cloned repository (visible using git branch -r), and creates and checks out an initial branch that is forked from the cloned repository’s currently active branch.",
+          a: "git clone "
+        },
+        {
+          q:
+            "Updates the index using the current content found in the working tree, to prepare the content staged for the next commit.",
+          a: "git add"
+        },
+        {
+          q:
+            "Show changes between:\n- the working tree and the index or a tree.\n- the index and a tree.\n- two trees.\n- two blob objects.\n- two files on disk.",
+          a: "git diff"
+        },
+        {
+          q:
+            "Stores the current contents of the index in a new commit along with a log message from the user describing the changes.",
+          a: "git commit"
+        },
+        {
+          q:
+            "Remove files from the index, or from the working tree and the index.",
+          a: "git rm"
+        },
+        {
+          q: "Move or rename a file, directory or symlink.",
+          a: "git mv"
+        },
+        {
+          q:
+            "If --list is given, or if there are no non-option arguments, existing branches are listed; the current branch will be highlighted with an asterisk.",
+          a: "git branch"
+        },
+        {
+          q:
+            "Updates files in the working tree to match the version in the index or the specified tree. If no paths are given, it will also update HEAD to set the specified branch as the current branch.",
+          a: "git checkout"
+        },
+        {
+          q:
+            "Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch.",
+          a: "git merge"
+        },
+        {
+          q:
+            "When you want to record the current state of the working directory and the index, but want to go back to a clean working directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit.",
+          a: "git stash"
+        },
+        {
+          q:
+            'Fetch branches and/or tags (collectively, "refs") from one or more other repositories, along with the objects necessary to complete their histories.',
+          a: "git fetch"
+        },
+        {
+          q:
+            "Incorporates changes from a remote repository into the current branch. In its default mode, it's shorthand for git fetch followed by git merge FETCH_HEAD",
+          a: "git pull"
+        },
+        {
+          q:
+            "Updates remote refs using local refs, while sending objects necessary to complete the given refs.",
+          a: "git push"
+        },
+        {
+          q:
+            'Manage the set of repositories ("remotes") whose branches you track.',
+          a: "git remote"
+        },
+        {
+          q: "Shows the commit logs.",
+          a: "git log"
+        },
+        {
+          q: "How do you check for branches with a specific commit?",
+          a: "git branch --contains <commit-hash>"
+        },
+        {
+          q: "How do you check remote and local branches for a specific commit?",
+          a: "git branch -r --contains <commit-hash>"
+        },
+        {
+          q: "How do you choose a commit from one branch and apply it to another?",
+          a: "git cherry-pick <commit-hash>"
+        },
+        {
+          q: "How do you revert a commit?",
+          a: "git revert <commit-hash>"
+        },
+        {
+          q: "How do you add an upstream repository?",
+          a: "git remote add upstream <url-to-remote-repository>"
+        },
+        {
+          q:"Resets HEAD of current branch to the specified state, when used with --hard <SHA>, deletes all commits up to a specified commit.",
+          a: "git reset"
+        },
+        {
+          q:"Reapply commits on currently checked out branch on top of base tip from provided branch name",
+          a: "git rebase"
+        },
+        {
+          q:"Applies a provided patch file to current branch which was created using git diff.",
+          a: "git apply"
         }
       ]
     }
