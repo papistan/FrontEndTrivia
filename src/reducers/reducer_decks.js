@@ -3,7 +3,6 @@ import { deckData } from '../data/file';
 export default function () {
 
   return deckData();
-
             cards: [{
                     q: 'What do we call data types copied by VALUE?',
                     a: 'Primitives (or primitive types)'
@@ -1556,4 +1555,5 @@ export default function () {
         }
       ]}
   ]
+
 }
