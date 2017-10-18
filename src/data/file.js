@@ -2,6 +2,7 @@
 // Titles in the Decks
 //
 // Javascript: Core Concepts
+// Javascript: Functions
 // Javascript: Common built-in methods
 // Javascript: Common event handlers
 // Javascript: Design patterns
@@ -32,8 +33,23 @@ export function deckData() {
 
       cards: [
         {
+          q: "What is event bubbling?",
+          a:
+            'An event received by an element doesn\'t stop with that one element. That event moves to other elements like the parent, and other ancestors of the element. This is called "event bubbling".'
+        },
+        {
+          q: "What is event delegation?",
+          a:
+            "Event delegation allows you to avoid adding event listeners to specific nodes;  instead, the event listener is added to one parent.  That event listener analyzes bubbled events to find a match on child elements."
+        },
+        {
+          q: "Why it is a better to use == than === ?",
+          a:
+            "Type coercion. To avoid problems when false == 0  becomes true. Compares not only value but the type too"
+        },
+        {
           q: "What do we call data types copied by VALUE?",
-          a: "Primitives (or primitive types)"
+          a: "Primitives"
         },
         {
           q: "What do we call data types copied by REFERENCE?",
@@ -48,13 +64,8 @@ export function deckData() {
           a: "Array, Function, and Object"
         },
         {
-          q: "How can you read properties of an Object in JavaScript?",
-          a:
-            'Using the dot notation or [] − Getting:\nemp.name or emp["name"]  // ==> Zara\nSetting:\nemp.name = "Daisy" or emp["name"] = Daisy  // <== Daisy'
-        },
-        {
-          q: "How to read elements of an array in JavaScript?",
-          a: "x[i]"
+          q: "How can you access properties of an Object in JavaScript?",
+          a: 'x.name or x["name"]'
         },
         {
           q: "Difference between call() and apply()?",
@@ -62,32 +73,8 @@ export function deckData() {
             "CALL() takes a regular listing of parameters and APPLY() requires the parameters to be in an array."
         },
         {
-          q:
-            "What is a named function in JavaScript? How to define a named function?",
-          a:
-            "A named function has a name when it is defined. A named function can be defined using function keyword as follows −\nfunction named(){\n// do some stuff here\n}"
-        },
-        {
-          q: "How many types of functions JavaScript supports?",
-          a: "A function in JavaScript can be either named or anonymous."
-        },
-        {
-          q: "How to define a anonymous function?",
-          a:
-            "An anonymous function can be defined in similar way as a normal function but it would not have any name."
-        },
-        {
-          q: "Can you assign a anonymous function to a variable?",
-          a: "Yes"
-        },
-        {
-          q:
-            "Can you pass a anonymous function as an argument to another function?",
-          a: "Yes"
-        },
-        {
           q: "What is the purpose of -this- operator in JavaScript?",
-          a: "always refers to the current context."
+          a: "always refers to the current context"
         },
         {
           q: "What are the valid scopes of a variable in JavaScript?",
@@ -169,14 +156,9 @@ export function deckData() {
           q:
             "What is the disadvantage of creating true private methods in javascript?",
           a:
-            "They are very memory inefficient as new copy of method is created every instance."
+            "They are very memory inefficient as a new copy of method is created every instance."
         },
-        {
-          q:
-            'What is the output of following code:-" var x = 1;  var y = (function(){delete x; return x;})() console.log(y); "?',
-          a:
-            "Output will be 1. delete operator used to delete an object but here x is not an object."
-        },
+
         {
           q: "How to use external JavaScript file?",
           a:
@@ -208,26 +190,37 @@ export function deckData() {
           q: "What is function composition?",
           a:
             "Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through."
+        }
+      ]
+    },
+
+    // Javascript: Functions
+
+    {
+      title: "Javascript: Functions",
+      image: "../style/images/js.png",
+      cards: [
+        {
+          q:
+            "What is the major difference between functions vs variables in regards to hoisting?",
+          a: "Functions are usable before they are declared"
         },
         {
-          q: "What is function composition?",
-          a:
-            "Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through."
+          q: "What is a function defined inside an expression?",
+          a: "Function expression"
         },
         {
-          q: "What is event bubbling?",
-          a:
-            'An event received by an element doesn\'t stop with that one element. That event moves to other elements like the parent, and other ancestors of the element. This is called "event bubbling".'
+          q: "Are function expressions hoisted?",
+          a: "Nope"
         },
         {
-          q: "What is event delegation?",
-          a:
-            "Event delegation allows you to avoid adding event listeners to specific nodes;  instead, the event listener is added to one parent.  That event listener analyzes bubbled events to find a match on child elements."
+          q:
+            "What type of function would this be? \n(function() {\nconsole.log('lumos');\n})();",
+          a: "IIFE (Immediately Invokable Function Expression)"
         },
         {
-          q: "Why it is a better to use == than === ?",
-          a:
-            "Type coercion. To avoid problems when false == 0  becomes true. Compares not only value but the type too"
+          q: "Why would you use an IIFE",
+          a: "For "
         }
       ]
     },
@@ -1761,12 +1754,13 @@ export function deckData() {
             "Reference error is caused. This is more often termed as TDZ ( Temporal Dead Zone), it occurs in case of let/const variables when they are declared but not yet initialized. Point to be noted, let/const variables are hoisted, but they are not initialized automatically."
         },
         {
-          q: 'How is this keyword scoped in arrow function?',
-          a: 'this keyword is scoped lexically inside arrow function, this, arguments, super keywords all are lexically scoped in arrow function.'
+          q: "How is this keyword scoped in arrow function?",
+          a:
+            "this keyword is scoped lexically inside arrow function, this, arguments, super keywords all are lexically scoped in arrow function."
         },
         {
-          q: 'Give 4 examples of standard built in Javascript iterables.',
-          a: '1.Arrays\n2.Strings\n3.Generators\n4.Typed Arrays / Collections'
+          q: "Give 4 examples of standard built in Javascript iterables.",
+          a: "1.Arrays\n2.Strings\n3.Generators\n4.Typed Arrays / Collections"
         }
       ]
     },
@@ -2197,11 +2191,13 @@ export function deckData() {
           a: "git branch --contains <commit-hash>"
         },
         {
-          q: "How do you check remote and local branches for a specific commit?",
+          q:
+            "How do you check remote and local branches for a specific commit?",
           a: "git branch -r --contains <commit-hash>"
         },
         {
-          q: "How do you choose a commit from one branch and apply it to another?",
+          q:
+            "How do you choose a commit from one branch and apply it to another?",
           a: "git cherry-pick <commit-hash>"
         },
         {
@@ -2213,15 +2209,18 @@ export function deckData() {
           a: "git remote add upstream <url-to-remote-repository>"
         },
         {
-          q:"Resets HEAD of current branch to the specified state, when used with --hard <SHA>, deletes all commits up to a specified commit.",
+          q:
+            "Resets HEAD of current branch to the specified state, when used with --hard <SHA>, deletes all commits up to a specified commit.",
           a: "git reset"
         },
         {
-          q:"Reapply commits on currently checked out branch on top of base tip from provided branch name",
+          q:
+            "Reapply commits on currently checked out branch on top of base tip from provided branch name",
           a: "git rebase"
         },
         {
-          q:"Applies a provided patch file to current branch which was created using git diff.",
+          q:
+            "Applies a provided patch file to current branch which was created using git diff.",
           a: "git apply"
         }
       ]
