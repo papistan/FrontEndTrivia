@@ -1,25 +1,25 @@
 html {
 
-background: url(./images/nebula.jpg) no-repeat center center fixed;
-background-size: cover;
+  background: url(./images/nebula.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
-
+/* mobile */
 @media only screen and (max-device-width: 450px) {
   .title-app {
   margin-left: 10%
   }
 
   .deck-list-app {
-   /* flex: 1;*/
+ 
     padding-left: -12px !important;
   }
   .card-view {
-    /*flex: 4;*/
+
     margin-left: 0% !important;
   }
  
   .deck-list {
-    /*flex: 1;*/
+
     margin-left: 18% !important;
   }
   .landing-image {
@@ -35,6 +35,7 @@ background-size: cover;
     flex: 2 !important;
   }
 }
+/*end mobile */
 
 /* ipad */
 @media only screen and (max-device-width: 800px) {
@@ -71,7 +72,7 @@ background-size: cover;
   }
 }
 
-/*end mobile */
+/*end ipad */
 
 .vsc-initialized {
   background: transparent;
