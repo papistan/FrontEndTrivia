@@ -6,8 +6,7 @@
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": "error"
-    },
+    "prettier/prettier": "error",
     "padded-blocks": "off",
     "no-restricted-globals": [2, "event"],
     "no-underscore-dangle": [2, {
