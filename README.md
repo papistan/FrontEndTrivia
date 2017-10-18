@@ -20,6 +20,29 @@ $ npm run dev
 ## Built With
 * ReactJS, Redux, Node, Express, Babel, Webpack...
 
+## Titles in the Deck Data
+* Javascript: Core Concepts
+* Javascript: Common built-in methods
+* Javascript: Common event handlers
+* Javascript: Design patterns
+* CSS
+* CSS: Pseudo-classes
+* CSS: Animations
+* CSS3 - Flexbox
+* HTML
+* React
+* Angular
+* Javascript: 3
+* Vue
+* DOM Fundamentals
+* ES6
+* JavaScript: Intermediate
+* SASS: Basics
+* Webpack Basic Concepts
+* jQuery: Basics
+* General Front End Questions
+* Git
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
