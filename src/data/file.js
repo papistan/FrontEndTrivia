@@ -1098,7 +1098,6 @@ export function deckData() {
     {
       title: "CSS3 - Flexbox",
       image: "../style/images/css3.svg",
-
       cards: [
         {
           q: 'What does the "flex-direction" property do?',
@@ -1616,7 +1615,6 @@ export function deckData() {
     {
       title: "Javascript: 3",
       image: "../style/images/js.png",
-
       cards: [
         {
           q: "What is Date object in JavaScript?",
