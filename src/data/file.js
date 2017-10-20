@@ -202,11 +202,32 @@ export function deckData() {
       cards: [
         {
           q:
-            "What is the major difference between functions vs variables in regards to hoisting?",
-          a: "Functions are usable before they are declared"
+            "Major difference between function expression vs function declaration?",
+          a:
+            "Function expression:\n- named or unnamed ex. var myFunc = function( ) { }\n Function declaration: \n- named ex. function myFunc( ) { } "
         },
         {
-          q: "What is a function defined inside an expression?",
+          q: "Functions are treated as what type in JavaScript?",
+          a: "Object"
+        },
+        {
+          q:
+            "What do we call a function that gets executed at the end of an operation, once all of the other operations have been completed",
+          a: "Callback function"
+        },
+        {
+          q:
+            "When passing named functions as callback, why might you not normally include parentheses - ex. .addEventListener('click', myFunction)",
+          a: "myFunction() would return result of myFunction"
+        },
+        {
+          q:
+            "What is the major difference between functions vs variables in regards to hoisting?",
+          a: "Some functions are usable before they are declared"
+        },
+        {
+          q:
+            "What is a function defined inside an expression, ex. var x = function(){ }?",
           a: "Function expression"
         },
         {
@@ -214,9 +235,120 @@ export function deckData() {
           a: "Nope"
         },
         {
+          q: "What do you call a function created between {  }?",
+          a: "Block-level function - (pro tip: don't use unless in strict mode)"
+        },
+        {
+          q:
+            "1) Identifying what functions caused errors, 2) more understandable and accessible, 3) easier to reuse, all are major advantages of what type of functions?",
+          a: "Named functions"
+        },
+        {
+          q: "___ functions are only created at runtime",
+          a: "Anonymous"
+        },
+        {
+          q: "What does 'IIFE' stand for",
+          a: "Immediately Invokable Function Expression"
+        },
+        {
+          q:
+            "Functions that take one or more functions as an input, or functions that output another function, are called?",
+          a: "Higher order functions "
+        },
+        {
+          q: "What type of function is: (parameters) => { statements } ",
+          a: "Arrow function"
+        },
+        {
+          q: "Are parentheses option in arrow functions?",
+          a: "Yes - if you have only one variable"
+        },
+        {
+          q: "Are brackets option in arrow functions?",
+          a: "Yes - if you want to return the expression"
+        },
+        {
+          q: "Can arrow functions be used as constructors?",
+          a: "Nope"
+        },
+        {
+          q: "Do arrow functions bind .this?",
+          a: "Nope - they have lexical binding (this stays in previous scope)"
+        },
+        {
           q:
             "What type of function would this be? \n(function() {\nconsole.log('lumos');\n})();",
           a: "IIFE (Immediately Invokable Function Expression)"
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "Privacy - variable scope stays only within IIFE"
+        },
+        {
+          q:
+            "A _____ function is a one that happens to be called with the 'new' operator.",
+          a: "Constructor - ex. var g = new Graph()"
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
+        },
+        {
+          q: "Why would you use an IIFE",
+          a: "For "
         },
         {
           q: "Why would you use an IIFE",
