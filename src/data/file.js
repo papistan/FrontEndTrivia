@@ -1833,6 +1833,45 @@ export function deckData() {
       ]
     },
 
+    // ES8
+
+    {
+      title: "ES8",
+      image: "../style/images/js.png",
+
+      cards: [
+        {
+          q:
+            "What is the output of the following code? What happens if we don't pass a second parameter?\n'1234'.padStart(5, '>')",
+          a:
+            "The output will be '>1234'.\nThe second parameter of the padding function is used as padding, not passing it will default to padding with spaces"
+        },
+        {
+          q:
+            "The Object.values function receives an object and returns an array of only the values.\nWhat would be the output of Object.values({8: 'a', 3: 'b', 0: 'c'})?",
+          a:
+            "The output is: ['c', 'b', 'a']. When we use numeric keys, the values will be returned in numerical ascending order."
+        },
+        {
+          q:
+            "What type of error will be raised if we call a function like this: foo(1, 2, 3,)? Note the trailing comma.\nCould we define a function to expect a trailing comma?",
+          a:
+            "You can have trailing commas both in function calls and function definitions.\n\nfoo(1, 2, 3,) and\nfunction foo(a, b, c,) {}\nwill both work."
+        },
+        {
+          q:
+            "The 'await' operator waits until a promise is resolved before returning the resolve value.\nWhat is the only context in which this operator can be used?",
+          a:
+            "It can only be used inside an asynchronous function.\nDefined as 'async function myAsyncFunction() {}', asynchronous functions return promises and can wait for promises to be fulfilled by using the 'await' operator."
+        },
+        {
+          q: "Bonus: what is the correct name for ES8?",
+          a:
+            "ECMAScript 2017. ES8 is the popular (albeit incorrect) way of calling it, as this is the 8th edition, released in June 2017."
+        }
+      ]
+    },
+
     // JavaScript: Intermediate
 
     {
