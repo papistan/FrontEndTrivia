@@ -1761,12 +1761,52 @@ export function deckData() {
             "Reference error is caused. This is more often termed as TDZ ( Temporal Dead Zone), it occurs in case of let/const variables when they are declared but not yet initialized. Point to be noted, let/const variables are hoisted, but they are not initialized automatically."
         },
         {
-          q: 'How is this keyword scoped in arrow function?',
-          a: 'this keyword is scoped lexically inside arrow function, this, arguments, super keywords all are lexically scoped in arrow function.'
+          q: "How is this keyword scoped in arrow function?",
+          a:
+            "this keyword is scoped lexically inside arrow function, this, arguments, super keywords all are lexically scoped in arrow function."
         },
         {
-          q: 'Give 4 examples of standard built in Javascript iterables.',
-          a: '1.Arrays\n2.Strings\n3.Generators\n4.Typed Arrays / Collections'
+          q: "Give 4 examples of standard built in Javascript iterables.",
+          a: "1.Arrays\n2.Strings\n3.Generators\n4.Typed Arrays / Collections"
+        }
+      ]
+    },
+
+    // ES8
+
+    {
+      title: "ES8",
+      image: "../style/images/js.png",
+
+      cards: [
+        {
+          q:
+            "What is the output of the following code? What happens if we don't pass a second parameter?\n'1234'.padStart(5, '>')",
+          a:
+            "The output will be '>1234'.\nThe second parameter of the padding function is used as padding, not passing it will default to padding with spaces"
+        },
+        {
+          q:
+            "The Object.values function receives an object and returns an array of only the values.\nWhat would be the output of Object.values({8: 'a', 3: 'b', 0: 'c'})?",
+          a:
+            "The output is: ['c', 'b', 'a']. When we use numeric keys, the values will be returned in numerical ascending order."
+        },
+        {
+          q:
+            "What type of error will be raised if we call a function like this: foo(1, 2, 3,)? Note the trailing comma.\nCould we define a function to expect a trailing comma?",
+          a:
+            "You can have trailing commas both in function calls and function definitions.\n\nfoo(1, 2, 3,) and\nfunction foo(a, b, c,) {}\nwill both work."
+        },
+        {
+          q:
+            "The 'await' operator waits until a promise is resolved before returning the resolve value.\nWhat is the only context in which this operator can be used?",
+          a:
+            "It can only be used inside an asynchronous function.\nDefined as 'async function myAsyncFunction() {}', asynchronous functions return promises and can wait for promises to be fulfilled by using the 'await' operator."
+        },
+        {
+          q: "Bonus: what is the correct name for ES8?",
+          a:
+            "ECMAScript 2017. ES8 is the popular (albeit incorrect) way of calling it, as this is the 8th edition, released in June 2017."
         }
       ]
     },
@@ -2197,11 +2237,13 @@ export function deckData() {
           a: "git branch --contains <commit-hash>"
         },
         {
-          q: "How do you check remote and local branches for a specific commit?",
+          q:
+            "How do you check remote and local branches for a specific commit?",
           a: "git branch -r --contains <commit-hash>"
         },
         {
-          q: "How do you choose a commit from one branch and apply it to another?",
+          q:
+            "How do you choose a commit from one branch and apply it to another?",
           a: "git cherry-pick <commit-hash>"
         },
         {
@@ -2213,15 +2255,18 @@ export function deckData() {
           a: "git remote add upstream <url-to-remote-repository>"
         },
         {
-          q:"Resets HEAD of current branch to the specified state, when used with --hard <SHA>, deletes all commits up to a specified commit.",
+          q:
+            "Resets HEAD of current branch to the specified state, when used with --hard <SHA>, deletes all commits up to a specified commit.",
           a: "git reset"
         },
         {
-          q:"Reapply commits on currently checked out branch on top of base tip from provided branch name",
+          q:
+            "Reapply commits on currently checked out branch on top of base tip from provided branch name",
           a: "git rebase"
         },
         {
-          q:"Applies a provided patch file to current branch which was created using git diff.",
+          q:
+            "Applies a provided patch file to current branch which was created using git diff.",
           a: "git apply"
         }
       ]
