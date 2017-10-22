@@ -1,8 +1,8 @@
-import { deckData } from '../data/file';
+import { deckData } from "../data/file";
 
-export default function () {
-
+export default function() {
   return deckData();
+<<<<<<< HEAD
 
 
 
@@ -322,4 +322,6 @@ export default function () {
 
 	]	
 
+=======
+>>>>>>> ad06fdea93e2429ae7a9d84e66463025f3f90ff9
 }
