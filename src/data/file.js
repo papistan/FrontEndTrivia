@@ -132,7 +132,7 @@ export function deckData() {
         },
         {
           q:
-            'What is the difference between "undefined" and "not defined" in javascript?',
+            'What is the difference between "undefined" and "not defined" in a JavaScript error?',
           a:
             '"Undefined" means a variable is declared but not assingned any values but "Not defined" means the variable is not declared yet.'
         },
