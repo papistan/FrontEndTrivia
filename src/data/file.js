@@ -74,7 +74,8 @@ export function deckData() {
         },
         {
           q: "What is the purpose of -this- operator in JavaScript?",
-          a: "always refers to the current context"
+          a:
+            "This, always refers to properties or methods accessible to a developer on an object."
         },
         {
           q: "What are the valid scopes of a variable in JavaScript?",
