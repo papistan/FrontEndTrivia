@@ -43,9 +43,9 @@ export function deckData() {
             "Event delegation allows you to avoid adding event listeners to specific nodes;  instead, the event listener is added to one parent.  That event listener analyzes bubbled events to find a match on child elements."
         },
         {
-          q: "Why it is a better to use == than === ?",
+          q: "What is the difference between using == and === ?",
           a:
-            "Type coercion. To avoid problems when false == 0  becomes true. Compares not only value but the type too"
+            "Triple equals uses type coercion and compares both value and type.  It prevents unintentional truthy cases like false == 0."
         },
         {
           q: "What do we call data types copied by VALUE?",
