@@ -123,10 +123,6 @@ export function deckData() {
           a: "&&, || and !"
         },
         {
-          q: "What is this keyword?",
-          a: "It refers to the current object."
-        },
-        {
           q: "What does isNaN function do?",
           a: "Return true if the argument is not a number."
         },
