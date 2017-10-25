@@ -181,12 +181,6 @@ export function deckData() {
             "The difference is that apply lets you invoke the function with arguments as an array; call requires the parameters be listed explicitly"
         },
         {
-          q: 'What\'s the difference between an "attribute" and a "property"?',
-          a:
-            "Attribute is a quality or object that we attribute to someone or something. Attribute is a quality or object that we attribute to someone or something. \n" +
-            "Property is a quality that exists without any attribution. For example, clay has adhesive qualities; or, one of the properties of metals is electrical conductivity."
-        },
-        {
           q: "What is function composition?",
           a:
             "Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through."
