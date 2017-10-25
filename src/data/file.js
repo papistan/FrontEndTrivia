@@ -1,4 +1,4 @@
-//
+JavaScript; //
 // Titles in the Decks
 //
 // Javascript: Core Concepts
@@ -114,7 +114,7 @@ export function deckData() {
         },
         {
           q:
-            'What is the difference between "undefined" and "null" in javascript?',
+            'What is the difference between "undefined" and "null" in JavaScript?',
           a:
             '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
         },
@@ -128,18 +128,18 @@ export function deckData() {
         },
         {
           q:
-            'What is the difference between "undefined" and "not defined" in javascript?',
+            'What is the difference between "undefined" and "not defined" in JavaScript?',
           a:
             '"Undefined" means a variable is declared but not assingned any values but "Not defined" means the variable is not declared yet.'
         },
         {
-          q: "What is the difference between == and === in javascript?",
+          q: "What is the difference between == and === in JavaScript?",
           a:
             "The == operator checks only equality of the values while === checks equality of values with its datatype i.e. values should be of same type."
         },
         {
           q:
-            "What are different programming paradigm important for javascript developers?",
+            "What are different programming paradigm important for JavaScript developers?",
           a:
             "Procedural Programming with Object Oriented Programming and Fuctional Programming."
         },
@@ -150,7 +150,7 @@ export function deckData() {
         },
         {
           q:
-            "What is the disadvantage of creating true private methods in javascript?",
+            "What is the disadvantage of creating true private methods in JavaScript?",
           a:
             "They are very memory inefficient as a new copy of method is created every instance."
         },
@@ -162,7 +162,7 @@ export function deckData() {
         },
         {
           q:
-            'What is the difference between "undefined" and "null" in javascript?',
+            'What is the difference between "undefined" and "null" in JavaScript?',
           a:
             '"undefined" means variable is declared but not yet assigned a value and null is a value that can be assigned of type "object".'
         },
@@ -184,10 +184,10 @@ export function deckData() {
       ]
     },
 
-    // Javascript: Functions
+    // JavaScript: Functions
 
     {
-      title: "Javascript: Functions",
+      title: "JavaScript: Functions",
       image: "../style/images/js.png",
       cards: [
         {
@@ -283,10 +283,10 @@ export function deckData() {
       ]
     },
 
-    // Javascript: Common built-in methods
+    // JavaScript: Common built-in methods
 
     {
-      title: "Javascript: Common built-in methods",
+      title: "JavaScript: Common built-in methods",
       image: "../style/images/js.png",
 
       cards: [
@@ -539,10 +539,10 @@ export function deckData() {
       ]
     },
 
-    //Javascript: Common event handlers
+    //JavaScript: Common event handlers
 
     {
-      title: "Javascript: Common event handlers",
+      title: "JavaScript: Common event handlers",
       image: "../style/images/js.png",
 
       cards: [
@@ -637,10 +637,10 @@ export function deckData() {
       ]
     },
 
-    // Javascript: Design patterns
+    // JavaScript: Design patterns
 
     {
-      title: "Javascript: Design patterns",
+      title: "JavaScript: Design patterns",
       image: "../style/images/js.png",
 
       cards: [
