@@ -1,4 +1,4 @@
-JavaScript; //
+//
 // Titles in the Decks
 //
 // Javascript: Core Concepts
@@ -2262,7 +2262,7 @@ export function deckData() {
         },
         {
           q:
-            'Fetch branches and/or tags (collectively, "refs") from one or more other repositories, along with the objects necessary to complete their histories.',
+            "Fetch branches and/or tags (collectively, 'refs') from one or more other repositories, along with the objects necessary to complete their histories.",
           a: "git fetch"
         },
         {
@@ -2277,7 +2277,7 @@ export function deckData() {
         },
         {
           q:
-            'Manage the set of repositories ("remotes") whose branches you track.',
+            "Manage the set of repositories ('remotes') whose branches you track.",
           a: "git remote"
         },
         {
