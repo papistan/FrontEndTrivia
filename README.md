@@ -1,4 +1,6 @@
 # Front End Trivia
+<img src="https://github.com/papistan/FrontEndTrivia/blob/master/frontendtrivia.png" 
+ alt="Screenshot" title="Screenshot" align="right" width="370" height="400"/>
 An open source, front end-focused trivia app to rapidly discover new concepts through short question/answer format - flip through decks of cards based on your interests. 
 
 There's no better way to learn concepts, frameworks, languages or new technologies than to just dive in and build something. However, lists like [this](http://thatjsdude.com/interview/index.html), [this](https://codeburst.io/10-javascript-concepts-you-need-to-know-for-interviews-136df65ecce) and [this](https://medium.freecodecamp.org/the-5-things-you-need-to-know-to-understand-react-a1dbd5d114a3) are passed around for a reason - they're a great way to quickly discover core concepts to dive into later. The idea behind this app is to provide a slightly more interactive version of these lists, with flash-card functionality for added self-testing. 
