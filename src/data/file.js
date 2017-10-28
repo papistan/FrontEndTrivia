@@ -673,7 +673,7 @@ export function deckData() {
           q:
             "What does “favor object composition over class inheritance” mean?",
           a:
-            "Avoid the gorilla banana problem (“what you wanted was a banana, what you got was a gorilla holding the banana, and the entire jungle”)"
+            "That objects should only include the required functionality from different classes instead of inheriting the whole base class, which will have many unused methods"
         },
         {
           q: "Define Composite pattern",
@@ -1696,7 +1696,7 @@ export function deckData() {
         {
           q:
             "What part of your application does Vue focus on - the model, view or controller?",
-          a: "The view."
+          a: "The view, hence the name"
         },
         {
           q: "How are Vue templates written?",
@@ -1739,6 +1739,14 @@ export function deckData() {
           q: "What is Vuex?",
           a:
             "Vuex is a library that allows predictable state management in JavaScript apps, similar to Redux. It is often used in large-scale Vue apps."
+        },
+        {
+          q: "How can you add the same functionality to multiple components in Vue?",
+          a: "Using mixins, which can contain any component options"
+        },
+        {
+          q: "What are the different ways to add properties to a component in Vue?",
+          a: "- Passing props from the parent\n- The data object\n- Computed properties"
         }
       ]
     },
@@ -1750,16 +1758,12 @@ export function deckData() {
       image: "../style/images/dom.png",
       cards: [
         {
-          q: "Question",
-          a: "answer"
+          q: "What DOM stands for?",
+          a: "Document Object Model"
         },
         {
-          q: "Question",
-          a: "answer"
-        },
-        {
-          q: "Question",
-          a: "answer"
+          q: "What is the DOM?",
+          a: "A programming API for documents, it closely resembles the document's structure"
         }
       ]
     },
@@ -1773,7 +1777,7 @@ export function deckData() {
       cards: [
         {
           q:
-            "In what two circumstances does comparing two variables with Object.is differ from the results of strict equality (the so-called triple equals or ===)?",
+            "In what two circumstances does comparing two variables with Object.is different from the results of strict equality (the so-called triple equals or ===)?",
           a:
             "NaN compared to itself\nNaN === Nan // false\nObject.is(NaN, NaN) // true\n\n-0 compared to 0\n-0 === 0 // true\nObect.is(-0, 0) // false"
         },
@@ -1798,7 +1802,7 @@ export function deckData() {
         {
           q: "What is the difference between the spread and the rest operator?",
           a:
-            "The spread operator expands  an array to replace zero or more arguments (in function calls) or elements (in array literals)\ne.g. myFunc(...[0, 1, 2]) is equivalent to myFunc(0, 1, 2).\nThe rest operator does the opposite, collecting multiple values into a single array."
+            "The spread operator expands an array to replace zero or more arguments (in function calls) or elements (in array literals)\ne.g. myFunc(...[0, 1, 2]) is equivalent to myFunc(0, 1, 2).\nThe rest operator does the opposite, collecting multiple values into a single array."
         },
         {
           q:
