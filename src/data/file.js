@@ -273,8 +273,8 @@ export function deckData() {
           a: "IIFE (Immediately Invokable Function Expression)"
         },
         {
-          q: "Why would you use an IIFE",
-          a: "Privacy - variable scope stays only within IIFE"
+          q: "Why would you use an IIFE?",
+          a: "It enables you to attach private data to a function, creates fresh environments and avoids polluting the global namespace."
         },
         {
           q:
