@@ -1,26 +1,25 @@
 html {
-background: #1FA2FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  background: url(./images/nebula.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
-
+/* mobile */
 @media only screen and (max-device-width: 450px) {
   .title-app {
   margin-left: 10%
   }
 
   .deck-list-app {
-   /* flex: 1;*/
+ 
     padding-left: -12px !important;
   }
   .card-view {
-    /*flex: 4;*/
+
     margin-left: 0% !important;
   }
  
   .deck-list {
-    /*flex: 1;*/
+
     margin-left: 18% !important;
   }
   .landing-image {
@@ -35,10 +34,8 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
   .button-row {
     flex: 2 !important;
   }
-  .copyright {
-    display: none;
-  }
 }
+/*end mobile */
 
 /* ipad */
 @media only screen and (max-device-width: 800px) {
@@ -73,12 +70,9 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
   #topic {
     margin-left: 34% !important; 
   }
-  .copyright {
-    display: none;
-  }
 }
 
-/*end mobile */
+/*end ipad */
 
 .vsc-initialized {
   background: transparent;
@@ -86,13 +80,6 @@ background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+
 
 body {
   background: transparent !important;
-}
-
-.copyright {
-  position: fixed; 
-  bottom: 0px; 
-  color: white; 
-  margin-left: 40%;
 }
 
 .container {
@@ -160,9 +147,13 @@ body {
   border: 1px solid #ccc;
 }
 
-.list-group-item {
-  width: 250px !important;
-  background: transparent !important;
+.list-group .list-group-item {
+  width: 250px;
+  background: transparent;
+}
+
+.list-group .selected-list-group-item {
+  background-color:rgba(0, 0, 0, 0.5);
 }
 
 .media-body {
