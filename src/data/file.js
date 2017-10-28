@@ -1210,7 +1210,13 @@ export function deckData() {
           q: 'What does the "flex-basis" property do?',
           a:
             '"Flex-basis" controls the ideal size of a flex item along the main-axis prior to being rendered in a flex container.  When rendered in a container, the actual size of a flex item is determined by its containers size, and the values assigned to each flex items "flex-grow" and "flex-shrink" properties.'
+        },
+        {
+          q: 'What is the difference between "align-items" and "align-content" properties?',
+          a:
+            '"align-items" is responsible for aligning the elements inside a "flex line", which is formed every time an element wraps to the next line of a "flex container", while "align-content" is responsible for aligning the "flex lines" itself. Reminder: "align-content" works only when more than one "flex line" exists.'
         }
+        
       ]
     },
 
