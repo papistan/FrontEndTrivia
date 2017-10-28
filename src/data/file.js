@@ -181,7 +181,17 @@ export function deckData() {
           q: "What is function composition?",
           a:
             "Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through."
-        }
+        },
+		{
+		  q: "What is DOM in javascript?",
+		  a:
+			"A hierarchial structure to access or modify a web page is called Document Object Model or DOM."
+		},
+		{
+		  q: "How do you reference a form field in javascript?",
+		  a:
+		    'To refer a form field from javascript, you can use : document.getElementById("myform").txtName or document.getElementById("myform") methods'
+		}	
       ]
     },
 
