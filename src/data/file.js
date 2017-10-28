@@ -1525,6 +1525,11 @@ export function deckData() {
           q: "What are some notable companies using React?",
           a:
             "Facebook, Netflix, Discord, eBay, PayPal, Spotify (Web Player) and many more."
+        },
+        {
+          q: "Is flux the same thing as redux?",
+          a:
+            "No ! Flux is a data-flow design pattern while redux is a javascript library which implements a way of using the flux pattern."
         }
       ]
     },
