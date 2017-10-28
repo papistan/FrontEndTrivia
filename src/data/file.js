@@ -2345,6 +2345,10 @@ export function deckData() {
           q:
             "Applies a provided patch file to current branch which was created using git diff.",
           a: "git apply"
+        },
+        {
+          q: "What Abstract Data Type from Computer Science is GIT an implementation of?",
+          a: "A Directed Acyclic Graph."
         }
       ]
     }
