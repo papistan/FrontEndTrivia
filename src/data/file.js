@@ -949,6 +949,10 @@ export function deckData() {
           q: 'What does the CSS property "box-sizing":"border-box" do?',
           a:
             "It alters the default CSS box model used to calculate width and height of the elements to include any border and padding in the value you specify for width and height."
+        },
+        {
+          q: 'What is the default display value of a div element?',
+          a: "display: block;"
         }
       ]
     },
