@@ -1,7 +1,5 @@
-import { deckData } from '../data/file';
+import { deckData } from "../data/file";
 
-export default function () {
-
+export default function() {
   return deckData();
-
 }

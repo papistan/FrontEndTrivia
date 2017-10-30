@@ -71,7 +71,7 @@ further defined and clarified by project maintainers.
 ### Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at [INSERT EMAIL ADDRESS]. All
+reported by contacting the project team at  jpapisan@gmail.com. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
@@ -86,3 +86,43 @@ members of the project's leadership.
 1. Jay Papisan (https://github.com/papistan) 
 2. Jacob Moyle (https://github.com/jacobmoyle)
 3. Rishabh Bansal (https://github.com/rishabh-bansal)
+4. Scott (https://github.com/Gangezilla)
+5. Sabarna Chakravarty (https://github.com/sabarnac)
+6. cmd-kvn (https://github.com/cmd-kvn) 
+7. Shubham Singh (https://github.com/ShubhMisaki)
+8. Harsh Shah (https://github.com/harshcrop)
+9. Alfred Lucero (https://github.com/alfredlucero)
+10. rakeshtinku (https://github.com/rakeshtinku)
+11. Utkarsh Shekhar (https://github.com/utkarsh-shekhar)
+12. Naveen jain (https://github.com/nveenjain)
+13. Adam Płócieniak (https://github.com/adasq)
+14. Romello Goodman (https://github.com/romellogood)
+15. Jacob (https://github.com/jacobmoyle)
+16. Lee Wilson (https://github.com/indefinitelee)
+17. Daniel Yuschick (https://github.com/yuschick)
+18. John S. (https://github.com/outofgamut)
+19. BrunoLM (https://github.com/brunolm)
+20. Santosh Viswanatham (https://github.com/viswanathamsantosh)
+21. Peter Warner-Medley (https://github.com/P-WM)
+22. Avi Arenfeld (https://github.com/aviarenfeld)
+23. Bennett Treptow (https://github.com/bennett-treptow)
+24. Christoph (https://github.com/codepunkt)
+25. Dan Hannigan (https://github.com/danhannigan)
+26. Amber Phair (https://github.com/Maowse)
+27. OmegaVesko (https://github.com/omegavesko)
+28. James J (https://github.com/JamesJ)
+29. Harshil Agrawal (https://github.com/harshil1712)
+30. Dilip (https://github.com/maridilip)
+31. Kiran Shahi (https://github.com/kiranshahi)
+32. Eimantas (https://github.com/tygas)
+33. Tomas Alejandro V. Falgui III (https://github.com/tomy8910)
+34. Amar Jyoti (https://github.com/dev-aj)
+35. Nick Gray (https://github.com/nicholasnbg)
+36. Paritosh Sharma (https://github.com/pari08tosh)
+31. Sagar V (https://github.com/sagarvd01)
+32. Maša Piaredryj (https://github.com/mankutila)
+33. Fred Stollery (https://github.com/Actatus)
+34. Noah Kettler (https://github.com/nmkettler)
+35. pipatm (https://github.com/pipatm)
+36. bira91 (https://github.com/bira91)
+37. Sam Smith (https://github.com/TheSamSmith)

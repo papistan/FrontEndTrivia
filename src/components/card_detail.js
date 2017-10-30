@@ -1,15 +1,14 @@
-import React, { Component } from 'react';
-import FlipCard from 'react-flipcard';
+import React, { Component } from "react";
+import FlipCard from "react-flipcard";
 
 class Card extends Component {
+  constructor(props) {
+    super(props);
 
-	constructor(props) {
-		super(props);
+    this.state = { isFlipped: false };
+  }
 
-		this.state = { isFlipped: false };
-	}
-
-	showBack() {
+  showBack() {
     this.setState({
       isFlipped: true
     });
@@ -33,22 +32,21 @@ class Card extends Component {
     }
   }
 
-	render(){
-		return (
-			<div >
+  render() {
+    return (
+      <div>
         {/* Default behavior is horizontal flip on hover, or focus */}
         <FlipCard>
           {/* The first child is used as the front of the card */}
-          <div >
+          <div>
             <div className="card">{this.props.card.q}</div>
           </div>
           {/* The second child is used as the back of the card */}
           <div className="card back">{this.props.card.a}</div>
         </FlipCard>
-       </div>
-		)
-	}
-
+      </div>
+    );
+  }
 }
 
 export default Card;

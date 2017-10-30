@@ -1,18 +1,12 @@
 {
-  "extends": "airbnb",
+  "extends": [
+    "prettier"
+  ],
   "plugins": [
-      "react",
-      "jsx-a11y",
-      "import"
+    "prettier"
   ],
   "rules": {
-    "no-negated-condition": 2,
-    "max-len": [2, {
-      "code": 120,
-      "tabWidth": 2,
-      "ignoreUrls": true,
-      "ignoreComments": false
-    }],
+    "prettier/prettier": "error",
     "padded-blocks": "off",
     "no-restricted-globals": [2, "event"],
     "no-underscore-dangle": [2, {
