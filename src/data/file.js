@@ -1673,6 +1673,24 @@ export function deckData() {
                     a: 'Minimize HTTP requests, enable browser caching, reduce redirects and optimize/compress images.'
                   }
               ]
-          }
+          },
+          {
+            title: 'Cross Browser compatibility',
+            image: 'https://www.wp-timelineexpress.com/wp-content/uploads/2016/05/browser-icons.png',
+            cards: [
+                {
+                    q: 'What is cross browser testing?',
+                    a: 'Browser compatibility testing is a stage that needs special attention in the QA process. It is so important because results might be different depending on many variables (i.e. the platforms used, the time when tests are executed, the site’s sections tested, etc.)'
+                },
+                {
+                  q: 'What to test?',
+                  a: 'There are many elements that will not change across browsers (like images size, fonts color, texts padding and pages background). However, there are many other elements that will need more attention.'
+                },
+                {
+                  q: 'When to test?',
+                  a: 'As a best practice, it is useful to choose just one browser/platform and make all the testing on it during the development process. This browser should be the same as the one used by the development team.'
+                }
+            ]
+        }
   ]
 }
