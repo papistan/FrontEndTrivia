@@ -717,16 +717,16 @@ export function deckData() {
         {
           q: "What is type selector?",
           a:
-            "matches the name of an element type. To give a color to all level 1 headings −\nh1 {\ncolor:\n#36CFFF;\n}"
+            "Matches the name of an element type. To give a color to all level 1 headings −\nh1 {\ncolor:\n#36CFFF;\n}"
         },
         {
           q: "What is universal selector?",
-          a: "matches the name of any element type −\n* { \ncolor: #000000; \n}"
+          a: "Matches the name of any element type −\n* { \ncolor: #000000; \n}"
         },
         {
           q: "What is Descendant Selector?",
           a:
-            "apply a style rule to a particular element only when it lies inside a particular element. As given in the following example, style rule will apply to <em> element only when it lies inside <ul> tag. \nul em {\ncolor: #000000; \n}"
+            "Apply a style rule to a particular element only when it lies inside a particular element. As given in the following example, style rule will apply to <em> element only when it lies inside <ul> tag. \nul em {\ncolor: #000000; \n}"
         },
         {
           q: 'What is "Z-index"',
@@ -867,7 +867,7 @@ export function deckData() {
         {
           q: "Can default property value be restored through CSS? If yes, how?",
           a:
-            "n CSS, you cannot revert back to old values due to lack of default values. The property can be re- declared to get the default property."
+            "In CSS, you cannot revert back to old values due to lack of default values. The property can be re- declared to get the default property."
         },
         {
           q: "What is contextual selector?",
@@ -922,7 +922,7 @@ export function deckData() {
         {
           q: "Why is it easy to insert a file by importing it?",
           a:
-            "mporting enables combining external sheets to be inserted in many sheets. Different files and sheets can be used to have different functions. Syntax: @import notation, used with <Style> tag."
+            "Importing enables combining external sheets to be inserted in many sheets. Different files and sheets can be used to have different functions. Syntax: @import notation, used with <Style> tag."
         },
         {
           q: "Differentiate logical tags from physical tags?",
@@ -950,6 +950,10 @@ export function deckData() {
           q: 'What does the CSS property "box-sizing":"border-box" do?',
           a:
             "It alters the default CSS box model used to calculate width and height of the elements to include any border and padding in the value you specify for width and height."
+        },
+        {
+          q: 'What is the default display value of a div element?',
+          a: "display: block;"
         }
       ]
     },
