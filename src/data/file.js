@@ -180,17 +180,17 @@ export function deckData() {
         {
           q: "What is function composition?",
           a:
-          "Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through."
+            "Function composition is the process of combining two or more functions to produce a new function. Composing functions together is like snapping together a series of pipes for our data to flow through."
         },
         {
           q: "What is DOM in javascript?",
           a:
-          "A hierarchial structure to access or modify a web page is called Document Object Model or DOM."
+            "A hierarchial structure to access or modify a web page is called Document Object Model or DOM."
         },
         {
           q: "How do you reference a form field in javascript?",
           a:
-          'To refer a form field from javascript, you can use : document.getElementById("myform").txtName or document.getElementById("myform") methods'
+            'To refer a form field from javascript, you can use : document.getElementById("myform").txtName or document.getElementById("myform") methods'
         }
       ]
     },
@@ -284,7 +284,8 @@ export function deckData() {
         },
         {
           q: "Why would you use an IIFE?",
-          a: "It enables you to attach private data to a function, creates fresh environments and avoids polluting the global namespace."
+          a:
+            "It enables you to attach private data to a function, creates fresh environments and avoids polluting the global namespace."
         },
         {
           q:
@@ -716,16 +717,16 @@ export function deckData() {
         {
           q: "What is type selector?",
           a:
-          "matches the name of an element type. To give a color to all level 1 headings −\nh1 {\ncolor:\n#36CFFF;\n}"
+            "Matches the name of an element type. To give a color to all level 1 headings −\nh1 {\ncolor:\n#36CFFF;\n}"
         },
         {
           q: "What is universal selector?",
-          a: "matches the name of any element type −\n* { \ncolor: #000000; \n}"
+          a: "Matches the name of any element type −\n* { \ncolor: #000000; \n}"
         },
         {
           q: "What is Descendant Selector?",
           a:
-          "apply a style rule to a particular element only when it lies inside a particular element. As given in the following example, style rule will apply to <em> element only when it lies inside <ul> tag. \nul em {\ncolor: #000000; \n}"
+            "Apply a style rule to a particular element only when it lies inside a particular element. As given in the following example, style rule will apply to <em> element only when it lies inside <ul> tag. \nul em {\ncolor: #000000; \n}"
         },
         {
           q: 'What is "Z-index"',
@@ -866,7 +867,7 @@ export function deckData() {
         {
           q: "Can default property value be restored through CSS? If yes, how?",
           a:
-          "n CSS, you cannot revert back to old values due to lack of default values. The property can be re- declared to get the default property."
+            "In CSS, you cannot revert back to old values due to lack of default values. The property can be re- declared to get the default property."
         },
         {
           q: "What is contextual selector?",
@@ -921,7 +922,9 @@ export function deckData() {
         {
           q: "Why is it easy to insert a file by importing it?",
           a:
-          "mporting enables combining external sheets to be inserted in many sheets. Different files and sheets can be used to have different functions. Syntax: @import notation, used with <Style> tag."
+
+            "Importing enables combining external sheets to be inserted in many sheets. Different files and sheets can be used to have different functions. Syntax: @import notation, used with <Style> tag."
+
         },
         {
           q: "Differentiate logical tags from physical tags?",
@@ -948,7 +951,12 @@ export function deckData() {
         {
           q: 'What does the CSS property "box-sizing":"border-box" do?',
           a:
-          "It alters the default CSS box model used to calculate width and height of the elements to include any border and padding in the value you specify for width and height."
+            "It alters the default CSS box model used to calculate width and height of the elements to include any border and padding in the value you specify for width and height."
+        },
+        {
+          q: 'What is the default display value of a div element?',
+          a: "display: block;"
+
         }
       ]
     },
@@ -1222,11 +1230,11 @@ export function deckData() {
           '"Flex-basis" controls the ideal size of a flex item along the main-axis prior to being rendered in a flex container.  When rendered in a container, the actual size of a flex item is determined by its containers size, and the values assigned to each flex items "flex-grow" and "flex-shrink" properties.'
         },
         {
-          q: 'What is the difference between "align-items" and "align-content" properties?',
+          q:
+            'What is the difference between "align-items" and "align-content" properties?',
           a:
           '"align-items" is responsible for aligning the elements inside a "flex line", which is formed every time an element wraps to the next line of a "flex container", while "align-content" is responsible for aligning the "flex lines" itself. Reminder: "align-content" works only when more than one "flex line" exists.'
         }
-
       ]
     },
 
@@ -1762,12 +1770,15 @@ export function deckData() {
           "Vuex is a library that allows predictable state management in JavaScript apps, similar to Redux. It is often used in large-scale Vue apps."
         },
         {
-          q: "How can you add the same functionality to multiple components in Vue?",
+          q:
+            "How can you add the same functionality to multiple components in Vue?",
           a: "Using mixins, which can contain any component options"
         },
         {
-          q: "What are the different ways to add properties to a component in Vue?",
-          a: "- Passing props from the parent\n- The data object\n- Computed properties"
+          q:
+            "What are the different ways to add properties to a component in Vue?",
+          a:
+            "- Passing props from the parent\n- The data object\n- Computed properties"
         }
       ]
     },
@@ -1784,7 +1795,8 @@ export function deckData() {
         },
         {
           q: "What is the DOM?",
-          a: "A programming API for documents, it closely resembles the document's structure"
+          a:
+            "A programming API for documents, it closely resembles the document's structure"
         }
       ]
     },
@@ -1967,7 +1979,12 @@ export function deckData() {
         {
           q: "what is the use of var and let?",
           a:
-          "var:(function scope) gets scoped to the current function, while let:(block scope) gets scoped to the current block"
+            "var:(function scope) gets scoped to the current function, while let:(block scope) gets scoped to the current block"
+        },
+        {
+          q: "Is Array.map() immutable?",
+          a:
+            "Essentially, Array.map function is immutable as it returns a new array leaving the original one untouched. But if mapping over array of non-primitives, any mutation inside a non-primitive element will reflect in the original array as well."
         }
       ]
     },
@@ -2347,8 +2364,17 @@ export function deckData() {
           a: "git apply"
         },
         {
-          q: "What Abstract Data Type from Computer Science is GIT an implementation of?",
+          q:
+            "What Abstract Data Type from Computer Science is GIT an implementation of?",
           a: "A Directed Acyclic Graph."
+        },
+        {
+          q: "How do you get the list of stashed updates?",
+          a: "git stash list"
+        },
+        {
+          q: "How do you remove untracked files?",
+          a: "git clean \n-f -> force,\n-d -> directory"
         }
       ]
     },
