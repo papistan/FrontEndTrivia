@@ -954,9 +954,13 @@ export function deckData() {
             "It alters the default CSS box model used to calculate width and height of the elements to include any border and padding in the value you specify for width and height."
         },
         {
+          q: "What is the specificity of '.classA.classB #idA > ul ~ ul.classC' ?",
+          a:
+            "0(inline style) 1(ID selectors) 3(class selectors) 2(element selectors)"
+        },
+        {
           q: 'What is the default display value of a div element?',
           a: "display: block;"
-
         }
       ]
     },
